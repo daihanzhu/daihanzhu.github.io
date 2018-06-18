@@ -1,0 +1,43 @@
+:root {
+  --content-card-margin: 60px;
+}
+
+.App {
+  text-align: center;
+  background-color: #EEF1F8;
+  color: black;
+
+  padding-top: 100px;
+
+  position: fixed;
+  height: 1000px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-footer {
+  position: absolute;
+  left: calc(0px - var(--content-card-margin));
+  bottom: 0;
+  height: 111px;
+  width: 100vw;
+  background-color: #C1B2BF;
+}
+
+.content-card {
+  position: relative;
+  margin: 0 var(--content-card-margin);
+  height: 100%;
+  width: calc(100% - 2 * var(--content-card-margin));
+  background-color: white;
+
+  border-radius: 18px;
+}
