@@ -6,9 +6,9 @@ class Tile extends Component {
     return (
       <div className="tile">
         <div className="tile-bottom">
-          <div className="tile-header-text">UX + Research</div>
-          <div className="tile-title">WestJet Connect</div>
-          <div className="tile-desc">A user research case study</div>
+          <div className="tile-header-text">{this.props.header}</div>
+          <div className="tile-title">{this.props.title}</div>
+          <div className="tile-desc">{this.props.description}</div>
         </div>
       </div>
     );

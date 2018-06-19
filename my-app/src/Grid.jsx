@@ -29,8 +29,8 @@ class Grid extends Component {
   }
 
   render() {
-    const tiles = this.props.items.map((num) =>
-        <Tile key={num}/>
+    const tiles = this.props.items.map((item) =>
+        <Tile key={item[0]} header={item[1]} title={item[2]} description={item[3]}/>
     );
 
     const tileFit = (this.state.width - 50) / (235 + 50);

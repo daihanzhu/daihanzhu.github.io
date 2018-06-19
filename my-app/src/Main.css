@@ -1,5 +1,6 @@
 :root {
-  --content-card-margin: 60px;
+  --content-card-margin: 0;
+  --footer-height: 111px;
 }
 
 .App {
@@ -27,7 +28,7 @@
   position: absolute;
   left: calc(0px - var(--content-card-margin));
   bottom: 0;
-  height: 111px;
+  height: var(--footer-height);
   width: 100vw;
   background-color: #C1B2BF;
 }
