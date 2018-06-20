@@ -8,7 +8,7 @@
   background-color: #EEF1F8;
   color: black;
 
-  padding-top: 100px;
+  padding-top: 10px;
 
   position: fixed;
   height: 100vh;
@@ -16,7 +16,22 @@
   overflow: scroll;
 }
 
+.App-options {
+  margin-left: 75vh;
+  margin-top: 30px;
+}
+
+a {
+  padding-left: 5px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
 .App-title {
+  padding-top: 80px;
   font-size: 1.5em;
 }
 
@@ -33,7 +48,7 @@
   background-color: #C1B2BF;
 }
 
-.content-card {
+.content-card-wrapper {
   position: relative;
   margin: 0 var(--content-card-margin);
   height: auto;
