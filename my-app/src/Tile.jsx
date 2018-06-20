@@ -8,7 +8,7 @@ class Tile extends Component {
         <div className="tile-bottom">
           <div className="tile-header-text">{this.props.header}</div>
           <div className="tile-title">{this.props.title}</div>
-          <div className="tile-desc">{this.props.description}</div>
+          <div className="tile-desc">{this.props.desc}</div>
         </div>
       </div>
     );

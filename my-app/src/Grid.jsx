@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Tile from './Tile.jsx'
 import './Grid.css';
 
+import tileData from './TileData.json';
+
 class Grid extends Component {
   constructor(props) {
     super(props)
@@ -29,12 +31,13 @@ class Grid extends Component {
   }
 
   render() {
-    const tiles = this.props.items.map((item) =>
-        <Tile key={item[0]} header={item[1]} title={item[2]} description={item[3]}/>
+    let numTiles = 0;
+    const tiles = tileData.map((item) =>
+        <Tile key={numTiles++} header={item.header} title={item.title} desc={item.description}/>
     );
 
     const tileFit = (this.state.width - 50) / (235 + 50);
-    const numColumns = Math.min(tileFit, this.props.itemCount)
+    const numColumns = Math.min(tileFit, numTiles);
 
     const gridStyle ={
       gridTemplateColumns: "auto ".repeat(numColumns)
