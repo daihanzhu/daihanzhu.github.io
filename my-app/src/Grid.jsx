@@ -36,11 +36,12 @@ class Grid extends Component {
         <Tile key={numTiles++} header={item.header} title={item.title} desc={item.description}/>
     );
 
-    const tileFit = (this.state.width - 50) / (235 + 50);
+    const tileFit = (this.state.width - 50) / (350 + 50);
     const numColumns = Math.min(tileFit, numTiles);
+    const numColumns2 = Math.min(numColumns, 3);
 
     const gridStyle ={
-      gridTemplateColumns: "auto ".repeat(numColumns)
+      gridTemplateColumns: "350px ".repeat(numColumns2)
     };
 
 

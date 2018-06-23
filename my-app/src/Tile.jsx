@@ -6,9 +6,11 @@ class Tile extends Component {
     return (
       <div className="tile">
         <div className="tile-bottom">
-          <div className="tile-header-text">{this.props.header}</div>
-          <div className="tile-title">{this.props.title}</div>
-          <div className="tile-desc">{this.props.desc}</div>
+          <div className="tile-text-box">
+            <div className="tile-header-text">{this.props.header}</div>
+            <div className="tile-title">{this.props.title}</div>
+            <div className="tile-desc">{this.props.desc}</div>
+          </div>
         </div>
       </div>
     );
