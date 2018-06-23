@@ -1,6 +1,7 @@
 const Views = {
   Tiles: 'tiles',
-  About: 'about'
+  About: 'about',
+  Stories: 'stories'
 };
 
 export default Views
