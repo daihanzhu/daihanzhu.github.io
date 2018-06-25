@@ -1,12 +1,3 @@
-.card-tab-wrapper {
-  position: absolute;
-  bottom: 0;
-
-  margin: 0 0;
-  height: auto;
-  width: 100%;
-}
-
 .card-tab {
   position: relative;
   background-color: white;
@@ -18,10 +9,25 @@
   height: 45px;
 }
 
+.card-tab.animate {
+  animation: slide-top 2s;
+}
+
 .tab-bottom {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 10px;
   background-color: white;
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+  }
 }

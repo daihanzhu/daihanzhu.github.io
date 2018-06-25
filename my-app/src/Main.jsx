@@ -18,6 +18,10 @@ class Main extends Component {
     }
   }
 
+  componentDidUpdate() {
+    this.app.scrollTo(0, this.cw.offsetTop);
+  }
+
   _switchToAbout() {
     this.setState({ view: Views.About });
   }
@@ -32,7 +36,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" ref={(app) => this.app = app}>
         <div className="App-header">
           <div className="my-name">D A I H A N</div>
           <a onClick={this._switchToWork}>work</a>
@@ -40,10 +44,13 @@ class Main extends Component {
           <a onClick={this._switchToAbout}>about</a>
         </div>
         <h1 className="App-title">Welcome to Dana's shitty website</h1>
-        <div className="content-card-wrapper">
+        <div className="content-card-wrapper" ref={(cw) => this.cw = cw}>
           <Content view={this.state.view}/>
           <div className="App-footer"></div>
-          <CardTab onClick={this._switchToAbout} onClick2={this._switchToStories}/>
+          <div className="card-tab-wrapper">
+            <CardTab onClick={this._switchToAbout}/>
+            <CardTab onClick={this._switchToStories}/>
+          </div>
         </div>
       </div>
     );

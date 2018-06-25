@@ -20,7 +20,7 @@
   margin-top: 10px;
   margin-left: 30px;
   margin-right: 30px;
-  height: 300px;
+  height: 70vh;
 }
 
 .my-name {
@@ -56,6 +56,15 @@ a:hover {
   width: 100vw;
   background-color: #C1B2BF;
   z-index: 1;
+}
+
+.card-tab-wrapper {
+  position: absolute;
+  bottom: 0;
+
+  margin: 0 0;
+  height: auto;
+  width: 100%;
 }
 
 .content-card-wrapper {

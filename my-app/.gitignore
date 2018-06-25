@@ -9,6 +9,10 @@
 # production
 /build
 
+# personal
+todo.txt
+.gitignore
+
 # misc
 .DS_Store
 .env.local
