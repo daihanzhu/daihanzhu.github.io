@@ -58,21 +58,11 @@ a:hover {
   z-index: 1;
 }
 
-.card-tab-wrapper {
-  position: absolute;
-  bottom: 0;
-
-  margin: 0 0;
-  height: auto;
-  width: 100%;
-}
-
 .content-card-wrapper {
   position: relative;
   margin: 0 var(--content-card-margin);
   height: auto;
   width: calc(100% - 2 * var(--content-card-margin));
-  background-color: white;
 
-  border-radius: 18px;
+  min-height: 1000px;
 }

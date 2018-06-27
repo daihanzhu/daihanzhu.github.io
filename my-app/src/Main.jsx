@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Content from './Content.jsx';
 import CardTab from './CardTab.jsx';
 import './Main.css';
 
@@ -45,12 +44,10 @@ class Main extends Component {
         </div>
         <h1 className="App-title">Welcome to Dana's shitty website</h1>
         <div className="content-card-wrapper" ref={(cw) => this.cw = cw}>
-          <Content view={this.state.view}/>
+          <CardTab view={Views.Tiles} index={2} autoSelected={true} s={this._scrollToTop}/>
+          <CardTab view={Views.About} index={1} s={this._scrollToTop}/>
+          <CardTab view={Views.Stories} index={0} s={this._scrollToTop}/>
           <div className="App-footer"></div>
-          <div className="card-tab-wrapper">
-            <CardTab onClick={this._switchToAbout}/>
-            <CardTab onClick={this._switchToStories}/>
-          </div>
         </div>
       </div>
     );

@@ -22,6 +22,9 @@ class Content extends Component {
       return (
         <div className='about-text'>Here's a funny story</div>
       )
+    } else {
+      console.warn('Unknown view passed to Content');
+      return null;
     }
   }
 }
