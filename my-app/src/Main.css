@@ -1,5 +1,4 @@
 :root {
-  --content-card-margin: 0;
   --footer-height: 111px;
 }
 
@@ -11,20 +10,35 @@
   padding-top: 10px;
 
   position: fixed;
-  height: 100vh;
+  height: calc(100vh - var(--footer-height));
   width: 100%;
   overflow: scroll;
 }
 
 .App-header {
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
   height: 70vh;
+}
+
+.top-bar {
+  background-color: #EEF1F8;
+  position: fixed;
+  width: 100vw;
+  height: 45px;
+
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  box-sizing: border-box;
 }
 
 .my-name {
   float: left;
+  padding: 0;
 }
 
 a {
@@ -49,9 +63,9 @@ a:hover {
 }
 
 .App-footer {
-  position: absolute;
-  left: calc(0px - var(--content-card-margin));
-  bottom: calc(0px - var(--footer-height));
+  position: fixed;
+  left: 0;
+  bottom: 0;
   height: var(--footer-height);
   width: 100vw;
   background-color: #C1B2BF;
@@ -60,9 +74,10 @@ a:hover {
 
 .content-card-wrapper {
   position: relative;
-  margin: 0 var(--content-card-margin);
-  height: auto;
-  width: calc(100% - 2 * var(--content-card-margin));
 
-  min-height: 1000px;
+  /* Hard-coded to the height of 6 stacked tiles */
+  height: 3400px;
+  width: 100%;
+
+  background-color: white;
 }

@@ -7,14 +7,14 @@ class CardTab extends Component {
   constructor(props) {
     super(props);
 
-    this._onTabClick = this._onTabClick.bind(this);
+    this.onTabClick = this.onTabClick.bind(this);
 
     this.state = {
-      selected: this.props.autoSelected
+      selected: false
     }
   }
 
-  _onTabClick() {
+  onTabClick() {
     this.setState({ selected: true });
   }
 
@@ -23,20 +23,21 @@ class CardTab extends Component {
     let className = classNames({
       'card-tab': true,
       'selected': this.state.selected,
-      'animate': this.state.selected && !this.props.autoSelected
+      'auto-selected': this.props.autoSelected
     });
+
+    const anySelect = this.state.selected || this.props.autoSelected;
 
     const tabBottom = <div className='tab-bottom'></div>;
 
-    const style = { bottom: this.props.index * 45 };
+    const style = anySelect ? null : { bottom: this.props.index * 45 };
 
-    const content = this.state.selected ?
-      <Content view={this.props.view}/> : null;
+    const content = anySelect ? <Content view={this.props.view}/> : null;
 
     return (
       <div
         className={className}
-        onClick={this._onTabClick}
+        onClick={this.onTabClick}
         style={style}
         ref={tab => this.tab = tab}
       >
