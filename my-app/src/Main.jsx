@@ -22,42 +22,70 @@ class Main extends Component {
     this.app.scrollTo(0, 0);
   }
 
-  _switchToAbout() {
-    if ( this.state.view === Views.About ) {
-      this.c3.deselect();
-      this.setState({ view: Views.Stories });
-    } else {
-      this.c1.select();
-      this.c2.select();
-      this.c3.select();
-      this.setState({ view: Views.About });
-    }
-  }
-
   _switchToWork() {
-    if ( this.state.view === Views.Tiles ) {
-      this.c1.deselect();
-      this.setState({ view: null });
-    } else {
-      this.c1.select();
-      this.setState({ view: Views.Tiles });
+    switch( this.state.view ) {
+      case Views.Tiles:
+        this.c1.deselect();
+        this.setState({ view: null });
+        break;
+      case Views.About:
+        this.c3.deselect();
+        // fallthrough
+      case Views.Stories:
+        this.c2.deselect();
+        this.setState({ view: Views.Tiles });
+        break;
+      default:
+        this.c1.select();
+        this.setState({ view: Views.Tiles });
     }
   }
 
   _switchToStories() {
-    if ( this.state.view === Views.Stories ) {
-      this.c2.deselect();
-      this.setState({ view: Views.Tiles });
-    } else {
-      this.c1.select();
-      this.c2.select();
-      this.setState({ view: Views.Stories });
+    switch( this.state.view ) {
+      case Views.Stories:
+        this.c2.deselect();
+        this.setState({ view: Views.Tiles });
+        break;
+      case Views.About:
+        this.c3.deselect();
+        this.setState({ view: Views.Stories });
+        break;
+      default:
+        this.c1.select();
+        this.c2.select();
+        this.setState({ view: Views.Stories });
+    }
+  }
+
+  _switchToAbout() {
+    switch( this.state.view ) {
+      case Views.About:
+        this.c3.deselect();
+        this.setState({ view: Views.Stories });
+        break;
+      default:
+        this.c1.select();
+        this.c2.select();
+        this.c3.select();
+        this.setState({ view: Views.About });
     }
   }
 
   _goHome() {
-    // Temporary! Move down all the tabs once that's implemeneted
-    window.location.reload();
+    switch( this.state.view ) {
+      case Views.About:
+        this.c3.deselect();
+        // fallthrough
+      case Views.Stories:
+        this.c2.deselect();
+        // fallthrough
+      case Views.Tiles:
+        this.c1.deselect();
+        // fallthrough
+      default:
+        this.setState({ view: null });
+    }
   }
 
   render() {
