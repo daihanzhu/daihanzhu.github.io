@@ -14,24 +14,45 @@ class Main extends Component {
     this._goHome = this._goHome.bind(this);
 
     this.state = {
-      view: Views.Tiles
+      view: null
     }
   }
 
   componentDidUpdate() {
-    this.app.scrollTo(0, this.cw.offsetTop);
+    this.app.scrollTo(0, 0);
   }
 
   _switchToAbout() {
-    this.c3.onTabClick();
+    if ( this.state.view === Views.About ) {
+      this.c3.deselect();
+      this.setState({ view: Views.Stories });
+    } else {
+      this.c1.select();
+      this.c2.select();
+      this.c3.select();
+      this.setState({ view: Views.About });
+    }
   }
 
   _switchToWork() {
-    this.c1.onTabClick();
+    if ( this.state.view === Views.Tiles ) {
+      this.c1.deselect();
+      this.setState({ view: null });
+    } else {
+      this.c1.select();
+      this.setState({ view: Views.Tiles });
+    }
   }
 
   _switchToStories() {
-    this.c2.onTabClick();
+    if ( this.state.view === Views.Stories ) {
+      this.c2.deselect();
+      this.setState({ view: Views.Tiles });
+    } else {
+      this.c1.select();
+      this.c2.select();
+      this.setState({ view: Views.Stories });
+    }
   }
 
   _goHome() {
@@ -50,11 +71,27 @@ class Main extends Component {
             <a onClick={this._switchToWork}>work</a>
           </div>
         </div>
-        <h1 className="App-title">Welcome to Dana's shitty website</h1>
+        <h1 className="App-title">Welcome to Dana's &lt;3 website</h1>
         <div className="content-card-wrapper" ref={(cw) => this.cw = cw}>
-          <CardTab view={Views.Tiles} index={2} autoSelected={true} ref={(c1) => this.c1 = c1}/>
-          <CardTab view={Views.Stories} index={1} ref={(c2) => this.c2 = c2}/>
-          <CardTab view={Views.About} index={0} ref={(c3) => this.c3 = c3}/>
+          <CardTab
+            view={Views.Tiles}
+            index={2}
+            autoSelected={true}
+            onClick={this._switchToWork}
+            ref={(c1) => this.c1 = c1}
+          />
+          <CardTab
+            view={Views.Stories}
+            index={1}
+            onClick={this._switchToStories}
+            ref={(c2) => this.c2 = c2}
+          />
+          <CardTab
+            view={Views.About}
+            index={0}
+            onClick={this._switchToAbout}
+            ref={(c3) => this.c3 = c3}
+          />
           <div className="App-footer"></div>
         </div>
       </div>
