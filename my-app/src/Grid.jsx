@@ -44,7 +44,6 @@ class Grid extends Component {
       gridTemplateColumns: "350px ".repeat(numColumns2)
     };
 
-
     return (
       <div
         className="grid-container"

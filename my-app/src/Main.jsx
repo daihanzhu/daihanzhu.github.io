@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 import Content from './Content.jsx';
-import CardTab from './CardTab.jsx';
 import './Main.css';
 
 import Views from './Views.js';
@@ -19,7 +19,7 @@ class Main extends Component {
   }
 
   componentDidUpdate() {
-    this.app.scrollTo(0, this.cw.offsetTop);
+    this.app.scrollTo(0, 0);
   }
 
   _switchToAbout() {
@@ -35,22 +35,30 @@ class Main extends Component {
   }
 
   render() {
+    let appHeaderClassName = classNames({
+      'App-header': true,
+      'no-title': this.state.view !== Views.Tiles
+    });
+
+    let contentWrapperClassName = classNames({
+      'content-card-wrapper': true,
+      'tiles': this.state.view === Views.Tiles
+    });
+
     return (
       <div className="App" ref={(app) => this.app = app}>
-        <div className="App-header">
-          <div className="my-name">D A I H A N</div>
+        <div className={appHeaderClassName}>
+          <a onClick={this._switchToWork} className="my-name">D A I H A N</a>
           <a onClick={this._switchToWork}>work</a>
           <a onClick={this._switchToStories}>stories</a>
           <a onClick={this._switchToAbout}>about</a>
         </div>
-        <h1 className="App-title">Welcome to Dana's shitty website</h1>
-        <div className="content-card-wrapper" ref={(cw) => this.cw = cw}>
+        <h1 className="App-title" hidden={this.state.view !== Views.Tiles}>
+          Welcome to Daihan's amazing website
+        </h1>
+        <div className={contentWrapperClassName}>
           <Content view={this.state.view}/>
           <div className="App-footer"></div>
-          <div className="card-tab-wrapper">
-            <CardTab onClick={this._switchToAbout}/>
-            <CardTab onClick={this._switchToStories}/>
-          </div>
         </div>
       </div>
     );
