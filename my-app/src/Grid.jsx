@@ -7,7 +7,8 @@ import tileData from './TileData.json';
 class Grid extends Component {
   constructor(props) {
     super(props)
-    this.updateDimensions = this.updateDimensions.bind(this)
+    this.updateDimensions = this.updateDimensions.bind(this);
+    this._fetchImage = this._fetchImage.bind(this);
 
     this.state = {
       width: 0
@@ -30,10 +31,23 @@ class Grid extends Component {
       window.removeEventListener("resize", this.updateDimensions);
   }
 
+  _fetchImage( name ) {
+    return require( `./images/${name}` );
+  }
+
+  // TODO: Make this less hacky so we don't need to re-render on every resize
+  //  --> Media Queries?
   render() {
     let numTiles = 0;
     const tiles = tileData.map((item) =>
-        <Tile key={numTiles++} header={item.header} title={item.title} desc={item.description}/>
+        <Tile
+          key={numTiles++}
+          header={item.header}
+          title={item.title}
+          desc={item.description}
+          image={item.image ? this._fetchImage(item.image) : null}
+          altText={item.image}
+        />
     );
 
     const tileFit = (this.state.width - 50) / (350 + 50);
