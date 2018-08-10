@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,900');
+
 :root {
   --footer-height: 111px;
 }
@@ -54,12 +56,20 @@ a:hover {
 .App-title {
   padding-top: 150px;
   padding-left: 60px;
-  font-size: 1.5em;
   text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.0em;
 }
 
 .App-intro {
-  font-size: large;
+  position: absolute;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  top:240px;
+  left: 190px;
+  font-size: 16px;
 }
 
 .App-footer {
