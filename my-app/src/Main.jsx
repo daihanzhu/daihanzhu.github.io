@@ -48,14 +48,16 @@ class Main extends Component {
     return (
       <div className="App" ref={(app) => this.app = app}>
         <div className={appHeaderClassName}>
-          <a onClick={this._switchToWork} className="my-name">D A I H A N</a>
-          <a onClick={this._switchToWork}>work</a>
-          <a onClick={this._switchToStories}>stories</a>
-          <a onClick={this._switchToAbout}>about</a>
+          <div className='navbar'>
+            <a onClick={this._switchToWork} className="my-name">D A I H A N</a>
+            <a onClick={this._switchToWork}>work</a>
+            <a onClick={this._switchToStories}>stories</a>
+            <a onClick={this._switchToAbout}>about</a>
+          </div>
+          <h1 className="App-title" hidden={this.state.view !== Views.Tiles}>
+            Welcome to Daihan's amazing website
+          </h1>
         </div>
-        <h1 className="App-title" hidden={this.state.view !== Views.Tiles}>
-          Welcome to Daihan's amazing website
-        </h1>
         <div className={contentWrapperClassName}>
           <Content view={this.state.view}/>
           <div className="App-footer"></div>
