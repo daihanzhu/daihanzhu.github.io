@@ -6,8 +6,21 @@
   background-color: #D6C8D1;
 
   border-radius: 18px;
-  overflow: hidden;
   box-shadow: 0 24px 50px 0 rgba(0,0,0,0.05),0 18px 30px 0 rgba(0,0,0,0.02);
+
+  -webkit-transition: margin 0.3s ease-out;
+  -moz-transition: margin 0.3s ease-out;
+  -o-transition: margin 0.3s ease-out;
+}
+
+ .tile:hover {
+    margin-top: -15px;
+}
+
+
+.tile-bgd {
+  width: 100%;
+  border-radius: 18px;
 }
 
 .tile-bottom {
@@ -15,7 +28,8 @@
   bottom: 0;
 
   background-color: white;
-  height:187px;
+
+  height:200px;
   width: 100%;
 }
 
@@ -31,7 +45,7 @@
   font-family: 'Roboto', sans-serif;
   color: #EA1C44;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .tile-title {

@@ -55,14 +55,12 @@ class Main extends Component {
             <a onClick={this._switchToAbout}>about</a>
           </div>
           <h1 className="App-title" hidden={this.state.view !== Views.Tiles}>
-            Welcome to Daihan's amazing website
+            Designer + illustrator
           </h1>
         </div>
-        <h1 className="App-title" hidden={this.state.view !== Views.Tiles}>
-          Designer + illustrator
-        </h1>
+        
         <h2 className="App-intro" hidden={this.state.view !== Views.Tiles}>
-          Oh hi, if you are looking for Dana's shitty website, you've come to the right place.
+          👋 Oh hi, if you are looking for Dana's shitty website, you've come to the right place.
         </h2>
         <div className={contentWrapperClassName}>
           <Content view={this.state.view}/>

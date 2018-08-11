@@ -2,13 +2,14 @@
   {
     "header": "IDENTITY + PRINT",
     "title": "Venture inside RBC",
-    "description": "Designing the ultimate innovation experience at Canada's largest bank"
+    "description": "Designing the ultimate innovation experience at Canada's largest bank",
+    "image": "rbcx.gif"
   },
   {
     "header": "UX + RESEARCH",
     "title": "Westjet Connect",
     "description": "Improving the inflight entertainment experience",
-    "image": "Westjet.png"
+    "image": "westjet.png"
   },
   {
     "header": "VISUAL DESIGN",
@@ -23,11 +24,12 @@
   {
     "header": "ILLUSTRATION",
     "title": "Bananas!? Bananas.",
-    "description": "From doodles to the AGO"
+    "description": "From doodles to the AGO",
+     "image": "illu.png"
   },
   {
     "header": "ICONOGRAPHY",
-    "title": "An art form",
-    "description": "Just a shit ton of icons"
+    "title": "Icon collections",
+    "description": "Basically just a shit ton of icons"
   }
 ]
