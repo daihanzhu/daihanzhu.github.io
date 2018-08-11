@@ -1,33 +1,35 @@
 [
   {
-    "header": "UX + Research",
-    "title": "WestJet Connect",
-    "description": "A user research case study",
-    "image": "Westjet.png"
+    "header": "IDENTITY + PRINT",
+    "title": "Venture inside RBC",
+    "description": "Designing the ultimate innovation experience at Canada's largest bank",
+    "image": "rbcx.gif"
   },
   {
-    "header": "Header",
-    "title": "Title",
-    "description": "desc"
+    "header": "UX + RESEARCH",
+    "title": "Westjet Connect",
+    "description": "Improving the inflight entertainment experience",
+    "image": "westjet.png"
   },
   {
-    "header": "Header",
-    "title": "Title",
-    "description": "desc"
+    "header": "VISUAL DESIGN",
+    "title": "Edit mode",
+    "description": "Responsive redesign of the wiki editing experience"
   },
   {
-    "header": "Header",
-    "title": "Title",
-    "description": "desc"
+    "header": "VISUAL DESIGN",
+    "title": "Empty States",
+    "description": "Introducing illustrations where it never existed before"
   },
   {
-    "header": "Header",
-    "title": "Title",
-    "description": "desc"
+    "header": "ILLUSTRATION",
+    "title": "Bananas!? Bananas.",
+    "description": "From doodles to the AGO",
+     "image": "illu.png"
   },
   {
-    "header": "Header",
-    "title": "Title",
-    "description": "desc"
+    "header": "ICONOGRAPHY",
+    "title": "Icon collections",
+    "description": "Basically just a shit ton of icons"
   }
 ]
