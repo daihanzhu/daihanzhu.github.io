@@ -1,0 +1,27 @@
+.block-wrapper {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 1.25em;
+}
+
+@media all and (min-width: 1330px) {
+  .about-img {
+    position: absolute;
+    right: 0;
+    background-color: #D6C8D1;
+  }
+
+  .image-title {
+    padding-top: 150px;
+  }
+
+  .image-caption {
+    position: absolute;
+    top: 185px;
+    width: 542px;
+    height: 400px;
+    z-index: 1;
+    background-color: white;
+  }
+}

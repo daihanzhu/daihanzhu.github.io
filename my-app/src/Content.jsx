@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Grid from './Grid.jsx';
+import About from './About.jsx'
 import './Content.css';
 
 import Views from './Views.js';
@@ -15,7 +16,7 @@ class Content extends Component {
 
     } else if ( view === Views.About ) {
       return (
-        <div className='about-text'>About Me: I am from Albert(Hein)a</div>
+        <About></About>
       );
 
     } else if ( view === Views.Stories ) {

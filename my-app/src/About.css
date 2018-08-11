@@ -1,0 +1,57 @@
+.about-wrapper {
+    width: 100%;
+    padding: 110px 25px;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 650px) {
+  .about-wrapper {
+    padding: 110px 0;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 980px) {
+  .about-wrapper {
+    width: 100%;
+    padding: 110px 190px;
+    margin: 0;
+  }
+}
+
+.shape-container {
+  position: relative;
+  height: 475px;
+  width: 420px;
+  margin-bottom: 1.25em;
+  float: left;
+}
+
+.rectangle {
+  position: absolute;
+  top: 95px;
+  height: 375px;
+  width: 334px;
+  background-color: #FDEDEE;
+}
+
+.daihan-who {
+  position: absolute;
+  left: 50px;
+  height: 419px;
+  width: 315px;
+  background-image: url('./images/daihan.png');
+}
+
+.daihan-caption {
+  word-wrap: break-word;
+}
+
+.daihan-desc {
+  height: 100px;
+}
+
+.clear-float {
+  clear: both;
+}
