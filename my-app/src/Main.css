@@ -4,8 +4,10 @@
   --footer-height: 111px;
 }
 
+/* HEADER */
+
 .App {
-  text-align: center;
+  text-align: left;
   color: black;
 
   padding-top: 10px;
@@ -24,8 +26,11 @@
   height: 60px;
 }
 
+/* NAVBAR */
+
 .my-name {
   float: left;
+  padding: 0;
 }
 
 a {
@@ -51,14 +56,58 @@ a:hover {
   z-index: 1;
 
   padding-top: 20px;
-  padding-left: 165px;
-  padding-right: 190px;
+  padding-left: 25px;
+  padding-right: 25px;
   box-sizing: border-box;
+  display: block;
+}
+
+@media all and (min-width: 650px) {
+  .navbar {
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media all and (min-width: 980px) {
+  .navbar {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+
+/* INTRO */
+
+.intro-wrapper {
+  clear: both;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 650px) {
+  .intro-wrapper {
+    padding: 0;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 980px) {
+  .intro-wrapper {
+    margin-left: 190px;
+  }
 }
 
 .App-title {
   padding-top: 150px;
-  padding-left: 190px;
   text-align: left;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -66,14 +115,13 @@ a:hover {
 }
 
 .App-intro {
-  position: absolute;
   color: #333333;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  top:240px;
-  left: 190px;
   font-size: 16px;
 }
+
+/* CONTENT */
 
 .App-footer {
   position: absolute;
