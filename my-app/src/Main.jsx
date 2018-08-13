@@ -49,7 +49,10 @@ class Main extends Component {
       <div className="App" ref={(app) => this.app = app}>
         <div className={appHeaderClassName}>
           <div className='navbar'>
-            <a onClick={this._switchToWork} className="my-name">D A I H A N</a>
+            <div className='name-box'>
+              <div className='red-rectangle'></div>
+              <a onClick={this._switchToWork} className="my-name">D A I H A N</a>
+            </div>
             <a onClick={this._switchToWork}>work</a>
             <a onClick={this._switchToStories}>stories</a>
             <a onClick={this._switchToAbout}>about</a>
