@@ -13,6 +13,9 @@ class Tile extends Component {
             <div className="tile-desc">{this.props.desc}</div>
           </div>
         </div>
+        <div className="overlay">
+            <div className="overlay-text">{this.props.overlaytext}</div>
+        </div>
       </div>
     );
   }

@@ -9,27 +9,32 @@
     "header": "UX + RESEARCH",
     "title": "Westjet Connect",
     "description": "Improving the inflight entertainment experience",
-    "image": "westjet.png"
+    "image": "westjet.png",
+    "overlaytext": "Well, this is awkward"
   },
   {
     "header": "VISUAL DESIGN",
     "title": "Edit mode",
-    "description": "Responsive redesign of the wiki editing experience"
+    "description": "Responsive redesign of the wiki editing experience",
+    "image": "toolbar.png"
   },
   {
     "header": "VISUAL DESIGN",
     "title": "Empty States",
-    "description": "Introducing illustrations where it never existed before"
+    "description": "Introducing illustrations where it never existed before",
+    "image": "empty.png"
+  },
+  {
+    "header": "ICONOGRAPHY",
+    "title": "Just a few icons",
+    "description": "I've made over the years, not all of them are that great",
+    "image": "icon.png"
   },
   {
     "header": "ILLUSTRATION",
     "title": "Bananas!? Bananas.",
     "description": "From doodles to the AGO",
-     "image": "illu.png"
-  },
-  {
-    "header": "ICONOGRAPHY",
-    "title": "Icon collections",
-    "description": "Basically just a shit ton of icons"
+    "image": "illu1.png"
+   
   }
 ]
