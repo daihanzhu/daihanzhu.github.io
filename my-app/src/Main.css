@@ -37,8 +37,25 @@ h1 {
 
 /* NAVBAR */
 
-.my-name {
+.name-box {
   float: left;
+  position: relative;
+  width: 120px;
+  height: 40px;
+}
+
+.red-rectangle {
+  position: absolute;
+  top: -2px;
+  width: 8px;
+  height: 24px;
+  background-color: red;
+  float: left;
+}
+
+.my-name {
+  position: absolute;
+  left: 20px;
   padding: 0;
 }
 
@@ -81,19 +98,13 @@ a:hover {
 
 @media all and (min-width: 650px) {
   .navbar {
-    width: 600px;
-    left: 50%;
-    margin-left: -300px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: calc((100vw - 600px)/2);
+    padding-right: calc((100vw - 600px)/2);;
   }
 }
 
 @media all and (min-width: 980px) {
   .navbar {
-    width: 100%;
-    left: 0;
-    margin: 0;
     padding-left: 190px;
     padding-right: 190px;
   }

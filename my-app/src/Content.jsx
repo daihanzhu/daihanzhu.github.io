@@ -16,7 +16,7 @@ class Content extends Component {
 
     } else if ( view === Views.About ) {
       return (
-        <About></About>
+        <About/>
       );
 
     } else if ( view === Views.Stories ) {
