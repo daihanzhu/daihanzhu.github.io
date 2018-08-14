@@ -5,3 +5,9 @@
   grid-gap: 50px;
   justify-content: center;
 }
+
+@media all and (max-width: 350px) {
+  .grid-container {
+    padding: 50px 25px;
+  }
+}
