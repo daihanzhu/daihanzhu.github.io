@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import Content from './Content.jsx';
+import Footer from './Footer.jsx'
 import './Main.css';
 
 import Views from './Views.js';
@@ -40,11 +41,6 @@ class Main extends Component {
       'no-title': this.state.view !== Views.Tiles
     });
 
-    let contentWrapperClassName = classNames({
-      'content-card-wrapper': true,
-      'tiles': this.state.view === Views.Tiles
-    });
-
     return (
       <div className="App" ref={(app) => this.app = app}>
         <div className={appHeaderClassName}>
@@ -66,10 +62,8 @@ class Main extends Component {
             </h2>
           </div>
         </div>
-        <div className={contentWrapperClassName}>
-          <Content view={this.state.view}/>
-          <div className="App-footer"></div>
-        </div>
+        <Content view={this.state.view}/>
+        <Footer/>
       </div>
     );
   }

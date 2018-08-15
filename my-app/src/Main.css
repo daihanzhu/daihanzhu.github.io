@@ -2,10 +2,6 @@
 
 /* BASELINE */
 
-:root {
-  --footer-height: 111px;
-}
-
 h1 {
   text-align: left;
   font-family: 'Playfair Display', serif;
@@ -104,6 +100,7 @@ a:hover {
 }
 
 /* INTRO */
+/* TODO: Refactor all of this into Gris.css since that's the only view that uses it */
 
 .intro-wrapper {
   clear: both;
@@ -136,25 +133,4 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 16px;
-}
-
-/* CONTENT */
-
-.App-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: var(--footer-height);
-  width: 100%;
-  background-color: #C1B2BF;
-  z-index: 1;
-}
-
-.content-card-wrapper {
-  position: relative;
-  border-radius: 18px;
-}
-
-.content-card-wrapper.tiles {
-  box-shadow: 0 -5px 50px 0 rgba(0,0,0,0.11),0 -2px 15px 0 rgba(0,0,0,0.08);
 }
