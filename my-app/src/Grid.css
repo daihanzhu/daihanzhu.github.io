@@ -1,7 +1,21 @@
+.grid-wrapper {
+  position: relative;
+  border-radius: 18px;
+  box-shadow: 0 -5px 50px 0 rgba(0,0,0,0.11),0 -2px 15px 0 rgba(0,0,0,0.08);
+}
+
+.grid-wrapper-bottom {
+  position: absolute;
+  bottom: -35px;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+}
+
 .grid-container {
   display: grid;
   padding: 50px;
-  padding-bottom: calc(var(--footer-height) + 50px);
+  padding-bottom: 100px;
   grid-gap: 50px;
   justify-content: center;
 }

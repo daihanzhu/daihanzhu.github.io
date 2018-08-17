@@ -60,12 +60,15 @@ class Grid extends Component {
     };
 
     return (
-      <div
-        className="grid-container"
-        style={gridStyle}
-        ref={ (divElement) => this.divElement = divElement}
-      >
-        {tiles}
+      <div className='grid-wrapper'>
+        <div
+          className="grid-container"
+          style={gridStyle}
+          ref={ (divElement) => this.divElement = divElement}
+        >
+          {tiles}
+        </div>
+        <div className="grid-wrapper-bottom"></div>
       </div>
     );
   }
