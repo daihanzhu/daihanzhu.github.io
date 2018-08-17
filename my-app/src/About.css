@@ -1,4 +1,7 @@
 .about-wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
     width: 100%;
     padding: 110px 25px;
     box-sizing: border-box;
@@ -42,6 +45,17 @@
   height: 419px;
   width: 315px;
   background-image: url('./images/daihan.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+
+
+  -webkit-transition: margin 0.3s ease-out;
+  -moz-transition: margin 0.3s ease-out;
+  -o-transition: margin 0.3s ease-out;
+}
+
+ .daihan-who:hover {
+    margin-top: -5px;
 }
 
 .daihan-caption {

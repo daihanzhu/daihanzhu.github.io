@@ -49,9 +49,9 @@ class Main extends Component {
               <div className='red-rectangle'></div>
               <a onClick={this._switchToWork} className="my-name">D A I H A N</a>
             </div>
-            <a onClick={this._switchToWork}>work</a>
-            <a onClick={this._switchToStories}>stories</a>
             <a onClick={this._switchToAbout}>about</a>
+            <a onClick={this._switchToStories}>stories</a>
+            <a onClick={this._switchToWork}>work</a>
           </div>
           <div className='intro-wrapper'>
             <h1 className='App-title' hidden={this.state.view !== Views.Tiles}>

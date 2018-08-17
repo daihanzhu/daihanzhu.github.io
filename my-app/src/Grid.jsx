@@ -47,6 +47,7 @@ class Grid extends Component {
           desc={item.description}
           image={item.image ? this._fetchImage(item.image) : null}
           altText={item.image}
+          overlaytext={item.overlaytext}
         />
     );
 
