@@ -1,0 +1,24 @@
+.content-wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    width: 100%;
+    padding: 110px 25px;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 650px) {
+  .content-wrapper {
+    padding: 110px 0;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 980px) {
+  .content-wrapper {
+    width: 100%;
+    padding: 110px 190px;
+    margin: 0;
+  }
+}

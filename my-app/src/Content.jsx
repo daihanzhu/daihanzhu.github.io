@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import Grid from './Grid.jsx';
 import About from './About.jsx'
+import EmptyState from './TileViews/EmptyState.jsx'
 import './Content.css';
 
 import Views from './Views.js';
 
 class Content extends Component {
   render() {
-    const view = this.props.view;
+    const { view, switchView } = this.props;
 
     if ( view === Views.Tiles ) {
       return (
-        <Grid/>
+        <Grid switchView={switchView}/>
       );
 
     } else if ( view === Views.About ) {
@@ -22,6 +23,10 @@ class Content extends Component {
     } else if ( view === Views.Stories ) {
       return (
         <div className='about-text'>Here's a funny story</div>
+      )
+    } else if ( view === Views.EmptyState ) {
+      return (
+        <EmptyState/>
       )
     }
   }

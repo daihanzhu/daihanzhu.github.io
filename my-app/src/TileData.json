@@ -22,7 +22,8 @@
     "header": "VISUAL DESIGN",
     "title": "Empty States",
     "description": "Introducing illustrations where it never existed before",
-    "image": "empty.png"
+    "image": "empty.png",
+    "view": "EmptyState"
   },
   {
     "header": "ICONOGRAPHY",
@@ -35,6 +36,5 @@
     "title": "Bananas!? Bananas.",
     "description": "From doodles to the AGO",
     "image": "illu1.png"
-   
   }
 ]

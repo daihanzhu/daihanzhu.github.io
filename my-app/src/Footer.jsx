@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
+/* eslint react/jsx-no-target-blank: 0 */
 class Footer extends Component {
   render() {
     return (

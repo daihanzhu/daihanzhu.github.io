@@ -48,6 +48,8 @@ class Grid extends Component {
           image={item.image ? this._fetchImage(item.image) : null}
           altText={item.image}
           overlaytext={item.overlaytext}
+          page={item.view}
+          switchView={this.props.switchView}
         />
     );
 

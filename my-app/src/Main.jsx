@@ -13,6 +13,7 @@ class Main extends Component {
     this._switchToAbout = this._switchToAbout.bind(this);
     this._switchToWork = this._switchToWork.bind(this);
     this._switchToStories = this._switchToStories.bind(this);
+    this.switchToTileView = this.switchToTileView.bind(this);
 
     this.state = {
       view: Views.Tiles
@@ -33,6 +34,10 @@ class Main extends Component {
 
   _switchToStories() {
     this.setState({ view: Views.Stories });
+  }
+
+  switchToTileView(tileView) {
+    this.setState({ view: tileView })
   }
 
   render() {
@@ -62,7 +67,7 @@ class Main extends Component {
             </h2>
           </div>
         </div>
-        <Content view={this.state.view}/>
+        <Content view={this.state.view} switchView={this.switchToTileView}/>
         <Footer/>
       </div>
     );
