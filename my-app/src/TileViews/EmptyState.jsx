@@ -6,7 +6,7 @@ class EmptyState extends Component {
   render() {
     return (
       <div className="empty-state">
-        <img src={require('../images/emptyState/empty-state-header.png')} alt='Header' className="empty-state-header"></img>
+        <div className="empty-state-header"></div>
         <div className="empty-state-title">
           <h1>Empty State Illustration</h1>
         </div>

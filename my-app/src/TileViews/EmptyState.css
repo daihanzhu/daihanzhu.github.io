@@ -6,25 +6,24 @@
 
 .empty-state-header {
   width: 100%;
-  height: 318px;
+  height: 200px;
+  background-size: 650px;
+  background-position: right;
+  background-image: url('../images/emptyState/empty-state-header.png');
+  background-repeat: no-repeat;
 }
 
-@media all and (max-width: 650px) {
+@media all and (min-width: 650px) {
   .empty-state-header {
-    height: 200px;
+    height: 318px;
+    background-size: 1400px;
+    background-position: left;
   }
 }
 
 .es-mid-header {
   width: 100%;
-  height: 506px;
   background-color: white;
-}
-
-@media all and (max-width: 650px) {
-  .es-mid-header {
-    height: 200px;
-  }
 }
 
 /* TEXT */
@@ -33,6 +32,10 @@
   height: 204px;
   width: 100%;
   background-color: white;
+}
+
+.empty-state-title h1 {
+  text-align: center;
 }
 
 .empty-state-desc {
@@ -46,17 +49,16 @@
     top: 210px;
     left: 175px;
   }
+
+  .empty-state-title h1 {
+    margin-top: 76px;
+  }
 }
 
 @media all and (min-width: 1000px) {
   .empty-state-title {
     width: 642px;
   }
-}
-
-.empty-state-title h1 {
-  margin-top: 76px;
-  text-align: center;
 }
 
 /* IMAGES */
@@ -69,10 +71,23 @@
   width: 531px;
 }
 
+@media all and (max-width: 581px) {
+  .es-img1 {
+    width: 100%;
+  }
+}
+
 .es-img2 {
   width: 482px;
   margin-right: 85px;
   margin-bottom: 20px;
+}
+
+/* 482px + 25px margins from content-wrapper */
+@media all and (max-width: 532px) {
+  .es-img2 {
+    width: 100%;
+  }
 }
 
 .es-img3 {
@@ -90,9 +105,21 @@
   margin-top: 100px;
   padding-top: 100px;
   width: 100%;
-  height: 500px;
+  height: 200px;
   overflow: hidden;
   text-align: center;
+}
+
+@media all and (min-width: 400px) {
+  .es-shape-container {
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .es-shape-container {
+    height: 500px;
+  }
 }
 
 .es-shape-thingy {
@@ -105,9 +132,16 @@
 .es-img4 {
   position: absolute;
   top: 100px;
-  margin: 0 25%;
-  width: 50%;
+  width: calc(100% - 60px);
+  margin: 0 30px;
   display: block;
+}
+
+@media all and (min-width: 650px) {
+  .es-img4 {
+    width: 50%;
+    margin: 0 25%;
+  }
 }
 
 @media all and (min-width: 1200px) {
