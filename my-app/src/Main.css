@@ -68,7 +68,7 @@ a:hover, button:hover {
 .navbar .my-name {
   position: absolute;
   left: 20px;
-  padding: 0;
+  margin: 0;
 }
 
 .pages-box {
@@ -76,7 +76,7 @@ a:hover, button:hover {
 }
 
 .navbar button {
-  padding-left: 45px;
+  margin-left: 45px;
 
   -webkit-transition: margin 0.3s ease-out;
   -moz-transition: margin 0.3s ease-out;
@@ -84,7 +84,7 @@ a:hover, button:hover {
 }
 
 .navbar button:first-child {
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .navbar button:hover {
@@ -98,7 +98,7 @@ a:hover, button:hover {
 
 @media all and (max-width: 500px) {
   .navbar button {
-    padding-left: 25px;
+    margin-left: 25px;
   }
   .pages-box {
     display: none;
@@ -136,7 +136,7 @@ a:hover, button:hover {
 @media all and (min-width: 650px) {
   .navbar {
     padding-left: calc((100vw - 600px)/2);
-    padding-right: calc((100vw - 600px)/2);;
+    padding-right: calc((100vw - 600px)/2);
   }
 }
 
@@ -144,6 +144,13 @@ a:hover, button:hover {
   .navbar {
     padding-left: 190px;
     padding-right: 190px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .navbar {
+    padding-left: calc((100vw - 1060px)/2);
+    padding-right: calc((100vw - 1060px)/2);
   }
 }
 
@@ -171,6 +178,13 @@ a:hover, button:hover {
 @media all and (min-width: 980px) {
   .intro-wrapper {
     margin-left: 190px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .intro-wrapper {
+    width: 1060px;
+    margin: 0 auto;
   }
 }
 

@@ -5,20 +5,7 @@
 /* HEADERS */
 
 .empty-state-header {
-  width: 100%;
-  height: 200px;
-  background-size: 650px;
-  background-position: right;
   background-image: url('../images/emptyState/empty-state-header.png');
-  background-repeat: no-repeat;
-}
-
-@media all and (min-width: 650px) {
-  .empty-state-header {
-    height: 318px;
-    background-size: 1400px;
-    background-position: left;
-  }
 }
 
 .es-mid-header {
@@ -28,36 +15,13 @@
 
 /* TEXT */
 
-.empty-state-title {
-  height: 204px;
-  width: 100%;
-  background-color: white;
-}
-
-.empty-state-title h1 {
-  text-align: center;
-}
-
 .empty-state-desc {
   margin-bottom: 30px;
 }
 
-@media all and (min-width: 650px) {
-  .empty-state-title {
-    position: absolute;
-    width: calc(100% - 350px);
-    top: 210px;
-    left: 175px;
-  }
-
-  .empty-state-title h1 {
+@media all and (min-width: 804px) {
+  .content-title h1 {
     margin-top: 76px;
-  }
-}
-
-@media all and (min-width: 1000px) {
-  .empty-state-title {
-    width: 642px;
   }
 }
 
@@ -92,10 +56,6 @@
 
 .es-img3 {
   width: 100%;
-}
-
-.clear-float {
-  clear: both;
 }
 
 /* SHAPES */
