@@ -78,7 +78,7 @@ class Main extends Component {
               <button onClick={this._switchToAbout}>about</button>
             </div>
           </div>
-          <div className='intro-wrapper'>
+          <div className='content-wrapper'>
             <h1 className='App-title' hidden={this.state.view !== Views.Tiles}>
               Designer + illustrator
             </h1>

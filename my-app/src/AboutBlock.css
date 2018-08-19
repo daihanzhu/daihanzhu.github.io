@@ -5,15 +5,34 @@
   margin-bottom: 1.25em;
 }
 
+.about-img {
+  width: 100%;
+}
+
+@media all and (min-width: 1073px) {
+  .about-img {
+    width: auto;
+  }
+}
+
 @media all and (min-width: 1330px) {
   .about-img {
-    position: absolute;
-    right: 0;
     background-color: #D6C8D1;
   }
 
+  .float-right {
+    position: absolute;
+    right: 0;
+  }
+
   .image-title {
+    top: -30px;
     padding-top: 150px;
+  }
+
+  .image-caption.float-right {
+    padding-left: 30px;
+    padding-right: 0;
   }
 
   .image-caption {
@@ -23,5 +42,6 @@
     height: 400px;
     z-index: 1;
     background-color: white;
+    padding: 20px 30px 0 0;
   }
 }

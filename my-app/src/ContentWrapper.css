@@ -1,6 +1,7 @@
 /* WRAPPER */
 
 .content-wrapper {
+    clear: both;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.8em;
@@ -19,9 +20,15 @@
 
 @media all and (min-width: 980px) {
   .content-wrapper {
-    width: 100%;
-    padding: 110px 190px;
-    margin: 0;
+    width: calc(100% - 380px);
+    margin: 0 190px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .content-wrapper {
+    width: 1060px;
+    margin: 0 auto;
   }
 }
 

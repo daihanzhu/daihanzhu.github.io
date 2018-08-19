@@ -16,6 +16,8 @@ class About extends Component {
   }
 
   render() {
+    let rightAligned = false;
+
     const blocks = aboutData.map((item) =>
         <AboutBlock
           key={item.title}
@@ -23,6 +25,7 @@ class About extends Component {
           desc={item.description}
           image={item.image ? this._fetchImage(item.image) : null}
           altText={item.image}
+          rightAligned={ rightAligned = !rightAligned }
         />
     );
 

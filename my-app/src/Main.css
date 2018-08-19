@@ -66,9 +66,8 @@ a:hover, button:hover {
 }
 
 .navbar .my-name {
-  position: absolute;
-  left: 20px;
   margin: 0;
+  width: 120px;
 }
 
 .pages-box {
@@ -98,13 +97,13 @@ a:hover, button:hover {
 
 @media all and (max-width: 500px) {
   .navbar button {
-    margin-left: 25px;
+    margin-left: 15px;
   }
   .pages-box {
     display: none;
     text-align: center;
-    float: none;
     clear: both;
+    width: 100%;
   }
   .pages-box.unhidden {
     display: block;
@@ -156,37 +155,6 @@ a:hover, button:hover {
 
 /* INTRO */
 /* TODO: Refactor all of this into Gris.css since that's the only view that uses it */
-
-.intro-wrapper {
-  clear: both;
-  width: 100%;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 75px;
-  box-sizing: border-box;
-}
-
-@media all and (min-width: 650px) {
-  .intro-wrapper {
-    padding: 0;
-    padding-top: 150px;
-    width: 600px;
-    margin: 0 auto;
-  }
-}
-
-@media all and (min-width: 980px) {
-  .intro-wrapper {
-    margin-left: 190px;
-  }
-}
-
-@media all and (min-width: 1440px) {
-  .intro-wrapper {
-    width: 1060px;
-    margin: 0 auto;
-  }
-}
 
 .App-intro {
   color: #333333;
