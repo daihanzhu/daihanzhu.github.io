@@ -9,12 +9,15 @@ h1 {
   font-size: 2.0em;
 }
 
-a {
+a, button {
+  border: none;
+  background-color: transparent;
+  font: inherit;
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+a:hover, button:hover {
   cursor: pointer;
   margin-top: -1px;
   color: #EA1C44;
@@ -50,7 +53,7 @@ a:hover {
   float: left;
   position: relative;
   width: 120px;
-  height: 40px;
+  height: 35px;
 }
 
 .red-rectangle {
@@ -68,17 +71,47 @@ a:hover {
   padding: 0;
 }
 
-.navbar a {
-  padding-left: 45px;
+.pages-box {
   float: right;
+}
+
+.navbar button {
+  padding-left: 45px;
 
   -webkit-transition: margin 0.3s ease-out;
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.3s ease-out;
 }
 
-.navbar a:hover {
+.navbar button:first-child {
+  padding-left: 0;
+}
+
+.navbar button:hover {
   font-weight: 600;
+}
+
+.hamburger {
+  float: right;
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .navbar button {
+    padding-left: 25px;
+  }
+  .pages-box {
+    display: none;
+    text-align: center;
+    float: none;
+    clear: both;
+  }
+  .pages-box.unhidden {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
 }
 
 .navbar {
@@ -87,7 +120,6 @@ a:hover {
   color: #777;
 
   width: 100%;
-  height: 55px;
   background-color: rgba(255, 255, 255, 0.8);
   position: fixed;
   top: 0;
@@ -123,12 +155,14 @@ a:hover {
   width: 100%;
   padding-left: 25px;
   padding-right: 25px;
+  padding-top: 75px;
   box-sizing: border-box;
 }
 
 @media all and (min-width: 650px) {
   .intro-wrapper {
     padding: 0;
+    padding-top: 150px;
     width: 600px;
     margin: 0 auto;
   }
@@ -138,10 +172,6 @@ a:hover {
   .intro-wrapper {
     margin-left: 190px;
   }
-}
-
-.App-title {
-  padding-top: 150px;
 }
 
 .App-intro {
