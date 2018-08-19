@@ -53,6 +53,10 @@
   }
   .daihan-caption {
     height: 475px;
-    overflow: scroll;
+    overflow: auto;
   }
+}
+
+.about-footer {
+  width: 100%;
 }

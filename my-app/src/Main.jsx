@@ -51,11 +51,6 @@ class Main extends Component {
   }
 
   render() {
-    let appHeaderClassName = classNames({
-      'App-header': true,
-      'no-title': this.state.view !== Views.Tiles
-    });
-
     let pagesBoxClassName = classNames ({
       'pages-box': true,
       'unhidden': this.state.showMenu
@@ -63,7 +58,7 @@ class Main extends Component {
 
     return (
       <div className="App" ref={(app) => this.app = app}>
-        <div className={appHeaderClassName}>
+        <div className='App-header'>
           <div className='navbar'>
             <div className='name-box'>
               <div className='red-rectangle'></div>
@@ -77,14 +72,6 @@ class Main extends Component {
               <button onClick={this._switchToStories}>stories</button>
               <button onClick={this._switchToAbout}>about</button>
             </div>
-          </div>
-          <div className='content-wrapper'>
-            <h1 className='App-title' hidden={this.state.view !== Views.Tiles}>
-              Designer + illustrator
-            </h1>
-            <h2 className="App-intro" hidden={this.state.view !== Views.Tiles}>
-              👋 Oh hi, if you are looking for Dana's shitty website, you've come to the right place.
-            </h2>
           </div>
         </div>
         <Content view={this.state.view} switchView={this.switchToTileView}/>

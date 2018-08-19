@@ -40,10 +40,6 @@ a:hover, button:hover {
 }
 
 .App-header {
-  height: 60vh;
-}
-
-.App-header.no-title {
   height: 60px;
 }
 
@@ -151,14 +147,4 @@ a:hover, button:hover {
     padding-left: calc((100vw - 1060px)/2);
     padding-right: calc((100vw - 1060px)/2);
   }
-}
-
-/* INTRO */
-/* TODO: Refactor all of this into Gris.css since that's the only view that uses it */
-
-.App-intro {
-  color: #333333;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  font-size: 16px;
 }

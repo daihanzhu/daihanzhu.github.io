@@ -5,24 +5,25 @@
     "image": "flower.png"
   },
   {
-    "title": "Westjet Connect",
-    "description": "Improving the inflight entertainment experience",
-    "image": "flower.png"
+    "title": "Where I've been",
+    "description": "I’ve eaten across 60+ cities spanning over 5 continents. Camped out in the Sahara and got my sandwihch stolen by seagulls in Nice. Shit happens but I love it.",
+    "image": "food.png"
   },
   {
-    "title": "Edit mode",
-    "description": "Responsive redesign of the wiki editing experience"
+    "title": "Things I love",
+    "description": "Responsive redesign of the wiki editing experience",
+    "image": "cat.png"
   },
   {
-    "title": "Empty States",
+    "title": "Stuff I care about",
     "description": "Introducing illustrations where it never existed before"
   },
   {
-    "title": "Bananas!? Bananas.",
+    "title": "People I like",
     "description": "From doodles to the AGO"
   },
   {
-    "title": "Icon collections",
+    "title": "Things other people said about me",
     "description": "Basically just a shit ton of icons"
   }
 ]

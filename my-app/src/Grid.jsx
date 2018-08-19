@@ -62,15 +62,25 @@ class Grid extends Component {
     };
 
     return (
-      <div className='grid-wrapper'>
-        <div
-          className="grid-container"
-          style={gridStyle}
-          ref={ (divElement) => this.divElement = divElement}
-        >
-          {tiles}
+      <div className="grid-view">
+        <div className='content-wrapper'>
+          <h1 className='intro-title'>
+            Designer + illustrator
+          </h1>
+          <h2 className="intro-text">
+            👋 Oh hi, if you are looking for Dana's shitty website, you've come to the right place.
+          </h2>
         </div>
-        <div className="grid-wrapper-bottom"></div>
+        <div className='grid-wrapper'>
+          <div
+            className="grid-container"
+            style={gridStyle}
+            ref={ (divElement) => this.divElement = divElement}
+          >
+            {tiles}
+          </div>
+          <div className="grid-wrapper-bottom"></div>
+        </div>
       </div>
     );
   }

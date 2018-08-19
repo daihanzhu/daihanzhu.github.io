@@ -30,22 +30,25 @@ class About extends Component {
     );
 
     return (
-      <div className="content-wrapper">
-        <div className="shape-container">
-          <div className="rectangle"></div>
-          <div className="daihan-who"></div>
+      <div className="about">
+        <div className="content-wrapper">
+          <div className="shape-container">
+            <div className="rectangle"></div>
+            <div className="daihan-who"></div>
+          </div>
+          <div className="daihan-caption">
+            <h1>Who tf is Faihan</h1>
+            <p className="daihan-desc">Oh hi, that’s me. My name is pronounced like Diane, but at cafes I’ve been called Dana, Danny, and sometimes Diana, I like them all.<br/>
+            <br/>
+            Aside from being a designer (I assum you got that by now), I’m an occational cat-sitter, writter, and entrepreneur. In the past, I’ve been a production assistant, camp counsoler, and guity of over-filtering my instagram photos. In the future, I hope to work on an avocado farm.<br/>
+            <br/>
+            For the time being, I’m loving the freedom of being a freelancer with comfort of the creative unknown.
+          </p>
+          </div>
+          <div className="clear-float"></div>
+          {blocks}
         </div>
-        <div className="daihan-caption">
-          <h1>Who tf is Faihan</h1>
-          <p className="daihan-desc">Oh hi, that’s me. My name is pronounced like Diane, but at cafes I’ve been called Dana, Danny, and sometimes Diana, I like them all.<br/>
-          <br/>
-          Aside from being a designer (I assum you got that by now), I’m an occational cat-sitter, writter, and entrepreneur. In the past, I’ve been a production assistant, camp counsoler, and guity of over-filtering my instagram photos. In the future, I hope to work on an avocado farm.<br/>
-          <br/>
-          For the time being, I’m loving the freedom of being a freelancer with comfort of the creative unknown.
-        </p>
-        </div>
-        <div className="clear-float"></div>
-        {blocks}
+        <img src={require('./images/antwerp.png')} alt="Me in Antwerp" className="about-footer"></img>
       </div>
     );
   }
