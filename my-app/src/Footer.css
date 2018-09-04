@@ -20,6 +20,15 @@
   font-weight: 300;
   width: calc( 100% - 40px);
   margin: 0 20px;
+  color: #333333;
+}
+
+.footer-text a {
+  color: #999999;
+}
+
+.goodbye-text {
+  font-size: 80%;
 }
 
 .footer-image {
@@ -36,7 +45,6 @@
     display: block;
     margin: auto;
     margin-bottom: 20px;
-    width: auto;
   }
 }
 

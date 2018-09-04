@@ -11,13 +11,14 @@
     "title": "Westjet Connect",
     "description": "Improving the inflight entertainment experience",
     "image": "westjet.png",
-    "overlaytext": "Well, this is awkward"
+    "overlaytext": "This case study is over on Medium, check it out!"
   },
   {
     "header": "VISUAL DESIGN",
     "title": "Edit mode",
     "description": "Responsive redesign of the wiki editing experience",
-    "image": "toolbar.png"
+    "image": "toolbar.png",
+    "overlaytext": "🚧🏗️👷‍♀️ Well, this is awkward. This page is still under construction. Try another one."
   },
   {
     "header": "VISUAL DESIGN",
@@ -30,7 +31,8 @@
     "header": "ICONOGRAPHY",
     "title": "Just a few icons",
     "description": "I've made over the years, not all of them are that great",
-    "image": "icon.png"
+    "image": "icon.png",
+    "overlaytext": "I'm working hard day and night to get this up, soon, I promise!"
   },
   {
     "header": "ILLUSTRATION",

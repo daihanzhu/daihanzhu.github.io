@@ -52,7 +52,7 @@
 /* TITLE */
 
 .content-title {
-  height: 204px;
+  height: 70px;
   width: 100%;
   background-color: white;
   box-sizing: border-box;
@@ -60,6 +60,7 @@
 
 @media all and (min-width: 650px) {
   .content-title {
+    height: 204px;
     position: absolute;
     width: calc(100% - 350px);
     top: 210px;
