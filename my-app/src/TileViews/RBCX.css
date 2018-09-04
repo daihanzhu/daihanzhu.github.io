@@ -10,11 +10,6 @@
   background-repeat: no-repeat;
 }
 
-.rbcx-mid-header {
-  width: 100%;
-  background-color: white;
-}
-
 /* TEXT */
 
 .rbcx-desc {
@@ -22,6 +17,7 @@
 }
 
 /* IMAGES */
+/* TODO: Move common image CSS into ContentWrapper file */
 
 .rbcx-img {
   float: left;

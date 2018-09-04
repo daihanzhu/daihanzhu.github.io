@@ -8,11 +8,6 @@
   background-image: url('../images/emptyState/empty-state-header.png');
 }
 
-.es-mid-header {
-  width: 100%;
-  background-color: white;
-}
-
 /* TEXT */
 
 .empty-state-desc {

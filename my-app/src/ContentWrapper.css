@@ -16,6 +16,9 @@
     width: 600px;
     margin: 0 auto;
   }
+  .content-wrapper p, .content-wrapper h2 {
+    padding: 0 50px;
+  }
 }
 
 @media all and (min-width: 980px) {
@@ -76,8 +79,31 @@
   }
 }
 
+/* IMAGES */
+
+.captioned-pic {
+  width: 482px;
+  margin-right: 50px;
+  float: left;
+}
+
+.captioned-pic p {
+  text-align: center;
+}
+
+@media all and (max-width: 532px) {
+  .captioned-pic {
+    width: 100%;
+  }
+}
+
 /* MISC */
 
 .clear-float {
   clear: both;
+}
+
+.mid-header {
+  width: 100%;
+  background-color: white;
 }

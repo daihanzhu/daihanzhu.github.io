@@ -7,15 +7,15 @@ class EmptyState extends Component {
     return (
       <div className="rbcx">
         <div className="rbcx-header content-header"></div>
-        <div className="content-title">
-          <h1>RBCX - Powered by Venture Inside RBC</h1>
-        </div>
         <div className="content-wrapper">
+          <div className="content-title">
+            <h1>RBCX - Powered by Venture Inside RBC</h1>
+          </div>
           <p className="rbcx-desc">I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:
             I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:
             I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:</p>
           <img src={require('../images/emptyState/original.png')} alt='Original State' className="rbcx-img rbcx-img1"></img>
-          <h2> The problem</h2>
+          <h2> The Rebrand</h2>
           <p>Here's a bunch of text about the image on the left</p>
           <h2> The goal</h2>
           <p>Here's my goal blah blah blah</p>
@@ -28,7 +28,7 @@ class EmptyState extends Component {
           <img src={require('../images/emptyState/shapes.png')} alt='Shapes and Colours' className="rbcx-img rbcx-img2"></img>
           <div className="clear-float"></div>
         </div>
-        <img src={require('../images/emptyState/mid-header.png')} alt='Mid Header' className="rbcx-mid-header"></img>
+        <img src={require('../images/emptyState/mid-header.png')} alt='Mid Header' className="mid-header"></img>
         <div className="content-wrapper">
           <h2>Actually doing it</h2>
           <p className="rbcx-desc">I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:
@@ -48,7 +48,7 @@ class EmptyState extends Component {
             I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:
             I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:</p>
         </div>
-        <img src={require('../images/emptyState/emptyall.png')} alt='More Empty States' className="rbcx-mid-header"></img>
+        <img src={require('../images/emptyState/emptyall.png')} alt='More Empty States' className="mid-header"></img>
         <div className="content-wrapper">
           <h2>Looking back</h2>
           <p className="rbcx-desc">I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS: I make empty states :monkaS:</p>

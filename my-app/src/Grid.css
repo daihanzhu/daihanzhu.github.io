@@ -35,7 +35,8 @@
 
 /* INTRO */
 
-.intro-text {
+.content-wrapper .intro-text {
+  padding: 0;
   color: #333333;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
