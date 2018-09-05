@@ -63,8 +63,9 @@
     height: 204px;
     position: absolute;
     width: calc(100% - 350px);
+    margin: 0 175px;
     top: 210px;
-    left: 175px;
+    left: 0;
     padding: 0 50px;
   }
 }
@@ -73,6 +74,7 @@
   .content-title {
     width: 642px;
     padding: 0 100px;
+    margin: 0 calc(50% - 321px);
   }
 }
 
@@ -91,6 +93,19 @@
 @media all and (max-width: 532px) {
   .captioned-pic {
     width: 100%;
+  }
+}
+
+/* TEXT */
+
+.content-desc {
+  margin-bottom: 30px;
+}
+
+@media all and (min-width: 1200px) {
+  .content-desc, .par-block {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 

@@ -2,8 +2,10 @@
   position: relative;
 }
 
-.rbcx p, .rbcx h2 {
-  padding: 0 50px;
+@media all and (min-width: 650px) {
+  .rbcx p, .rbcx h2 {
+    padding: 0 50px;
+  }
 }
 
 /* HEADERS */
@@ -12,12 +14,6 @@
   background-image: url('../images/rbcx/header.png');
   background-color: #EA3A7D;
   background-repeat: no-repeat;
-}
-
-/* TEXT */
-
-.rbcx-desc {
-  margin-bottom: 30px;
 }
 
 /* IMAGES */
@@ -40,7 +36,7 @@
 .rbcx-img2 {
   width: 482px;
   margin-right: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 /* 482px + 25px margins from content-wrapper */
@@ -52,4 +48,8 @@
 
 .rbcx-img3 {
   width: 100%;
+}
+
+.rbc-dots {
+  width: 60%;
 }
