@@ -73,9 +73,7 @@ a:hover, button:hover {
 .navbar button {
   margin-left: 45px;
   top: 0;
-
-  /* TODO: Fix hover flicker bug */
-  transition: top 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .navbar button:first-child {
@@ -83,8 +81,8 @@ a:hover, button:hover {
 }
 
 .navbar button:hover {
-  position: relative; 
-  top: -2px;
+  position: relative;
+  transform: translateY(-2px);
 }
 
 .hamburger {

@@ -16,9 +16,6 @@
     width: 600px;
     margin: 0 auto;
   }
-  .content-wrapper p, .content-wrapper h2 {
-    padding: 0 50px;
-  }
 }
 
 @media all and (min-width: 980px) {

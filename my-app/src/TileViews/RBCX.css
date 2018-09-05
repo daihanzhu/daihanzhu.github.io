@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.rbcx p, .rbcx h2 {
+  padding: 0 50px;
+}
+
 /* HEADERS */
 
 .rbcx-header {

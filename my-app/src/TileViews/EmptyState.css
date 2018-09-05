@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.empty-state p, .empty-state h2 {
+  padding: 0 50px;
+}
+
 /* HEADERS */
 
 .empty-state-header {

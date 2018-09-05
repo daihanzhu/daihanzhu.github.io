@@ -36,12 +36,11 @@
     left: 50px;
     height: 419px;
     width: 315px;
-
-    transition: margin 0.3s ease-out;
+    transition: transform 0.3s ease-out;
   }
 
-   .daihan-who:hover {
-      margin-top: -5px;
+  .daihan-who:hover {
+    transform: translateY(-5px);
   }
 }
 
