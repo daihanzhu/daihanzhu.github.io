@@ -64,12 +64,12 @@ class EmptyState extends Component {
           <div className="par-block">
             <h2>Looking back</h2>
             <p>I’m overall very happy with how these turned out. I learned throughout this process is that empty states are no joke. They are some of the first things a new user see when they first download the app. They are also things people see when something didn’t go as planned, but can help turn a moment of frustration to delight.
-              <br/>
+              <br/><br/>
               I’ve came across many great case studies about their process behind creating great empty states, they have all helped me in one way or another in creating my own.
-              <br/>
+              <br/><br/>
               Empty States? More like You-Have-No-Idea-How-Much-Work-Goes-Into-Those States, amirite?? By Meg Robichaud
               https://ux.shopify.com/empty-states-more-like-you-have-no-idea-how-much-work-goes-into-those-states-amirite-e0102f58b64e
-              <br/>
+              <br/><br/>
               Illustrating a more human brand
               https://medium.com/dropbox-design/illustrating-a-more-human-brand-part-1-e1cfe3c28d9
             </p>

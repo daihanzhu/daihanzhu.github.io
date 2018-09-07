@@ -18,7 +18,7 @@ a, button {
   transition: color 0.3s ease-in-out;
 }
 
-a:hover, button:hover {
+a:hover, button:hover, a:focus, button:focus {
   cursor: pointer;
   color: #EA1C44;
 }
