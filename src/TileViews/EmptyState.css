@@ -32,6 +32,7 @@
   float: left;
 }
 
+/* TODO: Move paragraph text into a min-width box and float(?) right */
 .es-img1 {
   width: 531px;
   margin-bottom: 100px;
@@ -54,6 +55,13 @@
 @media all and (max-width: 532px) {
   .es-img2 {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .es-img2, .captioned-pic {
+    margin: 0 calc(50% - 241px);
+    margin-bottom: 20px;
   }
 }
 

@@ -46,6 +46,13 @@
   }
 }
 
+@media all and (max-width: 1000px) {
+  .rbcx-img2 {
+    margin: 0 calc(50% - 241px);
+    margin-bottom: 70px;
+  }
+}
+
 .rbcx-img3 {
   width: 100%;
 }
