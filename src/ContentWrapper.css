@@ -32,6 +32,11 @@
   }
 }
 
+.mid-content-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* HEADER */
 
 .content-header {
@@ -80,6 +85,7 @@
 
 /* IMAGES */
 
+/* TODO: Fix bug causing side text to not align */
 .captioned-pic {
   width: 482px;
   margin-right: 60px;
@@ -103,8 +109,16 @@
 }
 
 @media all and (min-width: 1000px) {
-  .content-desc, .par-block {
+  .content-desc, .par-block, .side-caption {
     margin: 0 calc(50% - 321px);
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .side-caption {
+    display: inline;
+    width: calc(100% - 543px);
+    margin: 0;
   }
 }
 

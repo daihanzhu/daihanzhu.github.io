@@ -15,32 +15,36 @@ class EmptyState extends Component {
           <br/><br/>
           This project roughy spanned over three weeks to completion. With guidance from the OpenText Visual Design Team.</p>
           <img src={require('../images/emptyState/original.png')} alt='Original State' className="empty-state-img es-img1"></img>
-          <h2 className="original-state-caption">The problem</h2>
-          <p>The current empty states use the same icons users are navigating from. They’ve got some great copywriting so why wouldn’t we have some great illustrations to go with it?
+          <div className="side-caption">
+            <h2 className="original-state-caption">The problem</h2>
+            <p>The current empty states use the same icons users are navigating from. They’ve got some great copywriting so why wouldn’t we have some great illustrations to go with it?
 
-          To refresh the current empty states with illustrations that reflect the scenarios users might encounter throughout their interactions with the app.
-          </p>
-          <h2>The goal</h2>
-          <p>The first step is to establish the goals I’d like to achieve with this project. While I was given the freedom and creativity to explore, I wanted to set some personal goals to measure success later on.
-            <br/><br/>
-            Make the in-app experience more friendly and personable
-            <br/><br/>
-            Turn a moment of loss or frustration into something funny and hopefully relatable
-            <br/><br/>
-            Can help guide new users to discover a new feature, act as an extension to the user onboarding
-            <br/><br/>
-            Begin the establishment of illustration guideline as there are currently no illustrations within the product
-          </p>
+            To refresh the current empty states with illustrations that reflect the scenarios users might encounter throughout their interactions with the app.
+            </p>
+            <h2>The goal</h2>
+            <p>The first step is to establish the goals I’d like to achieve with this project. While I was given the freedom and creativity to explore, I wanted to set some personal goals to measure success later on.
+              <br/><br/>
+              Make the in-app experience more friendly and personable
+              <br/><br/>
+              Turn a moment of loss or frustration into something funny and hopefully relatable
+              <br/><br/>
+              Can help guide new users to discover a new feature, act as an extension to the user onboarding
+              <br/><br/>
+              Begin the establishment of illustration guideline as there are currently no illustrations within the product
+            </p>
+          </div>
           <div className="clear-float"></div>
           <div className="captioned-pic">
             <img src={require('../images/emptyState/inspiration.png')} alt='My inspiration' className="empty-state-img es-img2"></img>
             <p>Works from Jira, Dropbox, OpenText Marketing, and my own served as a good starting point </p>
           </div>
           <img src={require('../images/emptyState/shapes.png')} alt='Shapes and Colours' className="empty-state-img es-img2"></img>
-          <h2>Gathering inspiration</h2>
-          <p>Since there aren't many previous illustrations to go off of, I looked elsewhere. I gathered as many inspirations from other similar products in order to find a good starting point. While there are established illustraton standards from Marketing, product illustrations don’t nessasarily speak the same language. Marketing illustration are often used to highlight the features, while product, illustration usually find refuge sparingly and assit the user to convey meaningful information.</p>
-          <h2>Shapes and colour</h2>
-          <p>With that being said, I began experiementing with shapes and colour combinations. Working off of a dark gradient background, I stayed away from using contrasting colors and played with gradient and opacity instead. Even though the current background creates a form of constrain, I ensured the flexibility of the colors can be reused against other backgrounds.</p>
+          <div className="side-caption">
+            <h2>Gathering inspiration</h2>
+            <p>Since there aren't many previous illustrations to go off of, I looked elsewhere. I gathered as many inspirations from other similar products in order to find a good starting point. While there are established illustraton standards from Marketing, product illustrations don’t nessasarily speak the same language. Marketing illustration are often used to highlight the features, while product, illustration usually find refuge sparingly and assit the user to convey meaningful information.</p>
+            <h2>Shapes and colour</h2>
+            <p>With that being said, I began experiementing with shapes and colour combinations. Working off of a dark gradient background, I stayed away from using contrasting colors and played with gradient and opacity instead. Even though the current background creates a form of constrain, I ensured the flexibility of the colors can be reused against other backgrounds.</p>
+          </div>
           <div className="clear-float"></div>
           <div className="par-block">
             <h2>Sketches</h2>
@@ -48,7 +52,7 @@ class EmptyState extends Component {
           </div>
         </div>
         <img src={require('../images/emptyState/mid-header.png')} alt='Mid Header' className="mid-header"></img>
-        <div className="content-wrapper">
+        <div className="content-wrapper mid-content-wrapper ">
           <div className="par-block">
             <h2>Actually doing it</h2>
             <p>When I brough the sketches into illustrator, I got some valuable feedback on which sketch might work the best with each screen. I took some elements of previously created illustrations from product marketing since it worked really well in making the drawings come to life. This was also helpful since consistency and making the drawings feel like they belong in a set was something I had intentions for.
@@ -78,7 +82,7 @@ class EmptyState extends Component {
           </div>
         </div>
         <img src={require('../images/emptyState/emptyall.png')} alt='More Empty States' className="mid-header"></img>
-        <div className="content-wrapper">
+        <div className="content-wrapper mid-content-wrapper ">
           <div className="par-block">
             <h2>Just getting started</h2>
             <p>The project isn’t over yet! Since recieving the positive feebacks from mobile, I was asked to create more to go into the desktop app. Some very small adjestments were made to fully optimize it for the different color backgrounds. Here’s what they look like.  </p>
