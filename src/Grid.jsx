@@ -39,7 +39,7 @@ class Grid extends Component {
   //  --> Media Queries?
   render() {
     let numTiles = 0;
-    const tiles = tileData.map((item) =>
+    let tiles = tileData.map((item) =>
         <Tile
           key={numTiles++}
           header={item.header}
@@ -52,6 +52,15 @@ class Grid extends Component {
           switchView={this.props.switchView}
         />
     );
+
+    /* Hard-coded sh*t to hide some tiles for now */
+    tiles.splice(2,1);
+    tiles.splice(3,2);
+    const b = tiles[2];
+    tiles[2] = tiles[1];
+    tiles[1] = b;
+    numTiles = 3;
+    /* TODO: Get rid of all of this */
 
     const tileFit = (this.state.width - 50) / (350 + 50);
     const numColumns = Math.min(tileFit, numTiles);

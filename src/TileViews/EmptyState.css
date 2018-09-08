@@ -2,9 +2,12 @@
   position: relative;
 }
 
-@media all and (min-width: 650px) {
+@media all and (min-width: 1200px) {
   .empty-state p, .empty-state h2 {
     padding: 0 50px;
+  }
+  .content-desc, .par-block {
+    margin: 0 calc(50% - 371px);
   }
 }
 
@@ -16,14 +19,8 @@
 
 /* TEXT */
 
-@media all and (min-width: 804px) {
-  .content-title h1 {
-    margin-top: 76px;
-  }
-}
-
 .original-state-caption {
-  margin-top: 78px;
+  margin-top: 48px;
 }
 
 /* IMAGES */

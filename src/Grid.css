@@ -41,3 +41,16 @@
   font-weight: 200;
   font-size: 16px;
 }
+
+/* TODO: Kinda hacky. Find a better way to achieve same behavior */
+@media all and (min-width: 849px) {
+  .intro-title {
+    padding-top: 85px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .intro-title {
+    padding-top: 0;
+  }
+}
