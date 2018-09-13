@@ -114,7 +114,7 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1370px) {
   .side-caption {
     display: inline;
     width: calc(100% - 543px);

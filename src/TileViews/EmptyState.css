@@ -6,7 +6,7 @@
   .empty-state p, .empty-state h2 {
     padding: 0 50px;
   }
-  .content-desc, .par-block {
+  .content-desc, .par-block, .side-caption {
     margin: 0 calc(50% - 371px);
   }
 }
