@@ -29,17 +29,27 @@ class EmptyState extends Component {
     window.removeEventListener("resize", this.updateDimensions);
   }
 
+  _fetchImage( name ) {
+    return require( `../images/rbcx/${name}` );
+  }
+
   render() {
-    console.log(this.state.width );
-    const designThinkingImages = this.state.width >= 650 ?
-      (<div><img src={require('../images/rbcx/backpacker.png')} alt="Design Thinking Book" className="backpacker"></img>
-      <img src={require('../images/rbcx/dt-page4.png')} alt="Design Thinking Page 4" className="open-book"></img>
-      <img src={require('../images/rbcx/dt-cover.png')} alt="Design Thinking Cover" className="backpacker"></img>
-      <img src={require('../images/rbcx/dt-page3.png')} alt="Design Thinking Page 3" className="open-book"></img></div>) :
-      (<div><img src={require('../images/rbcx/backpacker.png')} alt="Design Thinking Book" className="backpacker"></img>
-      <img src={require('../images/rbcx/dt-cover.png')} alt="Design Thinking Cover" className="backpacker"></img>
-      <img src={require('../images/rbcx/dt-page3.png')} alt="Design Thinking Page 3" className="open-book"></img>
-      <img src={require('../images/rbcx/dt-page4.png')} alt="Design Thinking Page 4" className="open-book"></img></div>);
+    const imageObjs = [
+      {src: 'backpacker.png', alt: 'Design Thinking Book', class: 'backpacker'},
+      {src: 'dt-page4.png', alt: 'Design Thinking Page 4', class: 'open-book'},
+      {src: 'dt-cover.png', alt: 'Design Thinking Cover', class: 'backpacker'},
+      {src: 'dt-page3.png', alt: 'Design Thinking Page 3', class: 'open-book'}];
+
+    if (this.state.width < 650) {
+      let temp = imageObjs[1];
+      imageObjs[1] = imageObjs[2];
+      imageObjs[2] = imageObjs[3];
+      imageObjs[3] = temp;
+    }
+
+    const designThinkingImages = imageObjs.map((image) =>
+      <img src={this._fetchImage(image.src)} alt={image.alt} className={image.class}></img>
+    );
 
     return (
       <div className="rbcx">
@@ -99,7 +109,7 @@ class EmptyState extends Component {
         <div className="content-wrapper mid-content-wrapper">
           <img src={require('../images/rbcx/our-brand.png')} alt="Our Brand" className="our-brand"></img>
           <img src={require('../images/rbcx/hand-with-cards.png')} alt="Hand with cards" className="hand-cards"></img>
-          <div className="par-block">
+          <div className="par-block rbcx-text-box ">
             <h2>Insight 1: people like information in bite sizes</h2>
             <p>This set of trading cards I designed were passed out at townhalls and expos to introduce and break down the concept of problem solving through Design Thinking. They were a huge hit and I especailly loved seeing people sifting through the pile trying to collect them all, as if they were pokemon cards or something.</p>
             <h2>Insight 2: innovation doesn’t have to be complicated</h2>

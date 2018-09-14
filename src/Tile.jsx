@@ -5,6 +5,10 @@ import Views from './Views.js'
 
 class Tile extends Component {
   handleClick = () => {
+    /* Special case for westjet */
+    if (this.props.title === 'Westjet Connect') {
+      window.open('https://uxdesign.cc/westjet-connect-a-ux-case-study-2c15b1888bf5', '_blank');
+    }
     if ( !Views[this.props.page] ) return;
     this.props.switchView( Views[this.props.page] );
   }

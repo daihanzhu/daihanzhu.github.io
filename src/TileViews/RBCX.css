@@ -29,6 +29,10 @@
   margin-bottom: 50px;
 }
 
+.rbcx-text-box {
+  padding-top: 70px;
+}
+
 .venture-caption {
   margin-top: 50px;
 }
@@ -38,6 +42,7 @@
 }
 
 .poster-desc {
+  padding-top: 70px;
   flex: 1;
   position: relative;
 }
