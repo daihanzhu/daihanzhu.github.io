@@ -23,6 +23,24 @@
   background-repeat: no-repeat;
 }
 
+/* CONTAINERS */
+
+/*TODO: Move other containers into this section */
+.blue-background {
+  margin-top: 200px;
+  position: relative;
+  background-color: #DFF0F0;
+  width: 100%;
+  padding-top: 70%;
+}
+
+@media all and (min-width: 712px) {
+  .blue-background {
+    padding-top: 0;
+    height: 412px;
+  }
+}
+
 /* TEXT */
 
 .rbcx-desc {
@@ -30,7 +48,7 @@
 }
 
 .rbcx-text-box {
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 .venture-caption {
@@ -47,6 +65,16 @@
   position: relative;
 }
 
+.poster-desc-inner p, .poster-desc-inner h2 {
+  padding: 0 25px;
+}
+
+@media all and (min-width: 650px) {
+  .poster-desc-inner p, .poster-desc-inner h2 {
+    padding: 0 calc((100vw - 600px)/2);
+  }
+}
+
 @media all and (min-width: 1285px) {
   .poster-container {
     width: 100%;
@@ -55,6 +83,9 @@
   .poster-desc-inner {
     position: absolute;
     bottom: 0;
+  }
+  .poster-desc-inner p, .poster-desc-inner h2 {
+    padding: 0 50px;
   }
 }
 
@@ -70,12 +101,8 @@
   }
 }
 
-.poster-desc-inner p, .poster-desc-inner h2 {
-  padding: 0 50px;
-}
-
 .center-box {
-  padding: 70px 50px;
+  padding: 70px 25px;
 }
 
 @media all and (min-width: 675px) {
@@ -104,6 +131,10 @@
 
 .rbcx-img {
   float: left;
+}
+
+.d-shadow {
+  box-shadow: 0 4px 40px;
 }
 
 .rbcx-img1 {
@@ -150,6 +181,49 @@
 .rbcx-img4 {
   width: 100%;
   left: 0;
+}
+
+.inspiration-img {
+  position: absolute;
+  bottom: 121px;
+  left: 0;
+  width: calc(100% - 70px);
+  margin: 35px;
+}
+
+@media all and (min-width: 712px) {
+  .inspiration-img {
+    width: 642px;
+    margin: 0 calc(50% - 321px);
+  }
+}
+
+.yellow-img, .computer-bkg, .computer-img {
+  display: none;
+}
+
+@media all and (min-width: 1300px) {
+  .yellow-img, .computer-bkg, .computer-img {
+    position: absolute;
+    display: block;
+  }
+  .yellow-img {
+    top: 90px;
+    left: 106px;
+    width: 134px;
+  }
+  .computer-bkg {
+    background-color: #FDEDEE;
+    top: -108px;
+    right: 60px;
+    width: 202px;
+    height: 265px;
+  }
+  .computer-img {
+    top: -157px;
+    right: 0;
+    width: 211px;
+  }
 }
 
 .rbc-dots {
@@ -205,10 +279,24 @@
   }
 }
 
+.people-img {
+  width: 49.1%;
+}
+
+.rocket-img {
+  width: 50.9%;
+}
+
 .our-brand {
   width: 62.3%;
 }
 
 .hand-cards {
   width: 37.7%;
+}
+
+.bottom-x {
+  display: block;
+  width: 57px;
+  margin: 0 auto;
 }

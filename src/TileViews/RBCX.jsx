@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './RBCX.css';
 import '../ContentWrapper.css'
 
-class EmptyState extends Component {
+class RBCX extends Component {
   constructor(props) {
     super(props)
     this.updateDimensions = this.updateDimensions.bind(this);
@@ -48,7 +48,7 @@ class EmptyState extends Component {
     }
 
     const designThinkingImages = imageObjs.map((image) =>
-      <img src={this._fetchImage(image.src)} alt={image.alt} className={image.class}></img>
+      <img key={image.src} src={this._fetchImage(image.src)} alt={image.alt} className={image.class}></img>
     );
 
     return (
@@ -61,7 +61,7 @@ class EmptyState extends Component {
           <p className="content-desc rbcx-desc">In summer 2017, I joined the Intrapreneurship team (Venture Inside) as their first ever design intern at the RBC Royal Bank of Canada. Our mission was to challenge and enable RBC employees around the globe to solve important problems, develop product thinking, and innovate much like entrepreneurs, but with the resource of a multinational company.
             <br/><br/>
             RBCx is a startup accelerator program powered by Venture Inside that puts employees through an intensive 10-week program to solve big, disruptive problems. From my very first day, I was thrown right into the action and worked with the venture teams to develop their ideas into a prototype. From there, I worked closely with the managing team to re-design the branding for both Venture Inside and RBCx, as well as multiple resources on topics such as Design Thinking and problem pitching.</p>
-          <img src={require('../images/rbcx/venture-inside.png')} alt='Venture Inside' className="rbcx-img rbcx-img2"></img>
+          <img src={require('../images/rbcx/venture-inside.png')} alt='Venture Inside' className="rbcx-img rbcx-img2 d-shadow"></img>
           <div className="side-caption">
             <h2 className="venture-caption">Discovery</h2>
             <p>Designing a logo goes beyound the pixels that appear on an artboard. The first step is to gather a holistic view of the representation of the brand to the point that every detail has been considered.
@@ -76,7 +76,12 @@ class EmptyState extends Component {
             <p>Now that Venture Inside has its own shiny identity, time for RBCx to get a refresher as well. When I joined, RBCx was just wrapping up its first cohort and gearing up for the next one, so a large part of the process is iterating and taking it to the next level. Starting with the branding.</p>
           </div>
         </div>
-        <img src={require('../images/rbcx/rbcx-logo.png')} alt='My inspiration' className="rbcx-img3"></img>
+        <div className="blue-background">
+          <img src={require('../images/rbcx/rbcx-logo.png')} alt='My inspiration' className="inspiration-img d-shadow"></img>
+          <img src={require('../images/rbcx/yellow.png')} alt='Yellow Design' className="yellow-img"></img>
+          <div className="computer-bkg"></div>
+          <img src={require('../images/rbcx/my-computer.png')} alt="RBC Sticker on my computer" className="computer-img"></img>
+        </div>
         <div className="poster-container">
           <div className="rbcx-img4-cont">
             <img src={require('../images/rbcx/rbcx-poster.png')} alt='RBCX Poster' className="rbcx-img4"></img>
@@ -109,9 +114,13 @@ class EmptyState extends Component {
         <div className="content-wrapper mid-content-wrapper">
           <img src={require('../images/rbcx/our-brand.png')} alt="Our Brand" className="our-brand"></img>
           <img src={require('../images/rbcx/hand-with-cards.png')} alt="Hand with cards" className="hand-cards"></img>
-          <div className="par-block rbcx-text-box ">
+          <div className="par-block rbcx-text-box">
             <h2>Insight 1: people like information in bite sizes</h2>
             <p>This set of trading cards I designed were passed out at townhalls and expos to introduce and break down the concept of problem solving through Design Thinking. They were a huge hit and I especailly loved seeing people sifting through the pile trying to collect them all, as if they were pokemon cards or something.</p>
+          </div>
+          <img src={require('../images/rbcx/people.png')} alt="People networking" className="people-img"></img>
+          <img src={require('../images/rbcx/rocket-banner.png')} alt="Hand with cards" className="rocket-img"></img>
+          <div className="par-block rbcx-text-box">
             <h2>Insight 2: innovation doesn’t have to be complicated</h2>
             <p>Mid way through the summer, I wanted to give community engagement a try. So I band together a group of interns and brainstormed ways we can get everyone excited about intrapreneurship. We knew it had to be interactive, fun, and accssible, so a pop-up shop quickly came to mind.
             <br/><br/>
@@ -120,10 +129,11 @@ class EmptyState extends Component {
             <br/><br/>
             We had such a great turn out that we had to tell people to quite down at some point because they got too into the challenges.</p>
           </div>
+          <img src={require('../images/rbcx/x.png')} alt='' className="bottom-x"></img>
         </div>
       </div>
     );
   }
 }
 
-export default EmptyState;
+export default RBCX;
