@@ -7,10 +7,12 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 2.0em;
+  color: #333333;
 }
 
 h2 {
   font-size: 1em;
+  color: #333333;
 }
 
 a, button {
@@ -113,8 +115,9 @@ a:hover, button:hover, a:focus, button:focus {
 }
 
 .navbar {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   color: #777;
 
   width: 100%;

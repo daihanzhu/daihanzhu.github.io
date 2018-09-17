@@ -11,7 +11,7 @@ class EmptyState extends Component {
           <div className="content-title">
             <h1>Empty State Illustration</h1>
           </div>
-          <p className="content-desc">OpenText Content Server is a cloud-based enterprise storage software trusted by millions of users. While it is primarily a desktop tool, a mobile app was developed to make content management more easily accessible and user-friendly. As opposed to most other apps, the goal here is not user retention, but to enable them to get work done fast. Also, who enterprise software has to be boring? Therefore, I was asked by OpenText to re-imaging the empty states of the mobile app in order to delight, inform, and provide a positive user-experience.
+          <p className="content-desc">OpenText Content Server is a cloud-based enterprise storage software trusted by millions of users. While it is primarily a desktop tool, a mobile app was developed to make content management more easily accessible and user-friendly. As opposed to most other apps, the goal here is not user retention, but to enable them to get work done fast. Also, who says enterprise software has to be boring? Therefore, I was asked by OpenText to re-imaging the empty states of the mobile app in order to delight, inform, and provide a positive user-experience.
           <br/><br/>
           This project roughy spanned over three weeks to completion. With guidance from the OpenText Visual Design Team.</p>
           <img src={require('../images/emptyState/original.png')} alt='Original State' className="empty-state-img es-img1"></img>
@@ -24,13 +24,13 @@ class EmptyState extends Component {
             <h2>The goal</h2>
             <p>The first step is to establish the goals I’d like to achieve with this project. While I was given the freedom and creativity to explore, I wanted to set some personal goals to measure success later on.
               <br/><br/>
-              Make the in-app experience more friendly and personable
+              •  Make the in-app experience more friendly and personable
               <br/><br/>
-              Turn a moment of loss or frustration into something funny and hopefully relatable
+              •  Turn a moment of loss or frustration into something funny and hopefully relatable
               <br/><br/>
-              Can help guide new users to discover a new feature, act as an extension to the user onboarding
+              •  Can help guide new users to discover a new feature, act as an extension to the user onboarding
               <br/><br/>
-              Begin the establishment of illustration guideline as there are currently no illustrations within the product
+              •  Begin the establishment of illustration guideline as there are currently no illustrations within the product
             </p>
           </div>
           <div className="clear-float"></div>

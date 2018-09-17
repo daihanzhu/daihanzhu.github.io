@@ -37,19 +37,19 @@ class About extends Component {
             <div className="daihan-who"></div>
           </div>
           <div className="daihan-caption">
-            <h1>Who tf is Faihan</h1>
-            <p className="daihan-desc">Oh hi, that’s me. My name is pronounced like Diane, but at cafes I’ve been called Dana, Danny, and sometimes Diana, I like them all.<br/>
+            <h1>Who I am</h1>
             <br/>
-            Aside from being a designer (I assum you got that by now), I’m an occational cat-sitter, writter, and entrepreneur. In the past, I’ve been a production assistant, camp counsoler, and guity of over-filtering my instagram photos. In the future, I hope to work on an avocado farm.<br/>
+            <p className="daihan-desc">Aside from being a designer (I hope you got that by now), I’m an occational cat-sitter, writer, and entrepreneur. In the past, I’ve been a book shelver, played curling, and guity of over-filtering my instagram photos. In the future, I hope to grow my own avocados. <br/>
             <br/>
-            For the time being, I’m loving the freedom of being a freelancer with comfort of the creative unknown.
+            For the time being, I make a lot of mistakes and I’m overly curious about everything around me.<br/>
           </p>
           </div>
           <div className="clear-float"></div>
           {blocks}
         </div>
         <img src={require('./images/antwerp.png')} alt="Me in Antwerp" className="about-footer"></img>
-      </div>
+      </div>     
+
     );
   }
 }

@@ -1,3 +1,11 @@
+.about {
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #666666;
+}
+
+
 .shape-container {
   position: relative;
   margin: 0 auto;
@@ -50,6 +58,9 @@
   }
   .daihan-caption {
     height: 475px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
     overflow: auto;
   }
 }
