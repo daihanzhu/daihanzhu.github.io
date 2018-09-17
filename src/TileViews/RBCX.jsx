@@ -64,7 +64,7 @@ class RBCX extends Component {
           <img src={require('../images/rbcx/venture-inside.png')} alt='Venture Inside' className="rbcx-img rbcx-img2 d-shadow"></img>
           <div className="side-caption">
             <h2 className="venture-caption">Brand identity</h2>
-            <p>Designing a logo goes beyond the pixels that appear on an artboard. The first step is to gather a holistic view of the representation of the brand to the point that every detail has been considered. 
+            <p>Designing a logo goes beyond the pixels that appear on an artboard. The first step is to gather a holistic view of the representation of the brand to the point that every detail has been considered.
             <br/><br/>
            The team and I went through countless sketches, feedbacks, and whiteboarding sessions to what it eventually become. A logo that is flexible, recognizable, and representative of our slick yet candid personality.
             <br/><br/>
@@ -93,7 +93,7 @@ class RBCX extends Component {
           <div className="poster-desc">
             <div className="poster-desc-inner">
               <h2>Isometric Illustration</h2>
-              <p>I designed and illustrated this poster to promote RBCx. I was inspired by an ad I saw in the subway station in this isometric style and became hooked. At first, I intended to just play around in illustrator and maybe make it into a Snapchat geofilter or something, but 6 hours later, this happened. 
+              <p>I designed and illustrated this poster to promote RBCx. I was inspired by an ad I saw in the subway station in this isometric style and became hooked. At first, I intended to just play around in illustrator and maybe make it into a Snapchat geofilter or something, but 6 hours later, this happened.
               <br/><br/>
               I call this the idea factory. You can follow the “ideas” out of office building on the left and see it magically turn into bananas, which then goes to power the lights. Of course, the bananas get recycled back into the system because no idea is a rotten idea.
               <br/><br/>
@@ -131,7 +131,7 @@ class RBCX extends Component {
           <img src={require('../images/rbcx/rocket-banner.png')} alt="Hand with cards" className="rocket-img"></img>
           <div className="par-block rbcx-text-box">
             <h2>Innovation doesn’t have to be complicated</h2>
-            <p>Midway through the summer, I wanted to give community engagement a try. So I band together with a group of interns and brainstormed ways we can get everyone excited about intrapreneurship. We knew it had to be interactive, fun, and accessible, so a pop-up shop quickly came to mind. 
+            <p>Midway through the summer, I wanted to give community engagement a try. So I band together with a group of interns and brainstormed ways we can get everyone excited about intrapreneurship. We knew it had to be interactive, fun, and accessible, so a pop-up shop quickly came to mind.
             <br/><br/>
             In the past, we’ve used “pipe cleaner prototyping” as an activity to get people thinking on their feet and use their hands to make something tangible, so along with that, we came up with a series of challenges that draws attention to teamwork, problem-solving, and getting you outside of your comfort zone. Some of these challenges include the classic egg drop, spaghetti tower, and building a Rube Goldberg Machine. Oh and VR games, because VR is cool. I wrote more about it
             <a href="https://medium.com/@daihan/a-beginners-guide-to-innovation-b78be55ceda9" target="_blank"> here</a>.

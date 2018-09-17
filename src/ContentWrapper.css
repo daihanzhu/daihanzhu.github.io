@@ -85,7 +85,6 @@
 
 /* IMAGES */
 
-/* TODO: Fix bug causing side text to not align */
 .captioned-pic {
   width: 482px;
   margin-right: 60px;
@@ -111,6 +110,12 @@
 @media all and (min-width: 1000px) {
   .content-desc, .par-block, .side-caption {
     margin: 0 calc(50% - 321px);
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .content-desc, .par-block, .side-caption {
+    margin: 0 calc(50% - 371px);
   }
 }
 

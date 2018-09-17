@@ -10,9 +10,6 @@
   .empty-state p, .empty-state h2 {
     padding: 0 50px;
   }
-  .content-desc, .par-block, .side-caption {
-    margin: 0 calc(50% - 371px);
-  }
 }
 
 /* HEADERS */
@@ -27,13 +24,16 @@
   margin-top: 48px;
 }
 
+.inspiration-caption {
+  margin-top: 0;
+}
+
 /* IMAGES */
 
 .empty-state-img {
   float: left;
 }
 
-/* TODO: Move paragraph text into a min-width box and float(?) right */
 .es-img1 {
   width: 531px;
   margin-bottom: 150px;

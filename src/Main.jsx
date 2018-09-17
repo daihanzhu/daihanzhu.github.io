@@ -56,6 +56,11 @@ class Main extends Component {
       'unhidden': this.state.showMenu
     });
 
+    const backBtn = this.state.view === Views.Tiles ?
+      null : (<button onClick={this._switchToWork} className='back-btn'>
+        <div className='back-arrow' label="BACK"></div>
+      </button>);
+
     return (
       <div className="App" ref={(app) => this.app = app}>
         <div className='App-header'>
@@ -69,10 +74,10 @@ class Main extends Component {
             </button>
             <div className={pagesBoxClassName}>
               <button onClick={this._switchToWork}>work</button>
-              <button onClick={this._switchToStories}>stories</button>
               <button onClick={this._switchToAbout}>about</button>
             </div>
           </div>
+          { backBtn }
         </div>
         <Content view={this.state.view} switchView={this.switchToTileView}/>
         <Footer/>

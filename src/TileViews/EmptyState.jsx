@@ -40,7 +40,7 @@ class EmptyState extends Component {
           </div>
           <img src={require('../images/emptyState/shapes.png')} alt='Shapes and Colours' className="empty-state-img es-img2"></img>
           <div className="side-caption">
-            <h2>Gathering inspiration</h2>
+            <h2 className="inspiration-caption">Gathering inspiration</h2>
             <p>Since there aren't many previous illustrations to go off of, I looked elsewhere. I gathered as many inspirations from other similar products in order to find a good starting point. While there are established illustraton standards from Marketing, product illustrations don’t nessasarily speak the same language. Marketing illustration are often used to highlight the features, while product, illustration usually find refuge sparingly and assit the user to convey meaningful information.</p>
             <h2>Shapes and colour</h2>
             <p>With that being said, I began experiementing with shapes and colour combinations. Working off of a dark gradient background, I stayed away from using contrasting colors and played with gradient and opacity instead. Even though the current background creates a form of constrain, I ensured the flexibility of the colors can be reused against other backgrounds.</p>

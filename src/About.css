@@ -52,16 +52,21 @@
   }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1050px) {
   .shape-container {
     float: left;
   }
   .daihan-caption {
     height: 475px;
+    overflow: auto;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .daihan-caption {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 30px;
-    overflow: auto;
   }
 }
 
