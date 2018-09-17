@@ -1,0 +1,98 @@
+.tile {
+  position: relative;
+
+  height: 500px;
+  width: 350px;
+  background-color: #FFFFFF;
+
+  border-radius: 18px;
+  box-shadow: 0 24px 50px 0 rgba(0,0,0,0.05),0 18px 30px 0 rgba(0,0,0,0.02);
+
+  transition: transform 0.3s ease-out;
+}
+
+@media all and (max-width: 350px) {
+  .tile {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.tile:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: #333333;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.tile-bgd {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.tile-bottom {
+  position: absolute;
+  bottom: 0;
+
+  background-color: white;
+
+  height:200px;
+  width: 100%;
+}
+
+.tile-text-box {
+  position: absolute;
+  top: 46px;
+  left: 46px;
+  margin-right: 46px;
+  text-align: left;
+}
+
+.tile-header-text {
+  font-family: 'Roboto', sans-serif;
+  color: #EA1C44;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tile-title {
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 12px;
+  font-size: 24px;
+}
+
+.tile-desc {
+  color: #7F7F7F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 6px;
+
+}

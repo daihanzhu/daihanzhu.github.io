@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Where I'm from",
+    "description": "I grew up in the Alberta Prairies, but I have also lived in three other parts of the world. Can you guess where they are by the flower that symbolizes them? (they are tulips for Amsterdam, trillium for Toronto, and Cherry Blossoms for Nanjing.)",
+    "image": "flower.png"
+  },
+  {
+    "title": "Where I've been",
+    "description": "I’ve eaten across 60+ cities spanning over 5 continents. My deep appreciation for the world stems from the international community I grew up in, where there's always an excuse to celebrate cultures through food.",
+    "image": "food.png"
+  },
+  {
+    "title": "Things I love",
+    "description": "The Rockies, leather-bound journals, chocolate-dipped ice cream, my cats, scrapbooking paper, and stores that sell paper, to name a few.",
+    "image": "cat.png"
+  },
+  {
+    "title": "Stuff I care about",
+    "description": "Introducing illustrations where it never existed before"
+  },
+  {
+    "title": "People I like",
+    "description": "From doodles to the AGO"
+  },
+  {
+    "title": "Things other people said about me",
+    "description": "Basically just a shit ton of icons"
+  }
+]

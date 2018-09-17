@@ -1,0 +1,43 @@
+[
+  {
+    "header": "IDENTITY + PRINT",
+    "title": "Venture inside RBC",
+    "description": "Designing the ultimate innovation experience at Canada's largest bank",
+    "image": "rbcx.gif",
+    "view": "RbcX"
+  },
+  {
+    "header": "UX + RESEARCH",
+    "title": "Westjet Connect",
+    "description": "Improving the inflight entertainment experience",
+    "image": "westjet.png",
+    "overlaytext": "This case study is over on Medium, check it out!"
+  },
+  {
+    "header": "VISUAL DESIGN",
+    "title": "Edit mode",
+    "description": "Responsive redesign of the wiki editing experience",
+    "image": "toolbar.png",
+    "overlaytext": "🚧🏗️👷‍♀️ Well, this is awkward. This page is still under construction. Try another one."
+  },
+  {
+    "header": "VISUAL DESIGN",
+    "title": "Empty States",
+    "description": "Introducing illustrations where it never existed before",
+    "image": "empty.png",
+    "view": "EmptyState"
+  },
+  {
+    "header": "ICONOGRAPHY",
+    "title": "Just a few icons",
+    "description": "I've made over the years, not all of them are that great",
+    "image": "icon.png",
+    "overlaytext": "I'm working hard day and night to get this up, soon, I promise!"
+  },
+  {
+    "header": "ILLUSTRATION",
+    "title": "Bananas!? Bananas.",
+    "description": "From doodles to the AGO",
+    "image": "illu1.png"
+  }
+]
