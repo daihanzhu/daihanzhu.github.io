@@ -88,11 +88,7 @@ class EmptyState extends Component {
             <p>The project isn’t over yet! Since recieving the positive feebacks from mobile, I was asked to create more to go into the desktop app. Some very small adjestments were made to fully optimize it for the different color backgrounds. Here’s what they look like.  </p>
           </div>
         </div>
-        <img src={require('../images/emptyState/coffee.png')} alt='Empty States' className="es-img3"></img>
-        <div className="es-shape-container">
-          <div className="es-shape-thingy"></div>
-          <img src={require('../images/emptyState/nodes-list.png')} alt='Nodes List' className="es-img4"></img>
-        </div>
+        <img src={require('../images/emptyState/mock-up.png')} alt='Nodes List' className="es-img4"></img>
       </div>
     );
   }
