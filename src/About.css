@@ -1,5 +1,5 @@
 .about {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.8em;
   color: #666666;
@@ -35,7 +35,7 @@
     position: absolute;
     top: 95px;
     height: 375px;
-    width: 334px;
+    width: 304px;
     background-color: #FDEDEE;
   }
 

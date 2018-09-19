@@ -77,7 +77,7 @@ class Grid extends Component {
             Designer + illustrator
           </h1>
           <h2 className="intro-text">
-            and a bunch of other things. 
+            👋 hi, my name is pronounced like Diane, and you look great today.
           </h2>
         </div>
         <div className='grid-wrapper'>
