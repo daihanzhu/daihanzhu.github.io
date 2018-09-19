@@ -5,7 +5,6 @@
   color: #666666;
 }
 
-
 .shape-container {
   position: relative;
   margin: 0 auto;
@@ -68,6 +67,23 @@
     padding-right: 80px;
     padding-top: 30px;
   }
+}
+
+/* LISTS */
+
+.list-column {
+  width: 33.333333%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.list-column ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-section-header {
+  margin-top: 100px;
 }
 
 .about-footer {
