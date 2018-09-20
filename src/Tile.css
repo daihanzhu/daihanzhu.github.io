@@ -42,8 +42,10 @@
 }
 
 .overlay-text {
+  font-family: open sans;
   color: #333333;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 160%;
   position: absolute;
   top: 50%;
   left: 50%;

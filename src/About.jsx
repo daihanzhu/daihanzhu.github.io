@@ -39,7 +39,7 @@ class About extends Component {
           <div className="daihan-caption">
             <h1>Who I am</h1>
             <br/>
-            <p className="daihan-desc">Aside from being a designer (I hope you got that by now), I’m an occational cat-sitter, writer, and entrepreneur. In the past, I’ve been a book shelver, curler, and guity of over-filtering my Instagram photos. In the future, I would like to grow my own avocados. <br/>
+            <p className="daihan-desc">Aside from being a designer (I hope you got that by now), I’m an occasional cat-sitter, writer, and entrepreneur. In the past, I’ve been a book shelver, curler, and guilty of over-filtering my Instagram photos. In the future, I would like to grow my own avocados.<br/>
             <br/>
             For the time being, I make a lot of mistakes and I’m overly curious about everything around me.<br/>
           </p>

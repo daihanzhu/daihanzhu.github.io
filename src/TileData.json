@@ -1,7 +1,7 @@
 [
   {
-    "header": "IDENTITY + PRINT",
-    "title": "Venture inside RBC",
+    "header": "BRANDING + PRINT",
+    "title": "Venture Inside RBC",
     "description": "Designing the ultimate innovation experience at Canada's largest bank",
     "image": "rbcx.gif",
     "view": "RbcX"
@@ -9,9 +9,9 @@
   {
     "header": "UX + RESEARCH",
     "title": "Westjet Connect",
-    "description": "Improving the inflight entertainment experience",
+    "description": "Enhancing the inflight entertainment experience",
     "image": "westjet.png",
-    "overlaytext": "This case study is over on Medium, check it out!"
+    "overlaytext": "✏️This case study is published on Medium. If you click here maybe it will take you there."
   },
   {
     "header": "VISUAL DESIGN",
@@ -23,7 +23,7 @@
   {
     "header": "VISUAL DESIGN",
     "title": "Empty States",
-    "description": "Introducing illustrations where it never existed before",
+    "description": "Introducing product illustrations where it never existed before",
     "image": "empty.png",
     "view": "EmptyState"
   },
