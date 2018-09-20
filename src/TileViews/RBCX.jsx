@@ -117,7 +117,7 @@ class RBCX extends Component {
           <br/><br/>
           This is probably one of my first end-to-end print design project I’ve ever done, and boy did I mess up big time. At first, I had the slightest idea what bleed lines and crop marks are so the test print did not come out the way I intend it to. After that was fixed and 50 prints later, we discovered like a billion mistakes that weren’t caught in the test run. Thankfully, I work with some of the most understanding folks in the world and turned this thing around. Lessons were learned and absolutely no one was injured.
           <br/><br/>
-          Take a <a target="_blank" href="http://www.websiteaddress.com/documents/filename.pdf">look</a>.</p>
+          Take a <a target="_blank" href={require('../images/rbcx/Design-thinking-workbook.pdf')}>look</a>.</p>
         </div>
         <div className="content-wrapper mid-content-wrapper">
           <img src={require('../images/rbcx/our-brand.png')} alt="Our Brand" className="our-brand"></img>
