@@ -88,7 +88,7 @@ class About extends Component {
                <h3>DEVELOPERS</h3>
                <ol>
                  <li><a href="https://walinga.github.io/" target="_blank">Matthew Walinga</a></li>
-                 <li><a href="https://github.com/Vaibhav" target="_blank">Vaibhav Khaitan</a></li>
+                 <li><a href="https://github.com/Jseto97" target="_blank">Justin Seto</a></li>
                  <li><a href="https://github.com/harman666666" target="_blank">Harman Singh</a></li>
                </ol>
              </div>
