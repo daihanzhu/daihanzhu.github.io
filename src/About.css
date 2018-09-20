@@ -5,6 +5,13 @@
   color: #666666;
 }
 
+@media all and (min-width: 1073px) {
+  .about-text-block {
+    width: 693px;
+    margin: 0 auto;
+  }
+}
+
 .shape-container {
   position: relative;
   margin: 0 auto;
@@ -73,8 +80,13 @@
 
 .list-column {
   width: 33.333333%;
-  float: left;
   box-sizing: border-box;
+}
+
+@media all and (min-width: 500px) {
+  .list-column {
+    float: left;
+  }
 }
 
 .list-column ol {

@@ -13,9 +13,19 @@
   .about-img {
     width: 693px;
   }
+
+  .block-wrapper {
+    width: 693px;
+    margin: 0 auto;
+  }
 }
 
 @media all and (min-width: 1330px) {
+  .block-wrapper {
+    width: auto;
+    margin: 0;
+  }
+
   .about-img {
     background-color: #D6C8D1;
   }
