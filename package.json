@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : ".",
+  "homepage" : "https://daihanzhu.github.io",
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.4.1",
