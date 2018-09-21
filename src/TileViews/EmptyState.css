@@ -20,8 +20,12 @@
 
 /* TEXT */
 
-.original-state-caption {
+.original-state-caption h2 {
   margin-top: 48px;
+}
+
+.original-state-caption p {
+  padding-bottom: 60px;
 }
 
 .inspiration-caption {

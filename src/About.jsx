@@ -88,7 +88,7 @@ class About extends Component {
                <h3>DEVELOPERS</h3>
                <ol>
                  <li><a href="https://walinga.github.io/" target="_blank">Matthew Walinga</a></li>
-                 <li><a href="https://github.com/Vaibhav" target="_blank">Vaibhav Khaitan</a></li>
+                 <li><a href="https://github.com/Jseto97" target="_blank">Justin Seto</a></li>
                  <li><a href="https://github.com/harman666666" target="_blank">Harman Singh</a></li>
                </ol>
              </div>
@@ -103,20 +103,20 @@ class About extends Component {
              <div className="clear-float"></div>
            <h1 className="about-section-header">Things other people said about me</h1>
            <p>
-           "Daihan was able to pick up the style of our UI and icons extremely quickly; faster than almost anyone I’ve ever worked with, student or professional." 
+           "Daihan was able to pick up the style of our UI and icons extremely quickly; faster than almost anyone I’ve ever worked with, student or professional."
            <br/>
            - Richard Smallbone, Art Director at OpenText
             <br/><br/>
              "She knocks over every water bottle within her reach"
-           <br/> 
-           - Alysse Glick, Product Manager at RBC         
+           <br/>
+           - Alysse Glick, Product Manager at RBC
            <br/><br/>
            "Daihan is a great mentor and an even better friend. She is very patient with me and I learned so much from her"
-           <br/> 
+           <br/>
            - Anonymous feedback from a student
-           
+
            <br/><br/>
-           "Who’s Daihan?" 
+           "Who’s Daihan?"
            <br/>
            - Her cats</p>
            </div>
