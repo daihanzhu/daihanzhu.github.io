@@ -107,11 +107,11 @@ class About extends Component {
            <br/>
            - Richard Smallbone, Art Director at OpenText
             <br/><br/>
-             "She knocks over every water bottle within her reach"
+             "She knocks over every water bottle within her reach."
            <br/>
            - Alysse Glick, Product Manager at RBC
            <br/><br/>
-           "Daihan is a great mentor and an even better friend. She is very patient with me and I learned so much from her"
+           "Daihan is a great mentor and an even better friend. She is very patient with me and I learned so much from her."
            <br/>
            - Anonymous feedback from a student
 

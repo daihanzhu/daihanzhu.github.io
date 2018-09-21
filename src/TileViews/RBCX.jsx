@@ -107,7 +107,7 @@ class RBCX extends Component {
           <div className="pink-box"></div>
           <div className="center-box playbook-box">
             <h2>RBCx Experience Playbook</h2>
-            <p>Alongside Alysse Glick, project lead, we created this playbook to equipt founders, consultants, and advisors with the information they need from the very first day to the final pitch. Because this is one of the first thing founders receive at the start of the program, a good impression is key. We wanted them to pick it up and say “wow, this is the coolest shit I’m about to do”.</p>
+            <p>Alongside Alysse Glick, project lead, we created this playbook to equip founders, consultants, and advisors with the information they need from the very first day to the final pitch. Because this is one of the first thing founders receive at the start of the program, a good impression is key. We wanted them to pick it up and say “wow, this is the coolest shit I’m about to do”.</p>
           </div>
         </div>
         {designThinkingImages}
@@ -115,7 +115,7 @@ class RBCX extends Component {
           <h2>Design Thinking Workbook</h2>
           <p>Design Thinking is a process developed by IDEO to solve problems. At RBC, we want to empower employees to try new ways of thinking and make them fun. So I designed and illustrated this 20-page workbook as a product for employees to dive deeper into Design Thinking. Whether they are new or already familiar with the Design Thinking Process, this is a great tool to help them bring ideas to life.
           <br/><br/>
-          This is probably one of my first end-to-end print design project I’ve ever done, and boy did I mess up big time. At first, I had the slightest idea what bleed lines and crop marks are so the test print did not come out the way I intend it to. After that was fixed and 50 prints later, we discovered like a billion mistakes that weren’t caught in the test run. Thankfully, I work with some of the most understanding folks in the world and turned this thing around. Lessons were learned and absolutely no one was injured.
+          This is probably one of my first end-to-end print design project I’ve ever done, and boy did I mess up big time. At first, I had the slightest idea what bleed lines and crop marks are so the test print did not come out the way I intended it to. After that was fixed and 50 prints later, we discovered like a billion mistakes that weren’t caught in the test run. Thankfully, I work with some of the most understanding folks in the world and turned this thing around. Lessons were learned and absolutely no one was injured.
           <br/><br/>
           Take a <a target="_blank" href={require('../images/rbcx/Design-thinking-workbook.pdf')}>look</a>.</p>
         </div>
@@ -131,7 +131,7 @@ class RBCX extends Component {
           <img src={require('../images/rbcx/rocket-banner.png')} alt="Hand with cards" className="rocket-img"></img>
           <div className="par-block rbcx-text-box">
             <h2>Innovation doesn’t have to be complicated</h2>
-            <p>Midway through the summer, I wanted to give community engagement a try. So I band together with a group of interns and brainstormed ways we can get everyone excited about intrapreneurship. We knew it had to be interactive, fun, and accessible, so a pop-up shop quickly came to mind.
+            <p>Midway through the summer, I wanted to give community engagement a try. So I banded together with a group of interns and brainstormed ways we can get everyone excited about intrapreneurship. We knew it had to be interactive, fun, and accessible, so a pop-up shop quickly came to mind.
             <br/><br/>
             In the past, we’ve used “pipe cleaner prototyping” as an activity to get people thinking on their feet and use their hands to make something tangible, so along with that, we came up with a series of challenges that draws attention to teamwork, problem-solving, and getting you outside of your comfort zone. Some of these challenges include the classic egg drop, spaghetti tower, and building a Rube Goldberg Machine. Oh and VR games, because VR is cool. I wrote more about it
             <a href="https://medium.com/@daihan/a-beginners-guide-to-innovation-b78be55ceda9" target="_blank"> here</a>.
