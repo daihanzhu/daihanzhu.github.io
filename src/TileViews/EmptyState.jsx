@@ -11,24 +11,24 @@ class EmptyState extends Component {
           <div className="content-title">
             <h1>Empty State Illustrations</h1>
           </div>
-          <p className="content-desc">OpenText Content Server is a cloud-based enterprise storage software trusted by millions of users. While it is primarily a desktop tool, a mobile app was developed to make content management more easily accessible and user-friendly. As opposed to most other apps, the goal here is not user retention, the fewer roadblocks to getting work done, the better. Also, who says enterprise software can’t have personalities? Therefore, I was asked by the OpenText team to re-imagine the empty states of the mobile app in order to delight, inform, and provide a positive user experience.
+          <p className="content-desc">OpenText Content Server is a cloud-based enterprise storage software trusted by millions of users. While it is primarily a desktop tool, a mobile app was developed to make content management more easily accessible and user-friendly. As opposed to most other apps, the goal here is not user retention; the fewer roadblocks to getting work done, the better. Also, who says enterprise software can’t have personalities? Therefore, I was asked by the OpenText team to re-imagine the empty states of the mobile app in order to delight, inform, and provide a positive user experience.
           <br/><br/>
-          This project roughy spanned over three weeks to complete. With guidance and support from the OpenText Visual Design Team.</p>
+          This project was completed over three weeks, with guidance and support from the OpenText Visual Design Team.</p>
           <img src={require('../images/emptyState/original.png')} alt='Original State' className="empty-state-img es-img1"></img>
           <div className="side-caption original-state-caption">
             <h2>Why is it important</h2>
-            <p>The current empty states show the same icon users click when navigating from. They are often overlooked in the design process due to the small amount of time they actually get seen by users, but nevertheless, when they do appear, it is usually at a critical stage of user interaction, whether they are new and just starting to exploring the app, or in a moment of frustration because something has gone wrong.
+            <p>The current empty states show the same icon users click when navigating from. They are often overlooked in the design process due to the small amount of time they actually get seen by users, but nevertheless, when they do appear, it is usually at a critical stage of user interaction, whether they are new and just starting to explore the app, or in a moment of frustration because something has gone wrong.
             <br/><br/>
-            A well designed empty state can provide great impressions to your user, it shows attention to detail and contributes to the overall experience of the product, especially when the user least expect it. Just because it’s an enterprise software, there’s no excuse to not provide a top-notch user experience, at the end of the day, there’s definitely a human in the cubicle.
+            A well-designed empty state can provide great impressions to your user. It shows attention to detail and contributes to the overall experience of the product, especially when the user least expects it. Just because it’s an enterprise software, there’s no excuse to not provide a top-notch user experience, at the end of the day, there’s definitely a human in the cubicle.
             <br/><br/>
-            On top of all that, the current empty states got some great copywriting, so why not have some great illustrations to go with it?
+            On top of all that, the current empty states have some great copywriting, so why not have some great illustrations to go with it?
             </p>
           </div>
           <div className="par-block">
             <h2>The goal</h2>
-            <p className="goal-text">Design the current empty states with illustrations that reflect the scenario users might encounter while interacting with the app. While I was given the freedom and creativity to explore, I wanted to set a few goals in order to measure success later on.
+            <p className="goal-text">Design the current empty states with illustrations that reflect the scenarios users might encounter while interacting with the app. While I was given the freedom and creativity to explore, I wanted to set a few goals in order to measure success later on:
               <br/><br/>
-              •  Make the in-app experience more friendly, personable and turn a moment of lost or frustration into something funny and relatable
+              •  Make the in-app experience more friendly, personable and turn a moment of loss or frustration into something funny and relatable
               <br/><br/>
               •  Guide new users to discover a feature and act as an extension to the user onboarding
               <br/><br/>
@@ -45,9 +45,9 @@ class EmptyState extends Component {
           <img src={require('../images/emptyState/shapes.png')} alt='Shapes and Colours' className="empty-state-img es-img2"></img>
           <div className="side-caption">
             <h2 className="inspiration-caption">Discovery</h2>
-            <p>I started off by going through the internet, articles, and the product itself to gather as much relevant information as I could find to serve as inspiration. Thankfully, there are tons of stuff out there that provided a good foundation.
+            <p>I started off by going through the internet, articles, and the product itself to gather as much relevant information as I could find to serve as inspiration. Thankfully, there is a ton of stuff out there that provided a good foundation.
             <br/><br/>
-            While there are established illustration standards from Marketing, product illustrations don’t necessarily speak the same language. Marketing illustration is often used to highlight the features, while product, illustration usually find refuge sparingly and assist the user to convey meaningful information. </p>
+            While there are established illustration standards from Marketing, product illustrations don’t necessarily speak the same language. Marketing illustration is often used to highlight the features, while product illustrations usually find refuge sparingly and assist the user to convey meaningful information. </p>
             <h2>Experimentation</h2>
             <p>With that being said, I began experimenting with elements such as shapes and color combinations. Working off of a dark gradient background, I stayed away from using contrasting colors and played with gradient and opacity instead. Even though the current background creates a form of constraint, There needs to be the flexibility of the colors to be reused against other backgrounds.</p>
           </div>
@@ -56,7 +56,7 @@ class EmptyState extends Component {
             <h2>Sketches</h2>
             <p>Next, I grabbed my pen and paper and sketched out as many scenes as I could. Sketching has always been my favorite part of the design process. I went through pages of rough drawings without worrying too much about what it looks like. My goal here is to take each scenario and come up with as many ways as I can using illustrations to convey the meaning effectively.
             <br/><br/>
-            Once I got some initial feedback with the drawings, I went into illustrator and roughly sketched out the outlines to get an idea of how they would look against the background gradient. One of my initial thoughts is to create illustrations of people interacting with elements that are larger than life, like in a surrealistic tech world. But the problem is that small details will not be effective in conveying the story aspect, as well, it will take a bigger cognitive load for the users. The simpler the better. So with that, the little guy on the left is what came from it. I decided to illustrate it in detail on my own time in my personal style because I liked the concept so much.
+            Once I got some initial feedback with the drawings, I went into illustrator and roughly sketched out the outlines to get an idea of how they would look against the background gradient. One of my initial thoughts is to create illustrations of people interacting with elements that are larger than life, like in a surrealistic tech world. But the problem is that small details will not be effective in conveying the story aspect, as well, it will take a bigger cognitive load for the users. The simpler the better. So with that, the little guy below on the right is what came from it. I decided to illustrate it in detail on my own time in my personal style because I liked the concept so much.
             </p>
           </div>
         </div>

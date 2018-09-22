@@ -89,7 +89,7 @@ class About extends Component {
                <ol>
                  <li><a href="https://walinga.github.io/" target="_blank">Matthew Walinga</a></li>
                  <li><a href="https://github.com/Jseto97" target="_blank">Justin Seto</a></li>
-                 <li><a href="https://github.com/harman666666" target="_blank">Harman Singh</a></li>
+                 <li><a href="https://www.linkedin.com/in/emily-hunt/" target="_blank">Emily Hunt</a></li>
                </ol>
              </div>
              <div className="list-column">

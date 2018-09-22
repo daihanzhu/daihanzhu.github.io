@@ -25,7 +25,7 @@
 }
 
 .original-state-caption p {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .inspiration-caption {
@@ -51,7 +51,6 @@
 @media all and (min-width: 581px) {
   .es-img1 {
     width: 531px;
-    margin-bottom: 40px;
   }
 }
 
