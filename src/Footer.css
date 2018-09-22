@@ -1,5 +1,6 @@
 .footer {
   height: 633px;
+  margin-top: calc(100vh - 620px);
   padding-top: 100px;
   box-sizing: border-box;
 }
