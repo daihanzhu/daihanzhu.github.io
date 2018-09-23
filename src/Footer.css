@@ -1,6 +1,5 @@
 .footer {
   height: 633px;
-  margin-top: calc(100vh - 620px);
   padding-top: 100px;
   box-sizing: border-box;
 }
@@ -36,7 +35,17 @@
   width: 100%;
 }
 
+@media all and (min-height: 620px) {
+  .footer {
+    margin-top: calc(100vh - 620px);
+  }
+}
+
 @media all and (min-width: 535px) {
+  .footer {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
   .footer-text {
     width: 400px;
     margin: 0 auto;
@@ -46,6 +55,7 @@
     display: block;
     margin: auto;
     margin-bottom: 20px;
+    width: 500px;
   }
 }
 
