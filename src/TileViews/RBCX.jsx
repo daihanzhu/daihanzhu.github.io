@@ -105,19 +105,23 @@ class RBCX extends Component {
           <img src={require('../images/rbcx/rbc-dots.png')} alt='' className="rbc-dots"></img>
           <img src={require('../images/rbcx/founder.png')} alt='Founder experience book' className="founder-img"></img>
           <div className="pink-box"></div>
-          <div className="center-box playbook-box">
+        </div>
+        <div className="content-wrapper mid-content-wrapper">
+          <div className="par-block rbcx-text-box playbook-box">
             <h2>RBCx Experience Playbook</h2>
             <p>Alongside Alysse Glick, project lead, we created this playbook to equip founders, consultants, and advisors with the information they need from the very first day to the final pitch. Because this is one of the first thing founders receive at the start of the program, a good impression is key. We wanted them to pick it up and say “wow, this is the coolest shit I’m about to do”.</p>
           </div>
         </div>
         {designThinkingImages}
-        <div className="center-box">
-          <h2>Design Thinking Workbook</h2>
-          <p>Design Thinking is a process developed by IDEO to solve problems. At RBC, we want to empower employees to try new ways of thinking and make them fun. So I designed and illustrated this 20-page workbook as a product for employees to dive deeper into Design Thinking. Whether they are new or already familiar with the Design Thinking Process, this is a great tool to help them bring ideas to life.
-          <br/><br/>
-          This is probably one of my first end-to-end print design project I’ve ever done, and boy did I mess up big time. At first, I had the slightest idea what bleed lines and crop marks are so the test print did not come out the way I intended it to. After that was fixed and 50 prints later, we discovered like a billion mistakes that weren’t caught in the test run. Thankfully, I work with some of the most understanding folks in the world and turned this thing around. Lessons were learned and absolutely no one was injured.
-          <br/><br/>
-          Take a <a target="_blank" href={require('../images/rbcx/Design-thinking-workbook.pdf')}>look</a>.</p>
+        <div className="content-wrapper mid-content-wrapper">
+          <div className="par-block rbcx-text-box playbook-box">
+            <h2>Design Thinking Workbook</h2>
+            <p>Design Thinking is a process developed by IDEO to solve problems. At RBC, we want to empower employees to try new ways of thinking and make them fun. So I designed and illustrated this 20-page workbook as a product for employees to dive deeper into Design Thinking. Whether they are new or already familiar with the Design Thinking Process, this is a great tool to help them bring ideas to life.
+            <br/><br/>
+            This is probably one of my first end-to-end print design project I’ve ever done, and boy did I mess up big time. At first, I had the slightest idea what bleed lines and crop marks are so the test print did not come out the way I intended it to. After that was fixed and 50 prints later, we discovered like a billion mistakes that weren’t caught in the test run. Thankfully, I work with some of the most understanding folks in the world and turned this thing around. Lessons were learned and absolutely no one was injured.
+            <br/><br/>
+            Take a <a target="_blank" href={require('../images/rbcx/Design-thinking-workbook.pdf')}>look</a>.</p>
+          </div>
         </div>
         <div className="content-wrapper mid-content-wrapper">
           <img src={require('../images/rbcx/our-brand.png')} alt="Our Brand" className="our-brand"></img>
