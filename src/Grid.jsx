@@ -72,13 +72,21 @@ class Grid extends Component {
 
     return (
       <div className="grid-view">
+       <img src={require('./images/landing-background.png')} alt="landing background image" width="100%" classname="landing-img"></img>
         <div className='content-wrapper'>
+        <a href="mailto:daihanzhu@gmail.com?subject=Let's work together!">daihanzhu@gmail.com</a>
           <h1 className='intro-title'>
-            Designer + illustrator
+            Hi my name is Daihan,
+            <br/>I’m a designer, illustrator, and future adult.
+            <br/>Let’s not take things too seriously. 
           </h1>
-          <h2 className="intro-text">
-            👋 Hi, my name is pronounced like Diane and you look great today!
-          </h2>
+          <h3>
+            About +
+            <br/>
+            <br/>
+            Blog +
+          </h3>
+          
         </div>
         <div className='grid-wrapper'>
           <div
