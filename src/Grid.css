@@ -5,12 +5,6 @@
   box-shadow: 0 -5px 50px 0 rgba(0,0,0,0.05),0 -2px 15px 0 rgba(0,0,0,0.05);
 }
 
-@media all and (min-width: 650px) {
-  .grid-wrapper {
-    margin-top: 60px;
-  }
-}
-
 .grid-wrapper-bottom {
   position: absolute;
   bottom: -25px;
@@ -35,41 +29,92 @@
 
 /* INTRO */
 
-.content-wrapper a {
+.email-link {
   font-family: 'Roboto', sans-serif;
   color: #EA1C44;
   font-size: 16px;
   font-weight: 700;
-  padding-left: 80px;
 }
 
-.content-wrapper h3 {
-  text-align: right;
-  padding-right: 80px;
+.about-link {
+  float: right;
+  margin-right: 20%;
+  font-size: 1em;
+  color: #094064;
+  font-weight: 700;
+}
+
+@media all and (min-width: 620px) and (max-width: 768px) {
+  .about-link {
+    padding-top: 160px;
+  }
 }
 
 .intro-title {
   line-height: 125%;
   font-weight: 600;
   color: #333333;
-  padding-left: 80px;
+  font-size: 20px;
 }
 
-.landing-img {
-  position: absolute;
-  margin-left: -120;
-  z-index: -1;
+.intro-box {
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+@media all and (min-width: 480px) {
+  .intro-box {
+    padding-top: 150px;
+  }
+}
+
+@media all and (min-width: 620px) {
+  .intro-title {
+    font-size: 28px;
+  }
+  .intro-box {
+    padding-left: 0;
+  }
 }
 
 /* TODO: Kinda hacky. Find a better way to achieve same behavior */
-@media all and (min-width: 849px) {
+/* Edit Oct 28: nvm. am hacker XD */
+@media all and (min-width: 768px) {
   .intro-title {
-    padding-top: 85px;
+    font-size: 2.3vw;
+  }
+  .intro-box {
+    padding-top: 50px;
   }
 }
 
 @media all and (min-width: 1000px) {
-  .intro-title {
+  .intro-box {
     padding-top: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .intro-box {
+    padding-left: 80px;
+  }
+}
+
+.front-page-backdrop {
+  background-image: url('./images/landing-background-mobile.png');
+  background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+  width: 100%;
+  /* Set height of div with JS */
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 768px) {
+  .front-page-backdrop {
+    background-image: url('./images/landing-background.png');
+    background-size: 100%;
+    height: 590px;
   }
 }

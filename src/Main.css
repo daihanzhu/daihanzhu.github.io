@@ -18,7 +18,6 @@ h2 {
 h3 {
   font-size: 1em;
   color: #F9CBCE;
-
 }
 
 a, button {
@@ -41,18 +40,11 @@ a:hover, button:hover, a:focus, button:focus {
 .App {
   text-align: left;
   color: black;
-
-  padding-top: 10px;
-
   position: fixed;
   height: 100vh;
   width: 100%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
-}
-
-.App-header {
-  height: 35px;
 }
 
 /* BACK BTN */
@@ -96,110 +88,4 @@ a:hover, button:hover, a:focus, button:focus {
 
 .back-arrow:hover {
   background-image: url('./images/back-arrow-hover.png');
-}
-
-/* NAVBAR */
-/*TODO: Move navbar to separate component */
-
-.name-box {
-  float: left;
-  position: relative;
-  width: 130px;
-  height: 35px;
-}
-
-.red-rectangle {
-  width: 8px;
-  height: 24px;
-  background-color: red;
-  float: left;
-}
-
-.navbar .my-name {
-  margin-left: 0;
-  height: 26px;
-  width: 120px;
-}
-
-.pages-box {
-  float: right;
-}
-
-.navbar button {
-  margin-left: 45px;
-  top: 0;
-  transition: transform 0.3s ease-in-out;
-}
-
-.navbar button:first-child {
-  margin-left: 0;
-}
-
-.navbar button:hover {
-  position: relative;
-  transform: translateY(-2px);
-}
-
-.hamburger {
-  float: right;
-  display: none;
-}
-
-@media all and (max-width: 500px) {
-  .navbar button {
-    margin-left: 15px;
-  }
-  .pages-box {
-    display: none;
-    text-align: center;
-    clear: both;
-    width: 100%;
-  }
-  .pages-box.unhidden {
-    display: block;
-  }
-  .hamburger {
-    display: block;
-  }
-}
-
-.navbar {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #777;
-
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  box-sizing: border-box;
-  display: block;
-}
-
-@media all and (min-width: 650px) {
-  .navbar {
-    padding-left: calc((100vw - 600px)/2);
-    padding-right: calc((100vw - 600px)/2);
-  }
-}
-
-@media all and (min-width: 980px) {
-  .navbar {
-    padding-left: 190px;
-    padding-right: 190px;
-  }
-}
-
-@media all and (min-width: 1440px) {
-  .navbar {
-    padding-left: calc((100vw - 1060px)/2);
-    padding-right: calc((100vw - 1060px)/2);
-  }
 }

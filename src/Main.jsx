@@ -63,23 +63,8 @@ class Main extends Component {
 
     return (
       <div className="App" ref={(app) => this.app = app}>
-        <div className='App-header'>
-          <div className='navbar'>
-            <div className='name-box'>
-              <div className='red-rectangle'></div>
-              <button onClick={this._switchToWork} className="my-name">D A I H A N</button>
-            </div>
-            <button className="hamburger" onClick={this._toggleMenu}>
-              <img src={require('./images/hamburger.svg')} alt="Menu"></img>
-            </button>
-            <div className={pagesBoxClassName}>
-              <button onClick={this._switchToWork}>work</button>
-              <button onClick={this._switchToAbout}>about</button>
-            </div>
-          </div>
-          { backBtn }
-        </div>
-        <Content view={this.state.view} switchView={this.switchToTileView}/>
+        { backBtn }
+        <Content view={this.state.view} switchView={this._switchToAbout}/>
         <Footer/>
       </div>
     );

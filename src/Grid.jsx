@@ -9,6 +9,7 @@ class Grid extends Component {
     super(props)
     this.updateDimensions = this.updateDimensions.bind(this);
     this._fetchImage = this._fetchImage.bind(this);
+    this._switchToAbout = this._switchToAbout.bind(this);
 
     this.state = {
       width: 0
@@ -16,8 +17,7 @@ class Grid extends Component {
   }
 
   updateDimensions() {
-      if (!this.divElement) return;
-      const width = this.divElement.clientWidth;
+      const width = window.innerWidth;
       this.setState({ width });
   }
   componentWillMount() {
@@ -29,6 +29,10 @@ class Grid extends Component {
   }
   componentWillUnmount() {
       window.removeEventListener("resize", this.updateDimensions);
+  }
+
+  _switchToAbout() {
+    this.props.switchView();
   }
 
   _fetchImage( name ) {
@@ -66,33 +70,42 @@ class Grid extends Component {
     const numColumns = Math.min(tileFit, numTiles);
     const numColumns2 = Math.min(numColumns, 3);
 
-    const gridStyle ={
+    const gridStyle = {
       gridTemplateColumns: "350px ".repeat(numColumns2)
+    };
+
+    const clientWidth = this.state.width;
+
+    const backdropStyle = {
+      height: clientWidth > 768 ? clientWidth * 0.39 : clientWidth * 0.9
     };
 
     return (
       <div className="grid-view">
-       <img src={require('./images/landing-background.png')} alt="landing background image" width="100%" classname="landing-img"></img>
-        <div className='content-wrapper'>
-        <a href="mailto:daihanzhu@gmail.com?subject=Let's work together!">daihanzhu@gmail.com</a>
-          <h1 className='intro-title'>
-            Hi my name is Daihan,
-            <br/>I’m a designer, illustrator, and future adult.
-            <br/>Let’s not take things too seriously. 
-          </h1>
-          <h3>
-            About +
-            <br/>
-            <br/>
-            Blog +
-          </h3>
-          
+        <div
+          className='front-page-backdrop'
+          style ={backdropStyle}
+        >
+          <div className="content-wrapper">
+            <div className="intro-box">
+              <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
+                daihanzhu@gmail.com
+              </a>
+              <h1 className='intro-title'>
+                Hi my name is Daihan,
+                <br/>I’m a designer, illustrator, and future adult.
+                <br/>Let’s not take things too seriously.
+              </h1>
+            </div>
+            <button onClick={this._switchToAbout} className="about-link">
+              About +
+            </button>
+          </div>
         </div>
         <div className='grid-wrapper'>
           <div
             className="grid-container"
             style={gridStyle}
-            ref={ (divElement) => this.divElement = divElement}
           >
             {tiles}
           </div>
