@@ -77,7 +77,7 @@ class Grid extends Component {
     const clientWidth = this.state.width;
 
     const backdropStyle = {
-      height: clientWidth > 768 ? clientWidth * 0.39 : clientWidth * 0.9
+      height: clientWidth > 768 ? clientWidth * 0.38 : clientWidth * 0.8
     };
 
     return (
