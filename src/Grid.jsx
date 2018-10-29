@@ -92,13 +92,13 @@ class Grid extends Component {
                 daihanzhu@gmail.com
               </a>
               <h1 className='intro-title'>
-                Hi my name is Daihan,
+                Hi, my name is Daihan.
                 <br/>I’m a designer, illustrator, and future adult.
                 <br/>Let’s not take things too seriously.
               </h1>
             </div>
             <button onClick={this._switchToAbout} className="about-link">
-              About +
+              My story +
             </button>
           </div>
         </div>
