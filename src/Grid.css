@@ -58,8 +58,14 @@
 }
 
 .intro-box {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-left: 20px;
+}
+
+@media all and (min-width: 370px) {
+  .intro-box {
+    padding-top: 80px;
+  }
 }
 
 @media all and (min-width: 480px) {
