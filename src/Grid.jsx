@@ -102,6 +102,7 @@ class Grid extends Component {
             </button>
           </div>
         </div>
+        <div className="grid-pink-box"></div>
         <div className='grid-wrapper'>
           <div
             className="grid-container"

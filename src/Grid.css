@@ -3,6 +3,7 @@
   border-radius: 18px;
   padding-bottom: 30px;
   box-shadow: 0 -5px 50px 0 rgba(0,0,0,0.05),0 -2px 15px 0 rgba(0,0,0,0.05);
+  background-color: white;
 }
 
 .grid-wrapper-bottom {
@@ -54,7 +55,13 @@
   line-height: 145%;
   font-weight: 600;
   color: #333333;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+@media all and (min-width: 350px) {
+  .intro-title {
+    font-size: 20px;
+  }
 }
 
 .intro-box {
@@ -62,7 +69,7 @@
   padding-left: 20px;
 }
 
-@media all and (min-width: 370px) {
+@media all and (min-width: 390px) {
   .intro-box {
     padding-top: 80px;
   }
@@ -123,4 +130,12 @@
     background-size: 100%;
     height: 590px;
   }
+}
+
+.grid-pink-box {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  z-index: -1;
+  background-color: #feedef;
 }
