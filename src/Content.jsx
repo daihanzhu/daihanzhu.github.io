@@ -9,11 +9,11 @@ import Views from './Views.js';
 
 class Content extends Component {
   render() {
-    const { view, switchView } = this.props;
+    const { view, switchView, switchToAbout } = this.props;
 
     if ( view === Views.Tiles ) {
       return (
-        <Grid switchView={switchView}/>
+        <Grid switchView={switchView} switchToAbout={switchToAbout}/>
       );
 
     } else if ( view === Views.About ) {

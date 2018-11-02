@@ -10,7 +10,7 @@ class Main extends Component {
   constructor(props) {
     super(props);
 
-    this._switchToAbout = this._switchToAbout.bind(this);
+    this.switchToAbout = this.switchToAbout.bind(this);
     this._switchToWork = this._switchToWork.bind(this);
     this._switchToStories = this._switchToStories.bind(this);
     this.switchToTileView = this.switchToTileView.bind(this);
@@ -26,7 +26,7 @@ class Main extends Component {
     this.app.scrollTo(0, 0);
   }
 
-  _switchToAbout() {
+  switchToAbout() {
     this._scrollToTop();
     this.setState({ view: Views.About });
   }
@@ -64,7 +64,10 @@ class Main extends Component {
     return (
       <div className="App" ref={(app) => this.app = app}>
         { backBtn }
-        <Content view={this.state.view} switchView={this._switchToAbout}/>
+        <Content
+          view={this.state.view}
+          switchView={this.switchToTileView}
+          switchToAbout={this.switchToAbout}/>
         <Footer/>
       </div>
     );

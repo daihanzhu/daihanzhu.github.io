@@ -32,7 +32,7 @@ class Grid extends Component {
   }
 
   _switchToAbout() {
-    this.props.switchView();
+    this.props.switchToAbout();
   }
 
   _fetchImage( name ) {
