@@ -35,11 +35,13 @@
   color: #EA1C44;
   font-size: 16px;
   font-weight: 700;
+  display: none;
 }
 
 .about-link {
   float: right;
-  margin-right: 20%;
+  margin-top: 260px;
+  margin-right: 25%;
   font-size: 1em;
   color: #094064;
   font-weight: 700;
@@ -52,64 +54,22 @@
 }
 
 .intro-title {
-  line-height: 145%;
-  font-weight: 600;
-  color: #333333;
-  font-size: 16px;
+  /* Mobile view goes here */
 }
 
 @media all and (min-width: 350px) {
   .intro-title {
-    font-size: 20px;
+    /* Medium size view / brown dog */
   }
 }
 
 .intro-box {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-@media all and (min-width: 390px) {
-  .intro-box {
-    padding-top: 80px;
-  }
-}
-
-@media all and (min-width: 480px) {
-  .intro-box {
-    padding-top: 150px;
-  }
+  display: inline;
 }
 
 @media all and (min-width: 620px) {
   .intro-title {
-    font-size: 28px;
-  }
-  .intro-box {
-    padding-left: 0;
-  }
-}
-
-/* TODO: Kinda hacky. Find a better way to achieve same behavior */
-/* Edit Oct 28: nvm. am hacker XD */
-@media all and (min-width: 768px) {
-  .intro-title {
-    font-size: 2.3vw;
-  }
-  .intro-box {
-    padding-top: 50px;
-  }
-}
-
-@media all and (min-width: 1000px) {
-  .intro-box {
-    padding-top: 0;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .intro-box {
-    padding-left: 80px;
+    height: 300px;
   }
 }
 
@@ -127,7 +87,9 @@
 @media all and (min-width: 768px) {
   .front-page-backdrop {
     background-image: url('./images/landing-background.png');
-    background-size: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
     height: 590px;
   }
 }

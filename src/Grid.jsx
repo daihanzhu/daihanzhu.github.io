@@ -91,11 +91,8 @@ class Grid extends Component {
               <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
                 daihanzhu@gmail.com
               </a>
-              <h1 className='intro-title'>
-                Hi, my name is Daihan.
-                <br/>I’m a designer, illustrator, and future adult.
-                <br/>Let’s not take things too seriously.
-              </h1>
+              <img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
+              </img>
             </div>
             <button onClick={this._switchToAbout} className="about-link">
               My story +
