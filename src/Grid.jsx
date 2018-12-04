@@ -87,13 +87,11 @@ class Grid extends Component {
           style ={backdropStyle}
         >
           <div className="content-wrapper">
-            <div className="intro-box">
-              <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
-                daihanzhu@gmail.com
-              </a>
-              <img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
-              </img>
-            </div>
+            <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
+              daihanzhu@gmail.com
+            </a>
+            <img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
+            </img>
             <button onClick={this._switchToAbout} className="about-link">
               My story +
             </button>

@@ -39,17 +39,17 @@
 }
 
 .about-link {
-  float: right;
-  margin-top: 260px;
-  margin-right: 25%;
+  position: absolute;
+  top: 69%;
+  right: 20%;
   font-size: 1em;
   color: #094064;
   font-weight: 700;
 }
 
-@media all and (min-width: 620px) and (max-width: 768px) {
+@media all and (min-width: 768px) {
   .about-link {
-    padding-top: 160px;
+    right: 30%;
   }
 }
 
@@ -63,24 +63,36 @@
   }
 }
 
-.intro-box {
-  display: inline;
+@media all and (min-width: 0) {
+  .intro-title {
+    width: 56.5%;
+    margin-top: 110px;
+  }
 }
 
-@media all and (min-width: 620px) {
+@media all and (min-width: 1000px) {
   .intro-title {
-    height: 300px;
+    margin-top: 0;
+  }
+}
+
+@media all and (min-width: 1180px) {
+  .intro-title {
+    width: 452px;
   }
 }
 
 .front-page-backdrop {
+  position: relative;
   background-image: url('./images/landing-background-mobile.png');
-  background-size: 100%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top right;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.8em;
   width: 100%;
-  /* Set height of div with JS */
   box-sizing: border-box;
 }
 
@@ -88,8 +100,6 @@
   .front-page-backdrop {
     background-image: url('./images/landing-background.png');
     background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: right;
     height: 590px;
   }
 }
