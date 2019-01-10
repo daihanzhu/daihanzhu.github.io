@@ -77,7 +77,7 @@ class Grid extends Component {
     const clientWidth = this.state.width;
 
     const backdropStyle = {
-      height: clientWidth > 768 ? clientWidth * 0.38 : clientWidth * 0.8
+      height: clientWidth >= 768 ? clientWidth * 0.38 : clientWidth * 0.8
     };
 
     return (
@@ -97,7 +97,6 @@ class Grid extends Component {
             </button>
           </div>
         </div>
-        <div className="grid-pink-box"></div>
         <div className='grid-wrapper'>
           <div
             className="grid-container"

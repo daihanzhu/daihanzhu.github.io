@@ -66,13 +66,6 @@
 @media all and (min-width: 0) {
   .intro-title {
     width: 56.5%;
-    margin-top: 110px;
-  }
-}
-
-@media all and (min-width: 1000px) {
-  .intro-title {
-    margin-top: 0;
   }
 }
 
@@ -102,12 +95,4 @@
     background-size: 50%;
     height: 590px;
   }
-}
-
-.grid-pink-box {
-  position: absolute;
-  height: 50px;
-  width: 100px;
-  z-index: -1;
-  background-color: #feedef;
 }
