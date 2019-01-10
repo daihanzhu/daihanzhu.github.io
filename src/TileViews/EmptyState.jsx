@@ -11,7 +11,9 @@ class EmptyState extends Component {
           <div className="content-title">
             <h1>Empty State Illustrations</h1>
           </div>
-          <p className="content-desc">OpenText Content Server is a cloud-based enterprise storage software trusted by millions of users. While it is primarily a desktop tool, a mobile app was developed to make content management more easily accessible and user-friendly. As opposed to most other apps, the goal here is not user retention; the fewer roadblocks to getting work done, the better. Also, who says enterprise software can’t have personalities? Therefore, I was asked by the OpenText team to re-imagine the empty states of the mobile app in order to delight, inform, and provide a positive user experience.
+          <p className="content-desc">Client: <b>OpenText</b> | Role: <b>UX Visual Designer</b> | Tools: <b>Figma, Illustrator</b> | Timeframe: <b>3 weeks</b>
+          <br/><br/>
+          OpenText Content Server is a cloud-based enterprise storage software trusted by millions of users. While it is primarily a desktop tool, a mobile app was developed to make content management more easily accessible and user-friendly. As opposed to most other apps, the goal here is not user retention; the fewer roadblocks to getting work done, the better. Also, who says enterprise software can’t have personalities? Therefore, I was asked by the OpenText team to re-imagine the empty states of the mobile app in order to delight, inform, and provide a positive user experience.
           <br/><br/>
           This project was completed over three weeks, with guidance and support from the OpenText Visual Design Team.</p>
           <img src={require('../images/emptyState/original.png')} alt='Original State' className="empty-state-img es-img1"></img>

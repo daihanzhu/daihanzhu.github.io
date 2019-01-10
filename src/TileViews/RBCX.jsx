@@ -58,7 +58,9 @@ class RBCX extends Component {
           <div className="content-title">
             <h1>RBCx - Powered by Venture Inside RBC</h1>
           </div>
-          <p className="content-desc rbcx-desc">In summer 2017, I joined the Intrapreneurship team (Venture Inside) as their first ever designer at the RBC Royal Bank of Canada. Our mission was to challenge and enable RBC employees around the globe to solve important problems through Design Thinking, innovate and take ownership as if they were entrepreneurs, but with the resource of a multinational company.
+          <p className="content-desc rbcx-desc">Client: <b>RBC</b> | Role: <b>Brand Designer</b> | Tools: <b>Illustrator, InDesign</b> | Timeframe: <b>3 months</b>
+          <br/><br/>
+          In summer 2017, I joined the Intrapreneurship team (Venture Inside) as their first ever designer at the RBC Royal Bank of Canada. Our mission was to challenge and enable RBC employees around the globe to solve important problems through Design Thinking, innovate and take ownership as if they were entrepreneurs, but with the resource of a multinational company.
             <br/><br/>
             RBCx is a startup accelerator program powered by Venture Inside that puts employees through an intensive 10-week process to solve big, disruptive problems. From my very first day, I was thrown right into the action and worked with the venture teams to develop their ideas into a prototype. From there, I worked closely with the managing team to re-design the branding for both Venture Inside and RBCx, as well as multiple resources on topics such as Design Thinking and problem pitching.</p>
           <img src={require('../images/rbcx/venture-inside.png')} alt='Venture Inside' className="rbcx-img rbcx-img2 d-shadow"></img>
