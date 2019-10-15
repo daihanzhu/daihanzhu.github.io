@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import classNames from 'classnames';
 import Content from './Content.jsx';
 import Footer from './Footer.jsx'
 import './Main.css';
@@ -14,7 +13,6 @@ class Main extends Component {
     this._switchToWork = this._switchToWork.bind(this);
     this._switchToStories = this._switchToStories.bind(this);
     this.switchToTileView = this.switchToTileView.bind(this);
-    this._toggleMenu = this._toggleMenu.bind(this);
     this._scrollToTop = this._scrollToTop.bind(this);
 
     this.state = {
@@ -46,16 +44,7 @@ class Main extends Component {
     this.setState({ view: tileView })
   }
 
-  _toggleMenu() {
-    this.setState({ showMenu: !this.state.showMenu });
-  }
-
   render() {
-    let pagesBoxClassName = classNames ({
-      'pages-box': true,
-      'unhidden': this.state.showMenu
-    });
-
     const backBtn = this.state.view === Views.Tiles ?
       null : (<button onClick={this._switchToWork} className='back-btn'>
         <div className='back-arrow' label="BACK"></div>

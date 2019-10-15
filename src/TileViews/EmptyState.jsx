@@ -18,7 +18,7 @@ class EmptyState extends Component {
           This project was completed over three weeks, with guidance and support from the OpenText Visual Design Team.</p>
           <img src={require('../images/emptyState/original.png')} alt='Original State' className="empty-state-img es-img1"></img>
           <div className="side-caption original-state-caption">
-            <h2>Why is it important</h2>
+            <h2>Before</h2>
             <p>The current empty states show the same icon users click when navigating from. They are often overlooked in the design process due to the small amount of time they actually get seen by users, but nevertheless, when they do appear, it is usually at a critical stage of user interaction, whether they are new and just starting to explore the app, or in a moment of frustration because something has gone wrong.
             <br/><br/>
             A well-designed empty state can provide great impressions to your user. It shows attention to detail and contributes to the overall experience of the product, especially when the user least expects it. Just because it’s an enterprise software, there’s no excuse to not provide a top-notch user experience, at the end of the day, there’s definitely a human in the cubicle.
