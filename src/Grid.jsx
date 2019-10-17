@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import withSizes from 'react-sizes'
+
 import Tile from './Tile.jsx'
 import './Grid.css';
 
@@ -7,28 +9,8 @@ import tileData from './TileData.json';
 class Grid extends Component {
   constructor(props) {
     super(props)
-    this.updateDimensions = this.updateDimensions.bind(this);
     this._fetchImage = this._fetchImage.bind(this);
     this._switchToAbout = this._switchToAbout.bind(this);
-
-    this.state = {
-      width: 0
-    }
-  }
-
-  updateDimensions() {
-      const width = window.innerWidth;
-      this.setState({ width });
-  }
-  componentWillMount() {
-      this.updateDimensions();
-  }
-  componentDidMount() {
-      window.addEventListener("resize", this.updateDimensions);
-      this.updateDimensions()
-  }
-  componentWillUnmount() {
-      window.removeEventListener("resize", this.updateDimensions);
   }
 
   _switchToAbout() {
@@ -39,8 +21,6 @@ class Grid extends Component {
     return require( `./images/${name}` );
   }
 
-  // TODO: Make this less hacky so we don't need to re-render on every resize
-  //  --> Media Queries?
   render() {
     let numTiles = 0;
     let tiles = tileData.map((item) =>
@@ -58,26 +38,19 @@ class Grid extends Component {
     );
 
     /* Hard-coded sh*t to hide some tiles for now */
-    tiles.splice(2,1);
-    tiles.splice(3,2);
-    const b = tiles[2];
-    tiles[2] = tiles[1];
-    tiles[1] = b;
-    numTiles = 3;
-    /* TODO: Get rid of all of this */
+    tiles = tiles.slice(0,3);
+    numTiles = tiles.length;
 
-    const tileFit = (this.state.width - 50) / (350 + 50);
-    const numColumns = Math.min(tileFit, numTiles);
+    const numColumns = Math.min(this.props.tileFit, numTiles);
+    /* Extra check to ensure only 3 columns are ever shown */
     const numColumns2 = Math.min(numColumns, 3);
 
     const gridStyle = {
       gridTemplateColumns: "350px ".repeat(numColumns2)
     };
 
-    const clientWidth = this.state.width;
-
     const backdropStyle = {
-      height: clientWidth >= 768 ? clientWidth * 0.38 : clientWidth * 0.8
+      height: this.props.height
     };
 
     return (
@@ -111,4 +84,9 @@ class Grid extends Component {
   }
 }
 
-export default Grid;
+const mapSizesToProps = ({ width }) => ({
+  height: width >= 768 ? '38vw' : '80vw',
+  tileFit: (width - 50) / (350 + 50)
+})
+
+export default withSizes(mapSizesToProps)(Grid);
