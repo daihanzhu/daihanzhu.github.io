@@ -3,7 +3,8 @@ const Views = {
   About: 'about',
   Stories: 'stories',
   EmptyState: 'emptystate',
-  RbcX: 'rbcx'
+  RbcX: 'rbcx',
+  Kudos: 'kudos'
 };
 
 export default Views

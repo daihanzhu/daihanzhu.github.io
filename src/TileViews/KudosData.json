@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Things I've worked on",
+    "description": "Improved the Kudos user interface, talked to localization 'experts', designed a new dashboard.",
+    "image": "kudos-clip.jpg"
+  },
+  {
+    "title": "Who I worked with",
+    "description": "Amit, Muni, Alan, Lyisse, and more!",
+    "image": "coworkers.png"
+  },
+  {
+    "title": "Things I learned",
+    "description": "Software developers are pretty dumb.",
+    "image": "cat.png"
+  }
+]

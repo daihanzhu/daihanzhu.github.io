@@ -3,6 +3,7 @@ import Grid from './Grid.jsx';
 import About from './About.jsx'
 import EmptyState from './TileViews/EmptyState.jsx'
 import RBCX from './TileViews/RBCX.jsx'
+import Kudos from './TileViews/Kudos.jsx'
 import './Content.css';
 
 import Views from './Views.js';
@@ -34,6 +35,10 @@ class Content extends Component {
     } else if ( view === Views.RbcX ) {
       return (
         <RBCX/>
+      )
+    } else if (view === Views.Kudos) {
+      return (
+        <Kudos/>
       )
     }
   }

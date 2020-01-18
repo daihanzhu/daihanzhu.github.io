@@ -2,9 +2,23 @@
   {
     "header": "BRANDING + PRINT",
     "title": "Venture Inside RBC",
-    "description": "Designing the ultimate innovation experience at Canada's largest bank",
+    "description": "Designing the ultimate innovation experience",
     "image": "rbcx.gif",
     "view": "RbcX"
+  },
+  {
+    "header": "VISUAL DESIGN",
+    "title": "Empty States",
+    "description": "Introducing product illustrations where they never existed before",
+    "image": "empty.png",
+    "view": "EmptyState"
+  },
+  {
+    "header": "KUDOS",
+    "title": "Giving thanks",
+    "description": "Increasing workplace happiness through the power of recognition",
+    "image": "kudos.png",
+    "view": "Kudos"
   },
   {
     "header": "UX + RESEARCH",
@@ -19,13 +33,6 @@
     "description": "Responsive redesign of the wiki editing experience",
     "image": "toolbar.png",
     "overlaytext": "🚧🏗️👷‍♀️ Well, this is awkward. This page is still under construction. Try another one."
-  },
-  {
-    "header": "VISUAL DESIGN",
-    "title": "Empty States",
-    "description": "Introducing product illustrations where they never existed before",
-    "image": "empty.png",
-    "view": "EmptyState"
   },
   {
     "header": "ICONOGRAPHY",

@@ -1,0 +1,62 @@
+.star-container {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 1.25em;
+}
+
+.kudos-caption {
+  word-wrap: break-word;
+}
+
+.kudos-star {
+  height: 287px;
+  width: 300px;
+  margin: 0 auto;
+  background-image: url('../images/star.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 1px solid #c3c3c3;
+}
+
+@media all and (min-width: 470px) {
+  .star-container {
+    height: 475px;
+    width: 420px;
+  }
+
+  .back-square {
+    position: absolute;
+    top: 65px;
+    height: 300px;
+    width: 300px;
+    background-color: #fdedfb;
+  }
+
+  .kudos-star {
+    position: absolute;
+    left: 50px;
+    transition: transform 0.3s ease-out;
+  }
+
+  .kudos-star:hover {
+    transform: translateY(-5px);
+  }
+}
+
+@media all and (min-width: 1050px) {
+  .star-container {
+    float: left;
+  }
+  .kudos-caption {
+    height: 475px;
+    overflow: auto;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .kudos-caption {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+  }
+}
