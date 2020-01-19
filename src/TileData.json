@@ -1,7 +1,7 @@
 [
   {
-    "header": "BRANDING + PRINT",
-    "title": "Venture Inside RBC",
+    "header": "BRAND EXPERIENCE",
+    "title": "RBCx",
     "description": "Designing the ultimate innovation experience",
     "image": "rbcx.gif",
     "view": "RbcX"
@@ -9,16 +9,16 @@
   {
     "header": "VISUAL DESIGN",
     "title": "Empty States",
-    "description": "Introducing product illustrations where they never existed before",
+    "description": "Bringing software to life one illustration at a time",
     "image": "empty.png",
     "view": "EmptyState"
   },
   {
-    "header": "KUDOS",
+    "header": "UX/UI",
     "title": "Giving thanks",
     "description": "Increasing workplace happiness through the power of recognition",
     "image": "kudos.png",
-    "view": "Kudos"
+    "overlaytext": "🔒"
   },
   {
     "header": "UX + RESEARCH",
