@@ -16,7 +16,7 @@ class Footer extends Component {
                 <a href="https://medium.com/@daihan" target="_blank"> Medium</a> /
                 <a href="mailto:daihanzhu@gmail.com" target="_blank"> daihanzhu@gmail.com </a></p>
             <hr className="line"></hr>
-            <p className="goodbye-text">Built by <a href="https://walinga.github.io" target="_blank">Walinga</a> & Daihan with 🍕in 2018</p>
+            <p className="goodbye-text">Made by <a href="https://walinga.github.io" target="_blank">Walinga</a> & Daihan with 🥑in 2020</p>
           </div>
           <div className="footer-image-wrapper">
             <img src={require("./images/cat-with-plant.png")} alt="Cat with plant" className="footer-image"></img>
