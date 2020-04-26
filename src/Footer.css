@@ -36,13 +36,10 @@
 }
 
 .footer-image {
-  width: 100%;
-}
-
-@media all and (min-height: 620px) {
-  .footer {
-    margin-top: calc(100vh - 620px);
-  }
+  width: 163px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 @media all and (min-width: 535px) {
@@ -55,12 +52,6 @@
     margin: 0 auto;
     padding-left: 100px;
   }
-  .footer-image {
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    width: 500px;
-  }
 }
 
 @media all and (min-width: 1000px) {
@@ -68,21 +59,18 @@
     padding-top: 200px;
   }
   .footer-content {
-    width: 900px;
+    margin: 0 auto;
+    margin-top:20px;
+    width: 600px;
   }
   .footer-text {
     padding: 0;
-    float: left;
+    float: right;
   }
   .footer-image-wrapper {
-    float: right;
+    float: left;
     position: relative;
-    width: 500px;
+    width: 200px;
     height: 300px;
-  }
-  .footer-image {
-    position: absolute;
-    top: -100px;
-    left: 0;
   }
 }

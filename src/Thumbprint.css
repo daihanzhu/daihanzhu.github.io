@@ -1,0 +1,25 @@
+.thumbprint_wrapper {
+  padding-top: 37px;
+  width: 136px;
+  height: 68px;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+}
+
+.thumbprint_bgd {
+  width: 68px;
+  height: 68px;
+  margin-left: 34px;
+}
+
+.thumbprint_heading {
+  font-family: Inter;
+  line-height: normal;
+  color: #094064;
+  position: absolute;
+  left: -32px;
+  bottom: 24px;
+  width: 200px;
+  text-align: center;
+}
