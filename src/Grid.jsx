@@ -45,6 +45,10 @@ class Grid extends Component {
     /* Extra check to ensure only 3 columns are ever shown */
     const numColumns2 = Math.min(numColumns, 3);
 
+    if (numColumns < 2) {
+      tiles = tiles.reverse();
+    }
+
     const gridStyle = {
       gridTemplateColumns: "350px ".repeat(numColumns2)
     };
