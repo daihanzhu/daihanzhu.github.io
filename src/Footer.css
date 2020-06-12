@@ -28,7 +28,12 @@
 }
 
 .footer-text a {
-  color: #999999;
+  color: #473DD6;
+  font-weight: bold;
+}
+
+.footer-header {
+  font-family: inherit;
 }
 
 .goodbye-text {

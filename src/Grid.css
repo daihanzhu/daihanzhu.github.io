@@ -91,7 +91,6 @@
 
 @media all and (min-width: 768px) {
   .front-page-backdrop {
-    height: 590px;
-    margin-bottom:100px;
+    height: 38vw;
   }
 }

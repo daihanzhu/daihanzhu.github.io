@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Thumbprint from './Thumbprint.jsx'
 import './Footer.css';
 
 /* eslint react/jsx-no-target-blank: 0 */
@@ -7,12 +6,12 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <Thumbprint heading={"More stuff"} />
         <div className="footer-content">
           <div className="footer-image-wrapper">
             <img src={require("./images/stars.png")} alt="Stars" className="footer-image"></img>
           </div>
           <div className="footer-text">
+            <h1 className="footer-header">More stuff</h1>
             <p><a href="https://www.linkedin.com/in/daihan/" target="_blank">LinkedIn</a> /
                 <a href="https://github.com/daihanzhu" target="_blank"> Github</a> /
                 <a href="https://dribbble.com/daihan" target="_blank"> Dribbble</a> /

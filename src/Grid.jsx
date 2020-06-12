@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import withSizes from 'react-sizes'
 
 import Tile from './Tile.jsx'
-import Thumbprint from './Thumbprint.jsx'
 import './Grid.css';
 
 import tileData from './TileData.json';
@@ -60,20 +59,18 @@ class Grid extends Component {
           className='front-page-backdrop'
           style ={backdropStyle}
         >
-          <Thumbprint heading={"Product design portfolio"} />
           <div className="content-wrapper">
             <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
               daihanzhu@gmail.com
             </a>
-            <img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
-            </img>
+            {/*<img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
+            </img>*/}
             {/*<button onClick={this._switchToAbout} className="about-link">
               My story +
             </button>*/}
           </div>
         </div>
         <div className='grid-wrapper'>
-          <Thumbprint heading={"Some stuff I designed"} />
           <div
             className="grid-container"
             style={gridStyle}
@@ -88,7 +85,6 @@ class Grid extends Component {
 }
 
 const mapSizesToProps = ({ width }) => ({
-  height: width >= 768 ? '38vw' : '50vh',
   tileFit: (width - 50) / (350 + 50)
 })
 
