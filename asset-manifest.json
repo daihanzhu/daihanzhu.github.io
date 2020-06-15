@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.408f1b5a.css",
-  "main.css.map": "static/css/main.408f1b5a.css.map",
-  "main.js": "static/js/main.fd46bdfc.js",
-  "main.js.map": "static/js/main.fd46bdfc.js.map",
+  "main.css": "static/css/main.7a16998a.css",
+  "main.css.map": "static/css/main.7a16998a.css.map",
+  "main.js": "static/js/main.167f885a.js",
+  "main.js.map": "static/js/main.167f885a.js.map",
   "static/media/12-phones.png": "static/media/12-phones.ce6c8b6f.png",
   "static/media/Design-thinking-workbook.pdf": "static/media/Design-thinking-workbook.ffb4363e.pdf",
   "static/media/antwerp.png": "static/media/antwerp.b40485df.png",
@@ -33,7 +33,7 @@
   "static/media/kudos-clip.jpg": "static/media/kudos-clip.ab8753c4.jpg",
   "static/media/kudos.png": "static/media/kudos.c8b4a132.png",
   "static/media/landing-background-mobile.png": "static/media/landing-background-mobile.e1e06859.png",
-  "static/media/landing-background.png": "static/media/landing-background.eccd7b1e.png",
+  "static/media/landing-background.png": "static/media/landing-background.1c7185cc.png",
   "static/media/landing-foreground.png": "static/media/landing-foreground.8b34fdaa.png",
   "static/media/mid-header.png": "static/media/mid-header.ad7c5837.png",
   "static/media/mock-up.png": "static/media/mock-up.6a9c27cf.png",
@@ -52,5 +52,6 @@
   "static/media/toolbar.png": "static/media/toolbar.dd9ff046.png",
   "static/media/venture-inside.png": "static/media/venture-inside.84a8ed69.png",
   "static/media/westjet.png": "static/media/westjet.9e32748b.png",
+  "static/media/writing-bg.png": "static/media/writing-bg.3dc28318.png",
   "static/media/yellow.png": "static/media/yellow.eaa2b3c8.png"
 }
