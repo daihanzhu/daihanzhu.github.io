@@ -89,23 +89,3 @@ a:hover, button:hover, a:focus, button:focus {
 .back-arrow:hover {
   background-image: url('./images/back-arrow-hover.png');
 }
-
-.pre-footer {
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #473DD6;
-  text-align: center;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  padding: 75px;
-}
-
-.pre-footer h1,a {
-  color: inherit;
-  text-align: inherit;
-  font-family: inherit;
-}
-
-.pre-footer a:hover, .pre-footer a:active, .pre-footer a:focus {
-  color:inherit;
-}
