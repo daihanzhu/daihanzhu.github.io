@@ -43,9 +43,13 @@
 
 .footer-image {
   width: 163px;
-  display: block;
+  display: none;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.footer-image-wrapper {
+  opacity: 0;
 }
 
 @media all and (min-width: 535px) {
@@ -57,6 +61,9 @@
     width: 400px;
     margin: 0 auto;
     padding-left: 100px;
+  }
+  .footer-image {
+    display: block;
   }
 }
 
@@ -76,6 +83,7 @@
   .footer-image-wrapper {
     float: left;
     position: relative;
+    opacity: 1;
     width: 200px;
     height: 300px;
   }
