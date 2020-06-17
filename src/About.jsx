@@ -70,6 +70,7 @@ class About extends Component {
               </ol>
             </div>
           </div>
+          <div className="clear-float"></div>
         </div>
       </div>
 
