@@ -2,34 +2,26 @@ import React, { Component } from 'react';
 import AboutBlock from '../AboutBlock.jsx'
 import './Kudos.css';
 
-import kudosData from './KudosData.json';
-
 class Kudos extends Component {
   _fetchImage( name ) {
-    return require( `../images/${name}` );
+    return require( `../images/kudos/${name}` );
   }
 
   render() {
     let rightAligned = false;
 
-    const blocks = kudosData.map((item) =>
-        <AboutBlock
-          key={item.title}
-          title={item.title}
-          desc={item.description}
-          image={item.image ? this._fetchImage(item.image) : null}
-          altText={item.image}
-          rightAligned={ rightAligned = !rightAligned }
-        />
-    );
-
     return (
-      <div className="about">
-        <div className="content-wrapper">
-          <div className="star-container">
-            <div className="back-square"></div>
-            <div className="kudos-star"></div>
+      <div className="kudos">
+        <div className="kudos-header content-header">
+          <div className="kudos-inlay">
+            <img src={this._fetchImage('screenshot1.png')} alt='Kudos UI' className="kudos-inlay-img"></img>
+            <div className="kudos-title">
+              <h3>UI/UX</h3>
+              <h1>Giving Thanks</h1>
+            </div>
           </div>
+        </div>
+        <div className="kudos-wrapper content-wrapper">
           <div className="kudos-caption">
             <h1>What is Kudos?</h1>
             <br/>
@@ -39,53 +31,6 @@ class Kudos extends Component {
           </p>
           </div>
           <div className="clear-float"></div>
-          {blocks}
-          <div className="about-text-block">
-            <h1>Stuff I care about</h1>
-            <p>The word community means the world to me, and bringing people together is at the core of what I do. Currently, I'm building a more inclusive entrepreneurial community at the heart of innovation - the University of Waterloo.</p>
-
-            <h3>MY COMMUNITIES</h3>
-            <div className="list-column">
-              <ol>
-                <li><a href="https://uwaterloo.ca/housing/werc"
-                  rel="noopener noreferrer"
-                  target="_blank">WERC</a></li>
-                <li><a href="https://designx.community/"
-                  rel="noopener noreferrer"
-                  target="_blank">DesignX</a></li>
-                <li><a href="http://www.feds.ca/"
-                  rel="noopener noreferrer"
-                  target="_blank">Feds</a></li>
-              </ol>
-            </div>
-            <div className="list-column">
-              <ol>
-                <li><a href="http://velocity.uwaterloo.ca"
-                  rel="noopener noreferrer"
-                  target="_blank">Velocity</a></li>
-                <li><a href="https://uwaterloo.ca/arts-student-union/"
-                  rel="noopener noreferrer"
-                  target="_blank">Arts Student Union</a></li>
-                <li><a href="https://www.edmonton.ca/programs_services/for_children_kids_youth/youth-programs.aspx"
-                  rel="noopener noreferrer"
-                  target="_blank">Leaders in Training</a></li>
-              </ol>
-            </div>
-            <div className="list-column">
-              <ol>
-                <li><a href="https://www.edmonton.ca/programs_services/for_children_kids_youth/leaders-in-training-photo-gallery.aspx"
-                  rel="noopener noreferrer"
-                  target="_blank">City of Edmonton</a></li>
-                <li><a href="https://www.epl.ca/browse_program/makerspace/"
-                  rel="noopener noreferrer"
-                  target="_blank">EPL Makerspace</a></li>
-                <li><a href="https://www.residence.ualberta.ca/current-residents/residence-associations"
-                  rel="noopener noreferrer"
-                  target="_blank">Michener Park</a></li>
-               </ol>
-             </div>
-             <div className="clear-float"></div>
-          </div>
         </div>
       </div>
 

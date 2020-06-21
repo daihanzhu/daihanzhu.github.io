@@ -1,52 +1,46 @@
-.star-container {
+/* HEADERS */
+
+.kudos-header {
+  background-color: #6886F2;
   position: relative;
-  margin: 0 auto;
-  margin-bottom: 1.25em;
+  min-height: 40vh;
+}
+
+/* ETC */
+
+.kudos-inlay {
+  position: absolute;
+  top: 50%;
+  margin-left: 25px;
+}
+
+@media all and (min-width: 650px) {
+  .kudos-inlay {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+.kudos-inlay-img {
+  float: left;
+  width: 50%;
+}
+
+.kudos-title h3, .kudos-title h1 {
+  color: white;
+}
+
+@media all and (min-width: 1000px) {
+  .kudos-title {
+    float: right;
+  }
 }
 
 .kudos-caption {
   word-wrap: break-word;
 }
 
-.kudos-star {
-  height: 287px;
-  width: 300px;
-  margin: 0 auto;
-  background-image: url('../images/star.png');
-  background-size: 300px;
-  background-repeat: no-repeat;
-  border: 1px solid #c3c3c3;
-}
-
-@media all and (min-width: 470px) {
-  .star-container {
-    height: 475px;
-    width: 420px;
-  }
-
-  .back-square {
-    position: absolute;
-    top: 65px;
-    height: 300px;
-    width: 300px;
-    background-color: #fdedfb;
-  }
-
-  .kudos-star {
-    position: absolute;
-    left: 50px;
-    transition: transform 0.3s ease-out;
-  }
-
-  .kudos-star:hover {
-    transform: translateY(-5px);
-  }
-}
-
 @media all and (min-width: 1050px) {
-  .star-container {
-    float: left;
-  }
   .kudos-caption {
     height: 475px;
     overflow: auto;
