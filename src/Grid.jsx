@@ -70,7 +70,7 @@ class Grid extends Component {
             {/*<img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
             </img>*/}
             <button onClick={this._switchToAbout} className="about-link">
-              My story +
+              My story →
             </button>
           </div>
         </div>
