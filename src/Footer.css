@@ -32,7 +32,6 @@
 }
 
 .footer-header {
-  font-family: inherit;
   margin-top: 0;
 }
 
@@ -101,7 +100,12 @@
   padding-top: 50px;
 }
 
-.pre-footer h1, p a {
+.pre-footer h1 {
+  color: white;
+  text-align: center;
+}
+
+.pre-footer p a {
   color: white;
   text-align: center;
   font-family: inherit;

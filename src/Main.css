@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&family=Yeseva+One&display=swap');
 
 /* BASELINE */
 
 h1 {
   text-align: left;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-family: 'Yeseva One', cursive;
+  font-weight: 100;
   font-size: 2.0em;
-  color: #333333;
+  color: #41434f;
 }
 
 h2 {
