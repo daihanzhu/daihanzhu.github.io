@@ -40,16 +40,18 @@
 
 .about-link {
   position: absolute;
-  top: 69%;
+  top: 80%;
   right: 20%;
-  font-size: 2em;
+  font-size: 1em;
   color: #094064;
   font-weight: 700;
 }
 
 @media all and (min-width: 768px) {
   .about-link {
-    right: 30%;
+    top: 69%;
+    right: 25%;
+    font-size: 2em;
   }
 }
 

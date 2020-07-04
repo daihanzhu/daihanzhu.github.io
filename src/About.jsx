@@ -18,7 +18,7 @@ class About extends Component {
   render() {
     let rightAligned = false;
 
-    const blocks = aboutData.map((item) =>
+    /*const blocks = aboutData.map((item) =>
         <AboutBlock
           key={item.title}
           title={item.title}
@@ -27,7 +27,7 @@ class About extends Component {
           altText={item.image}
           rightAligned={ rightAligned = !rightAligned }
         />
-    );
+    );*/
 
     return (
       <div className="about">
@@ -38,25 +38,24 @@ class About extends Component {
           </div>
           <div className="daihan-caption">
             <h1>Let’s be friends</h1>
-            
+
             <p className="daihan-desc">I’ll start. My name is Daihan, and I design software people like to use.
 <br/><br/>
-In the past, I’ve lived on 3 continents (North America, Europe, Asia), been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self. 
+In the past, I’ve lived on 3 continents (North America, Europe, Asia), been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self.
 <br/><br/>
-In the future, I plan on illustrating a children’s book, grow an avocado tree, and ride horses into the sunset. 
+In the future, I plan on illustrating a children’s book, grow an avocado tree, and ride horses into the sunset.
 <br/><br/>
 For the time being, I make a lot of mistakes and I’m overly curious about everything around me.
-            
+
           </p>
           </div>
           <div className="clear-float"></div>
-          {/*{blocks}*/}
           <div className="about-text-block">
-            <h1 className="about-section-header">You have to meet my cats</h1> 
+            <h1 className="about-section-header">You have to meet my cats</h1>
             <div className="list-column">
               <ol>
                 <img src={require('./images/Cat1.png')} alt="Black cat" className="cat-pic"></img>
-                <h2>Cat #1</h2>
+                <h2>Phat Cat</h2>
                 A sweetheart deep down. Will work for treats. Often found staring into other people’s homes while perched on the fence. Doesn't like you.
               </ol>
             </div>
