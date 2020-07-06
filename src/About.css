@@ -88,13 +88,20 @@
 
 .list-column {
   padding: 10px;
-  width: 33.333333%;
   box-sizing: border-box;
 }
 
+.cat-pic {
+  width: 40%;
+}
+
 @media all and (min-width: 500px) {
+  .cat-pic {
+    width: 75%;
+  }
   .list-column {
     float: left;
+    width: 33.333333%;
   }
 }
 
@@ -107,8 +114,4 @@
 .about-section-header {
   margin-top: 32px;
   text-align: center;
-}
-
-.cat-pic {
-  width: 75%;
 }
