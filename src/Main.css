@@ -12,12 +12,17 @@ h1 {
 
 h2 {
   font-size: 1em;
-  color: #333333;
+  color: #41434f;
 }
 
 h3 {
   font-size: 1em;
   color: #F9CBCE;
+}
+
+p {
+  font-weight: 400;
+  color: #606371;
 }
 
 a, button {

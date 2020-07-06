@@ -51,26 +51,26 @@ For the time being, I make a lot of mistakes and I’m overly curious about ever
           </div>
           <div className="clear-float"></div>
           <div className="about-text-block">
-            <h1 className="about-section-header">You have to meet my cats</h1>
+            <h1 className="about-section-header">Say hello to my cats</h1>
             <div className="list-column">
               <ol>
                 <img src={require('./images/Cat1.png')} alt="Black cat" className="cat-pic"></img>
-                <h2>Phat Cat</h2>
-                A sweetheart deep down. Will work for treats. Often found staring into other people’s homes while perched on the fence. Doesn't like you.
+                <h2>Cat #1</h2>
+                <p>A sweetheart deep down. Will work for treats. Often found staring into other people’s garden while perched on the fence. Doesn't like you.</p>
               </ol>
             </div>
             <div className="list-column">
               <ol>
                 <img src={require('./images/Florien.png')} alt="Gray cat" className="cat-pic"></img>
                 <h2>Florien</h2>
-                A purr machine! Likes to play fetch but will absolutly judge your throw. Oh, and keep an eye on your shoes, he might've puked in them...
+                <p>A purr machine! Likes to play fetch but will absolutly judge your throw. Oh, and keep an eye on your shoes, he might've puked in them...</p>
               </ol>
             </div>
             <div className="list-column">
               <ol>
                 <img src={require('./images/SmallCat.png')} alt="Small Gray cat" className="cat-pic"></img>
                 <h2>Smol Cat</h2>
-                A cat? Who really knows. She is buttery soft and very vocal about her needs. If you can’t find her, look in a cupboard. Escape attempts: 3
+                <p>A cat? Who knows. She is the fluffiest and very vocal about her needs. If you can’t find her, go look in a cupboard. Escape attempts: 3</p>
               </ol>
             </div>
           </div>
