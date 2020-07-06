@@ -16,9 +16,9 @@ class About extends Component {
   }
 
   render() {
-    let rightAligned = false;
+    /*let rightAligned = false;
 
-    /*const blocks = aboutData.map((item) =>
+    const blocks = aboutData.map((item) =>
         <AboutBlock
           key={item.title}
           title={item.title}
