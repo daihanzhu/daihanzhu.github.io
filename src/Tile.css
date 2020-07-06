@@ -78,22 +78,23 @@
 
 .tile-header-text {
   font-family: 'Roboto', sans-serif;
-  color: #EA1C44;
-  font-size: 12px;
-  font-weight: 600;
+  color: #473DD6;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .tile-title {
-  color: #333333;
+  color: #41434f;
   font-family: 'Roboto', sans-serif;
   padding-top: 12px;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .tile-desc {
-  color: #7F7F7F;
+  color: #606371;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
   padding-top: 6px;
   line-height: 150%;

@@ -69,9 +69,9 @@ class Grid extends Component {
             </a>
             {/*<img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
             </img>*/}
-            {/*<button onClick={this._switchToAbout} className="about-link">
-              My story +
-            </button>*/}
+            <button onClick={this._switchToAbout} className="about-link">
+              About me →
+            </button>
           </div>
         </div>
         <div className='grid-wrapper'>
@@ -82,15 +82,6 @@ class Grid extends Component {
             {tiles}
           </div>
           <div className="grid-wrapper-bottom"></div>
-        </div>
-        <div className="pre-footer">
-          <h1>Writing</h1>
-            <p><a href="https://uxdesign.cc/westjet-connect-a-ux-case-study-2c15b1888bf5?gi=6632c972ab8a" target="_blank">🔗 Westjet Connect - A UX Case Study</a>
-                <br/><br/>
-                <a href="https://medium.com/@daihan/flixbus-take-a-ride-through-customer-experience-design-d15d744461f8" target="_blank">🔗 Flixbus — Take a Ride Through Customer Experience Design</a>
-                <br/><br/>
-                <a href="https://medium.com/@daihan" target="_blank">More on <u>medium.com/@daihan</u></a>
-              </p>
         </div>
       </div>
     );

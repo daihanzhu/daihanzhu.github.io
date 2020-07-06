@@ -39,18 +39,41 @@
 }
 
 .about-link {
+  padding: 0; /* Fixes an issue on Chrome where the focus border is shaped weirdly */
   position: absolute;
-  top: 69%;
+  top: 80%;
   right: 20%;
   font-size: 1em;
   color: #094064;
   font-weight: 700;
 }
 
+/*.about-link:after {
+  content: ' →';
+}*/
+
 @media all and (min-width: 768px) {
   .about-link {
-    right: 30%;
+    top: 69%;
+    right: 25%;
+    font-size: 1.5em;
   }
+  /*.about-link:after {
+    content: '';
+    background-image: url('./images/about-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+    width: 3.5em;
+    height: 1em;
+    display: inline-block;
+    margin-left: 0.5em;
+    transition: 0.5s width;
+  }
+  .about-link:hover:after {
+    content: '⟶';
+    transition: 0.5s width;
+  }*/
 }
 
 .intro-title {
@@ -95,30 +118,4 @@
     background-image: url('./images/landing-background.png');
     height: 40vw;
   }
-}
-
-.pre-footer {
-  width: 100%;
-  height: 300px;
-  box-sizing: border-box;
-  background-image: url('./images/writing-bg.png');
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #421DA9;
-  text-align: center;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 50px;
-}
-
-.pre-footer h1, p a {
-  color: white;
-  text-align: center;
-  font-family: inherit;
-  font-weight: bold;
-}
-
-.pre-footer a:hover, .pre-footer a:active, .pre-footer a:focus {
-  color: white;
 }

@@ -50,6 +50,8 @@ class Main extends Component {
         <div className='back-arrow' label="BACK"></div>
       </button>);
 
+      const preFooterViews = [Views.Tiles, Views.About];
+
     return (
       <div className="App" ref={(app) => this.app = app}>
         { backBtn }
@@ -57,7 +59,7 @@ class Main extends Component {
           view={this.state.view}
           switchView={this.switchToTileView}
           switchToAbout={this.switchToAbout}/>
-        <Footer/>
+        <Footer preFooter={preFooterViews.includes(this.state.view)}/>
       </div>
     );
   }

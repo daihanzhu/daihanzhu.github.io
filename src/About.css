@@ -1,8 +1,11 @@
 .about {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  background-image: url('./images/about-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   line-height: 1.8em;
-  color: #666666;
+  color: #41434f;
 }
 
 @media all and (min-width: 1073px) {
@@ -25,6 +28,8 @@
 .daihan-who {
   height: 400px;
   max-width: 300px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   margin: 0 auto;
   background-image: url('./images/daihan.png');
   background-size: 300px;
@@ -37,12 +42,14 @@
     width: 420px;
   }
 
-  .rectangle {
+  .sparkle {
     position: absolute;
-    top: 95px;
-    height: 375px;
-    width: 304px;
-    background-color: #FDEDEE;
+    z-index: 1;
+    bottom: 35px;
+    height: 91px;
+    width: 84px;
+    background-size: 100%;
+    background-image: url('./images/sparkle.png');
   }
 
   .daihan-who {
@@ -60,11 +67,13 @@
 
 @media all and (min-width: 1050px) {
   .shape-container {
+    top: 80px;
     float: left;
   }
   .daihan-caption {
     height: 475px;
     overflow: auto;
+    padding-top: 80px;
   }
 }
 
@@ -72,33 +81,37 @@
   .daihan-caption {
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 30px;
   }
 }
 
 /* LISTS */
 
 .list-column {
-  width: 33.333333%;
+  padding: 10px;
   box-sizing: border-box;
 }
 
+.cat-pic {
+  width: 40%;
+}
+
 @media all and (min-width: 500px) {
+  .cat-pic {
+    width: 75%;
+  }
   .list-column {
     float: left;
+    width: 33.333333%;
   }
 }
 
 .list-column ol {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 .about-section-header {
-  margin-top: 100px;
-}
-
-.about-footer {
-  padding-bottom: 114px;
-  width: 100%;
+  margin-top: 32px;
+  text-align: center;
 }
