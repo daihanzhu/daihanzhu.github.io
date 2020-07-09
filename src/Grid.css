@@ -48,9 +48,9 @@
   font-weight: 700;
 }
 
-/*.about-link:after {
+.about-link:after {
   content: ' →';
-}*/
+}
 
 @media all and (min-width: 768px) {
   .about-link {
@@ -58,22 +58,22 @@
     right: 25%;
     font-size: 1.5em;
   }
-  /*.about-link:after {
-    content: '';
-    background-image: url('./images/about-arrow.png');
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position: left;
-    width: 3.5em;
-    height: 1em;
+  .about-link:after {
+    content: url('./images/about-arrow.svg');
+    width: 2.5em;
+    height: 1.2em;
     display: inline-block;
-    margin-left: 0.5em;
-    transition: 0.5s width;
+    box-sizing: border-box;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 1em;
+    transition: padding-right 0.5s;
   }
   .about-link:hover:after {
-    content: '⟶';
-    transition: 0.5s width;
-  }*/
+    content: url('./images/about-arrow2.svg');
+    padding-right: 0.5em;
+    transition: padding-right 0.5s;
+  }
 }
 
 .intro-title {
