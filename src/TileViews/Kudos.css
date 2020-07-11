@@ -1,7 +1,8 @@
 /* HEADERS */
 
 .kudos-header {
-  background-color: #6886F2;
+  background-image: url('../images/kudos/back-blue.png');
+  background-size: 100% 100%;
   position: relative;
   min-height: 40vh;
 }
@@ -14,26 +15,39 @@
   margin-left: 25px;
 }
 
-@media all and (min-width: 650px) {
+@media all and (min-width: 800px) {
   .kudos-inlay {
     width: 60%;
     margin-left: 20%;
   }
 }
 
+.kudos-wrapper {
+  padding-top: 300px;
+}
+
 .kudos-inlay-img {
-  float: left;
+  float: right;
   width: 50%;
+}
+
+.kudos-big-img {
+  width: 100%;
 }
 
 .kudos-title h3, .kudos-title h1 {
   color: white;
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 100px) {
   .kudos-title {
-    float: right;
+    float: left;
+    width: 50%;
   }
+}
+
+.kudos-desc {
+  margin-top: 60px;
 }
 
 .kudos-caption {
