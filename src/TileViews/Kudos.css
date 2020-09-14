@@ -54,23 +54,13 @@
 
 .kudos-desc {
   margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .kudos-caption {
-  word-wrap: break-word;
+  text-align: center;
 }
 
-@media all and (min-width: 1050px) {
-  .kudos-caption {
-    height: 475px;
-    overflow: auto;
-  }
-}
-
-@media all and (min-width: 1300px) {
-  .kudos-caption {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 30px;
-  }
+.kudos-contact {
+  font-weight: 400;
 }
