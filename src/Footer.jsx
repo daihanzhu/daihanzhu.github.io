@@ -28,7 +28,7 @@ class Footer extends Component {
                 <a href="https://medium.com/@daihan" target="_blank"> Medium</a> /
                 <a href="mailto:daihanzhu@gmail.com" target="_blank"> daihanzhu@gmail.com </a></p>
             <hr className="line"></hr>
-            <p className="goodbye-text">&lt;/&gt; by <a href="https://walinga.github.io" target="_blank">Matthew</a> and Daihan with 🥑in 2020</p>
+            <p className="goodbye-text">&lt;/&gt; by <a href="https://walinga.github.io" target="_blank">Matthew</a> and Daihan with 😷 in 2021</p>
           </div>
         </div>
       </div>
