@@ -70,7 +70,7 @@ For the time being, I make a lot of mistakes and I’m overly curious about ever
               <ol>
                 <img src={require('./images/SmallCat.png')} alt="Small Gray cat" className="cat-pic"></img>
                 <h2>Smol Cat</h2>
-                <p>A cat? Who knows. She is the fluffiest and very vocal about her needs. If you can’t find her, go look in a cupboard. Escape attempts: 3</p>
+                <p>A cat? Who knows. She is the fluffiest and very vocal about her needs. If you can’t find her, go look in a cupboard. Escape attempts: 25</p>
               </ol>
             </div>
           </div>
