@@ -49,6 +49,7 @@
 }
 
 .about-link:after {
+  margin-top: 3px;
   content: ' →';
 }
 
