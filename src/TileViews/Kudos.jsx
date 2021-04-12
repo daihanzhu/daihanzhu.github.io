@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import AboutBlock from '../AboutBlock.jsx'
 import './Kudos.css';
 
 class Kudos extends Component {
@@ -8,8 +7,6 @@ class Kudos extends Component {
   }
 
   render() {
-    let rightAligned = false;
-
     return (
       <div className="kudos">
         <div className="kudos-header content-header">
@@ -30,7 +27,11 @@ class Kudos extends Component {
           <div className="clear-float"></div>
           <img src={this._fetchImage('kudos-display 1.png')} alt='Kudos UI' className="kudos-big-img"></img>
           <div className="kudos-caption">
-            <a href="mailto:daihanzhu@gmail.com" target="_blank" className="kudos-contact"> Get in touch</a> if you’d like to learn more about the design process
+            <a href="mailto:daihanzhu@gmail.com" target="_blank"
+              rel="noopener noreferrer"
+              className="kudos-contact">
+              Get in touch
+            </a> if you’d like to learn more about the design process
             </div>
         </div>
       </div>
