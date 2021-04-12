@@ -47,23 +47,41 @@ class Kudos extends Component {
             <h3>MY COMMUNITIES</h3>
             <div className="list-column">
               <ol>
-                <li><a href="https://uwaterloo.ca/housing/werc" target="_blank">WERC</a></li>
-                <li><a href="https://designx.community/" target="_blank">DesignX</a></li>
-                <li><a href="http://www.feds.ca/" target="_blank">Feds</a></li>
+                <li><a href="https://uwaterloo.ca/housing/werc"
+                  rel="noopener noreferrer"
+                  target="_blank">WERC</a></li>
+                <li><a href="https://designx.community/"
+                  rel="noopener noreferrer"
+                  target="_blank">DesignX</a></li>
+                <li><a href="http://www.feds.ca/"
+                  rel="noopener noreferrer"
+                  target="_blank">Feds</a></li>
               </ol>
             </div>
             <div className="list-column">
               <ol>
-                <li><a href="http://velocity.uwaterloo.ca" target="_blank">Velocity</a></li>
-                <li><a href="https://uwaterloo.ca/arts-student-union/" target="_blank">Arts Student Union</a></li>
-                <li><a href="https://www.edmonton.ca/programs_services/for_children_kids_youth/youth-programs.aspx" target="_blank">Leaders in Training</a></li>
+                <li><a href="http://velocity.uwaterloo.ca"
+                  rel="noopener noreferrer"
+                  target="_blank">Velocity</a></li>
+                <li><a href="https://uwaterloo.ca/arts-student-union/"
+                  rel="noopener noreferrer"
+                  target="_blank">Arts Student Union</a></li>
+                <li><a href="https://www.edmonton.ca/programs_services/for_children_kids_youth/youth-programs.aspx"
+                  rel="noopener noreferrer"
+                  target="_blank">Leaders in Training</a></li>
               </ol>
             </div>
             <div className="list-column">
               <ol>
-                <li><a href="https://www.edmonton.ca/programs_services/for_children_kids_youth/leaders-in-training-photo-gallery.aspx" target="_blank">City of Edmonton</a></li>
-                <li><a href="https://www.epl.ca/browse_program/makerspace/" target="_blank">EPL Makerspace</a></li>
-                <li><a href="https://www.residence.ualberta.ca/current-residents/residence-associations" target="_blank">Michener Park</a></li>
+                <li><a href="https://www.edmonton.ca/programs_services/for_children_kids_youth/leaders-in-training-photo-gallery.aspx"
+                  rel="noopener noreferrer"
+                  target="_blank">City of Edmonton</a></li>
+                <li><a href="https://www.epl.ca/browse_program/makerspace/"
+                  rel="noopener noreferrer"
+                  target="_blank">EPL Makerspace</a></li>
+                <li><a href="https://www.residence.ualberta.ca/current-residents/residence-associations"
+                  rel="noopener noreferrer"
+                  target="_blank">Michener Park</a></li>
                </ol>
              </div>
              <div className="clear-float"></div>

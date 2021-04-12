@@ -108,11 +108,17 @@ class EmptyState extends Component {
              <p>
              I’m so excited to be able to share this with you. Creating beautiful and functional illustrations is what makes me tick and I’m so grateful to be given the freedom and trust to make these for OpenText. Throughout my research, I’ve come across many great case studies and inspirations about their process behind creating empty states. They all helped me in one way or another in creating my own.
               <br/><br/>
-              <a target="_blank" href="https://ux.shopify.com/empty-states-more-like-you-have-no-idea-how-much-work-goes-into-those-states-amirite-e0102f58b64e">Empty States? More like You-Have-No-Idea-How-Much-Work-Goes-Into-Those States, amirite?? - By Meg Robichaud for Shopify</a>
+              <a target="_blank"
+                rel="noopener noreferrer"
+                href="https://ux.shopify.com/empty-states-more-like-you-have-no-idea-how-much-work-goes-into-those-states-amirite-e0102f58b64e">Empty States? More like You-Have-No-Idea-How-Much-Work-Goes-Into-Those States, amirite?? - By Meg Robichaud for Shopify</a>
               <br/><br/>
-              <a target="_blank" href="https://medium.com/dropbox-design/illustrating-a-more-human-brand-part-1-e1cfe3c28d9">Illustrating a more human brand - By Michael Jeter for Dropbox Design</a>
+              <a target="_blank"
+                rel="noopener noreferrer"
+                href="https://medium.com/dropbox-design/illustrating-a-more-human-brand-part-1-e1cfe3c28d9">Illustrating a more human brand - By Michael Jeter for Dropbox Design</a>
               <br/><br/>
-               <a target="_blank" href="https://www.invisionapp.com/blog/why-empty-states-deserve-more-design-time/">Why empty states deserve more design time - By Dina Chaiffetz for InVision</a>
+               <a target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://www.invisionapp.com/blog/why-empty-states-deserve-more-design-time/">Why empty states deserve more design time - By Dina Chaiffetz for InVision</a>
                <br/><br/>
                Thanks for reading!
             </p>

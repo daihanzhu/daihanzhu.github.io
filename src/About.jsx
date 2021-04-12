@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
 import './ContentWrapper.css'
-import AboutBlock from './AboutBlock.jsx'
-
-import aboutData from './AboutData.json';
 
 class About extends Component {
   constructor(props) {
@@ -16,19 +13,6 @@ class About extends Component {
   }
 
   render() {
-    /*let rightAligned = false;
-
-    const blocks = aboutData.map((item) =>
-        <AboutBlock
-          key={item.title}
-          title={item.title}
-          desc={item.description}
-          image={item.image ? this._fetchImage(item.image) : null}
-          altText={item.image}
-          rightAligned={ rightAligned = !rightAligned }
-        />
-    );*/
-
     return (
       <div className="about">
         <div className="content-wrapper">

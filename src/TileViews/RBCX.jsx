@@ -122,7 +122,10 @@ class RBCX extends Component {
             <br/><br/>
             This is probably one of my first end-to-end print design project I’ve ever done, and boy did I mess up big time. At first, I had the slightest idea what bleed lines and crop marks are so the test print did not come out the way I intended it to. After that was fixed and 50 prints later, we discovered like a billion mistakes that weren’t caught in the test run. Thankfully, I work with some of the most understanding folks in the world and turned this thing around. Lessons were learned and absolutely no one was injured.
             <br/><br/>
-            Take a <a target="_blank" href={require('../images/rbcx/Design-thinking-workbook.pdf')}>look</a>.</p>
+            Take a <a target="_blank"
+                      rel="noopener noreferrer"
+                      href={require('../images/rbcx/Design-thinking-workbook.pdf')}>look
+            </a>.</p>
           </div>
         </div>
         <div className="content-wrapper mid-content-wrapper">
@@ -140,7 +143,8 @@ class RBCX extends Component {
             <p>Midway through the summer, I wanted to give community engagement a try. So I banded together with a group of interns and brainstormed ways we can get everyone excited about intrapreneurship. We knew it had to be interactive, fun, and accessible, so a pop-up shop quickly came to mind.
             <br/><br/>
             In the past, we’ve used “pipe cleaner prototyping” as an activity to get people thinking on their feet and use their hands to make something tangible, so along with that, we came up with a series of challenges that draws attention to teamwork, problem-solving, and getting you outside of your comfort zone. Some of these challenges include the classic egg drop, spaghetti tower, and building a Rube Goldberg Machine. Oh and VR games, because VR is cool. I wrote more about it
-            <a href="https://medium.com/@daihan/a-beginners-guide-to-innovation-b78be55ceda9" target="_blank"> here</a>.
+            <a href="https://medium.com/@daihan/a-beginners-guide-to-innovation-b78be55ceda9"
+              rel="noopener noreferrer" target="_blank"> here</a>.
             <br/><br/>
             We had such a great turn out that we had to tell people to quiet down at some point because they got too into the challenges. </p>
           </div>
