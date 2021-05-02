@@ -53,26 +53,14 @@ class Grid extends Component {
       gridTemplateColumns: "350px ".repeat(numColumns2)
     };
 
-    const backdropStyle = {
-      height: this.props.height
-    };
-
     return (
       <div className="grid-view">
-        <div
-          className='front-page-backdrop'
-          style ={backdropStyle}
-        >
-          <div className="content-wrapper">
-            <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
-              daihanzhu@gmail.com
-            </a>
-            {/*<img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
-            </img>*/}
-            <button onClick={this._switchToAbout} className="about-link">
-              About me
-            </button>
-          </div>
+        <div className="front-page-backdrop">
+          <img src={require('./images/daihan.png')} alt="Me in the Sahara" className='daihan-img'>
+          </img>
+          <button onClick={this._switchToAbout} className="about-link">
+            About me
+          </button>
         </div>
         <div className='grid-wrapper'>
           <div
@@ -81,7 +69,6 @@ class Grid extends Component {
           >
             {tiles}
           </div>
-          <div className="grid-wrapper-bottom"></div>
         </div>
       </div>
     );
