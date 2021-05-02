@@ -1,9 +1,10 @@
 .footer {
   box-sizing: border-box;
+  background-color: #100C3A;
 }
 
 .footer-content {
-  height: 300px;
+  padding: 70px 0;
   margin: auto;
   max-width: 600px;
 }
@@ -14,38 +15,28 @@
 }
 
 .footer-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-weight: 300;
-  width: calc( 100% - 40px);
   margin: 0 auto;
-  color: #41434f;
-  max-width: 400px;
+  color: white;
 }
 
 .footer-text p {
   line-height: 150%;
+  color: white;
+  text-align: center;
 }
 
 .footer-text a {
-  color: #473DD6;
-  font-weight: bold;
+  color: white;
 }
 
 .footer-header {
   margin-top: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 .goodbye-text {
-  font-size: 80%;
-}
-
-.footer-image {
-  width: 163px;
-  display: none;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.footer-image-wrapper {
-  opacity: 0;
 }
