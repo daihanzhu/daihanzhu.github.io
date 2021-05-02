@@ -52,6 +52,7 @@ class Main extends Component {
 
       const preFooterViews = [Views.Tiles, Views.About];
 
+    // TODO: Add top nav to this component
     return (
       <div className="App" ref={(app) => this.app = app}>
         { backBtn }
