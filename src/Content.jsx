@@ -12,34 +12,28 @@ class Content extends Component {
   render() {
     const { view, switchView } = this.props;
 
-    if ( view === Views.Tiles ) {
-      return (
-        <Grid switchView={switchView}/>
-      );
+    switch (view) {
+      case Views.Tiles:
+        return (
+          <Grid switchView={switchView}/>
+        );
 
-    } else if ( view === Views.About ) {
-      return (
-        <About/>
-      );
+      case Views.About:
+        return <About/>;
 
-    } else if ( view === Views.QAndA ) {
-      return (
-        <div className='about-text'>Coming Soon!</div>
-      )
+      case Views.QAndA:
+        return (
+          <div className='about-text'>Coming Soon!</div>
+        );
 
-    } else if ( view === Views.EmptyState ) {
-      return (
-        <EmptyState/>
-      )
+      case Views.EmptyState:
+        return <EmptyState/>;
 
-    } else if ( view === Views.RbcX ) {
-      return (
-        <RBCX/>
-      )
-    } else if (view === Views.Kudos) {
-      return (
-        <Kudos/>
-      )
+      case Views.RbcX:
+        return <RBCX/>;
+
+      case Views.Kudos:
+        return <Kudos/>;
     }
   }
 }
