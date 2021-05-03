@@ -34,6 +34,9 @@ class Content extends Component {
 
       case Views.Kudos:
         return <Kudos/>;
+
+      default:
+        return <Grid switchView={switchView}/>
     }
   }
 }

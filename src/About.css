@@ -1,11 +1,16 @@
 .about {
-  background-image: url('./images/about-bg.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.8em;
   color: #41434f;
+}
+
+.about-wrapper {
+  position: relative;
+  max-width: 830px;
+  margin: 50px auto;
+  padding: 0 50px;
+  display: flex;
 }
 
 @media all and (min-width: 1073px) {
@@ -15,65 +20,13 @@
   }
 }
 
-.shape-container {
-  position: relative;
-  margin: 0 auto;
-  margin-bottom: 1.25em;
-}
-
 .daihan-caption {
   word-wrap: break-word;
 }
 
-.daihan-who {
-  height: 400px;
-  max-width: 300px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  margin: 0 auto;
-  background-image: url('./images/daihan.png');
-  background-size: 300px;
-  background-repeat: no-repeat;
-}
-
-@media all and (min-width: 470px) {
-  .shape-container {
-    height: 475px;
-    width: 420px;
-  }
-
-  .sparkle {
-    position: absolute;
-    z-index: 1;
-    bottom: 35px;
-    height: 91px;
-    width: 84px;
-    background-size: 100%;
-    background-image: url('./images/sparkle.png');
-  }
-
-  .daihan-who {
-    position: absolute;
-    left: 50px;
-    height: 419px;
-    width: 315px;
-    transition: transform 0.3s ease-out;
-  }
-
-  .daihan-who:hover {
-    transform: translateY(-5px);
-  }
-}
-
 @media all and (min-width: 1050px) {
-  .shape-container {
-    top: 80px;
-    float: left;
-  }
   .daihan-caption {
-    height: 475px;
     overflow: auto;
-    padding-top: 80px;
   }
 }
 
