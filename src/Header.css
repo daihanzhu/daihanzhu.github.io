@@ -1,0 +1,14 @@
+.header {
+  max-width: 830px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav {
+  display: flex;
+}
+
+.left-nav a {
+  margin: 0 20px;
+}

@@ -21,44 +21,6 @@
 
 /* INTRO */
 
-.about-link {
-  padding: 0; /* Fixes an issue on Chrome where the focus border is shaped weirdly */
-  position: absolute;
-  top: 80%;
-  right: 20%;
-  font-size: 1em;
-  color: #094064;
-  font-weight: 700;
-}
-
-.about-link:after {
-  margin-top: 3px;
-  content: ' →';
-}
-
-@media all and (min-width: 768px) {
-  .about-link {
-    top: 67%;
-    right: 25%;
-    font-size: 1.3em;
-    line-height: 24px;
-  }
-  .about-link:after {
-    content: url('./images/about-arrow.svg');
-    width: 2.2em;
-    display: inline-block;
-    box-sizing: border-box;
-    text-align: right;
-    vertical-align: middle;
-    padding-right: 1em;
-    transition: padding-right 0.2s ease-in-out;
-  }
-  .about-link:hover:after {
-    content: url('./images/about-arrow2.svg');
-    padding-right: 0.7em;
-  }
-}
-
 .daihan-img {
   max-width: 326px;
   border-radius: 0px 186px 0px 0px;

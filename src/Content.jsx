@@ -10,11 +10,11 @@ import Views from './Views.js';
 
 class Content extends Component {
   render() {
-    const { view, switchView, switchToAbout } = this.props;
+    const { view, switchView } = this.props;
 
     if ( view === Views.Tiles ) {
       return (
-        <Grid switchView={switchView} switchToAbout={switchToAbout}/>
+        <Grid switchView={switchView}/>
       );
 
     } else if ( view === Views.About ) {
@@ -22,9 +22,9 @@ class Content extends Component {
         <About/>
       );
 
-    } else if ( view === Views.Stories ) {
+    } else if ( view === Views.QAndA ) {
       return (
-        <div className='about-text'>Here's a funny story</div>
+        <div className='about-text'>Coming Soon!</div>
       )
 
     } else if ( view === Views.EmptyState ) {

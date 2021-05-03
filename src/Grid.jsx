@@ -10,11 +10,6 @@ class Grid extends Component {
   constructor(props) {
     super(props)
     this._fetchImage = this._fetchImage.bind(this);
-    this._switchToAbout = this._switchToAbout.bind(this);
-  }
-
-  _switchToAbout() {
-    this.props.switchToAbout();
   }
 
   _fetchImage( name ) {
@@ -54,13 +49,10 @@ class Grid extends Component {
     };
 
     return (
-      <div className="grid-view">
+      <div className="grid-view" id="tile-grid">
         <div className="front-page-backdrop">
           <img src={require('./images/daihan.png')} alt="Me in the Sahara" className='daihan-img'>
           </img>
-          <button onClick={this._switchToAbout} className="about-link">
-            About me
-          </button>
         </div>
         <div className='grid-wrapper'>
           <div
