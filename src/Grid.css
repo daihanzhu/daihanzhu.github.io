@@ -18,22 +18,3 @@
     padding: 50px 25px;
   }
 }
-
-/* INTRO */
-
-.daihan-img {
-  max-width: 326px;
-  border-radius: 0px 186px 0px 0px;
-}
-
-.front-page-backdrop {
-  position: relative;
-  max-width: 830px;
-  margin: 50px auto;
-  padding: 0 50px;
-
-  /* fonts */
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  line-height: 1.8em;
-}

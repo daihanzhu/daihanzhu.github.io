@@ -50,10 +50,6 @@ class Grid extends Component {
 
     return (
       <div className="grid-view" id="tile-grid">
-        <div className="front-page-backdrop">
-          <img src={require('./images/daihan.png')} alt="Me in the Sahara" className='daihan-img'>
-          </img>
-        </div>
         <div className='grid-wrapper'>
           <div
             className="grid-container"

@@ -5,35 +5,10 @@
   color: #41434f;
 }
 
-.about-wrapper {
-  position: relative;
-  max-width: 830px;
-  margin: 50px auto;
-  padding: 0 50px;
-  display: flex;
-}
-
 @media all and (min-width: 1073px) {
   .about-text-block {
     width: 693px;
     margin: 0 auto;
-  }
-}
-
-.daihan-caption {
-  word-wrap: break-word;
-}
-
-@media all and (min-width: 1050px) {
-  .daihan-caption {
-    overflow: auto;
-  }
-}
-
-@media all and (min-width: 1300px) {
-  .daihan-caption {
-    padding-left: 80px;
-    padding-right: 80px;
   }
 }
 
