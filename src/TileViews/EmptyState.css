@@ -54,7 +54,6 @@
   margin-bottom: 20px;
 }
 
-/* 482px + 25px margins from content-wrapper */
 @media all and (min-width: 532px) {
   .es-img2 {
     width: 482px;

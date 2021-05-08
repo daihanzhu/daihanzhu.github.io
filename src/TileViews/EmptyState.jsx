@@ -6,7 +6,7 @@ class EmptyState extends Component {
   render() {
     return (
       <div className="empty-state">
-        <div className="content-wrapper">
+        <div>
           <div className="content-title">
             <h1>Empty State Illustrations</h1>
           </div>
@@ -62,7 +62,7 @@ class EmptyState extends Component {
           </div>
         </div>
         <img src={require('../images/emptyState/mid-header.png')} alt='Mid Header' className="mid-header"></img>
-        <div className="content-wrapper mid-content-wrapper ">
+        <div>
           <div className="par-block">
             <h2>Getting feedback</h2>
             <p>
@@ -91,7 +91,7 @@ class EmptyState extends Component {
           </div>
         </div>
         <img src={require('../images/emptyState/emptyall.png')} alt='More Empty States' className="mid-header"></img>
-        <div className="content-wrapper mid-content-wrapper ">
+        <div>
           <div className="par-block">
             <h2>Just getting started</h2>
             <p>The team loved the illustrations for mobile and requested them to be adapted for desktop use. So here they are!
@@ -101,7 +101,7 @@ class EmptyState extends Component {
           </div>
         </div>
         <img src={require('../images/emptyState/mock-up.png')} alt='Nodes List' className="es-img4"></img>
-        <div className="content-wrapper mid-content-wrapper ">
+        <div>
           <div className="par-block">
              <h2>Looking back </h2>
              <p>

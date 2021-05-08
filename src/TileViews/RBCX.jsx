@@ -53,7 +53,7 @@ class RBCX extends Component {
 
     return (
       <div className="rbcx">
-        <div className="content-wrapper">
+        <div>
           <div className="content-title">
             <h1>RBCx - Powered by Venture Inside RBC</h1>
           </div>
@@ -107,14 +107,14 @@ class RBCX extends Component {
           <img src={require('../images/rbcx/founder.png')} alt='Founder experience book' className="founder-img"></img>
           <div className="pink-box"></div>
         </div>
-        <div className="content-wrapper mid-content-wrapper">
+        <div>
           <div className="par-block rbcx-text-box playbook-box">
             <h2>RBCx Experience Playbook</h2>
             <p>Alongside Alysse Glick, project lead, we created this playbook to equip founders, consultants, and advisors with the information they need from the very first day to the final pitch. Because this is one of the first thing founders receive at the start of the program, a good impression is key. We wanted them to pick it up and say “wow, this is the coolest shit I’m about to do”.</p>
           </div>
         </div>
         {designThinkingImages}
-        <div className="content-wrapper mid-content-wrapper">
+        <div>
           <div className="par-block rbcx-text-box playbook-box">
             <h2>Design Thinking Workbook</h2>
             <p>Design Thinking is a process developed by IDEO to solve problems. At RBC, we want to empower employees to try new ways of thinking and make them fun. So I designed and illustrated this 20-page workbook as a product for employees to dive deeper into Design Thinking. Whether they are new or already familiar with the Design Thinking Process, this is a great tool to help them bring ideas to life.
@@ -127,7 +127,7 @@ class RBCX extends Component {
             </a>.</p>
           </div>
         </div>
-        <div className="content-wrapper mid-content-wrapper">
+        <div>
           <img src={require('../images/rbcx/our-brand.png')} alt="Our Brand" className="our-brand"></img>
           <img src={require('../images/rbcx/hand-with-cards.png')} alt="Hand with cards" className="hand-cards"></img>
           <div className="par-block rbcx-text-box">
