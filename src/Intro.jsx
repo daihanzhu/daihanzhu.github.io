@@ -40,6 +40,7 @@ class Intro extends Component {
       case Views.About:
         bodyText = this.aboutContent();
         break;
+      // TODO: Implement Q+A page
       case Views.QAndA:
         bodyText = <div>TODO</div>;
         break;
