@@ -6,7 +6,6 @@ class EmptyState extends Component {
   render() {
     return (
       <div className="empty-state">
-        <div className="empty-state-header content-header"></div>
         <div className="content-wrapper">
           <div className="content-title">
             <h1>Empty State Illustrations</h1>

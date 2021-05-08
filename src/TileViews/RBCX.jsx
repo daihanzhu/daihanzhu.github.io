@@ -53,7 +53,6 @@ class RBCX extends Component {
 
     return (
       <div className="rbcx">
-        <div className="rbcx-header content-header"></div>
         <div className="content-wrapper">
           <div className="content-title">
             <h1>RBCx - Powered by Venture Inside RBC</h1>

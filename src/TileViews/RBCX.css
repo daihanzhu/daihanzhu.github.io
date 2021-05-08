@@ -16,14 +16,6 @@
   }
 }
 
-/* HEADERS */
-
-.rbcx-header {
-  background-image: url('../images/rbcx/header.png');
-  background-color: #EA3A7D;
-  background-repeat: no-repeat;
-}
-
 /* CONTAINERS */
 
 /*TODO: Move other containers into this section */
