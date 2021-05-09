@@ -22,9 +22,8 @@ class Content extends Component {
         return <About/>;
 
       case Views.QAndA:
-        return (
-          <div className='about-text'>Coming Soon!</div>
-        );
+        // The view for Q+A is in Intro.jsx
+        return null;
 
       case Views.EmptyState:
         return <EmptyState/>;

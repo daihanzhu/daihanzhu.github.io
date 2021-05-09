@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Intro.css';
 
+import QAndA from './QAndA.jsx';
+
 import Views from './Views.js';
 
 class Intro extends Component {
@@ -35,7 +37,7 @@ class Intro extends Component {
   qAndAContent() {
     return (<div className="daihan-caption">
       <h1>You have questions, I (may) have answers</h1>
-      {/* TODO: Question/Answers - probably put in a separate component tbh */}
+      <QAndA />
     </div>);
   }
 

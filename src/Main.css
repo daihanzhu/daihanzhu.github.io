@@ -10,8 +10,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
-  color: #41434f;
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #100C3A;
 }
 
 h3 {
