@@ -6,9 +6,15 @@ import Views from './Views.js';
 class Intro extends Component {
   mainContent() {
     return (<div className="daihan-caption">
-      <h1>Hey people</h1>
-      <p className="daihan-desc">MEow meow meow meow meow
+      <h1>Hi, my name is Daihan (she/her) and I’m a product designer</h1>
+      <p className="daihan-desc">
+        As a designer, I’m on a mission to make people’s digital experiences more delightful, inclusive, and valuable. I think holistically while placing every last pixel with purpose.
+        <br/><br/>
+        As a human, I’m trying my best to take care of our Earth.
+        <br/><br/>
+        See my work
       </p>
+      <img src={require('./images/down-arrow.png')} alt="down-arrow" className="down-arrow"></img>
     </div>);
   }
 
@@ -26,6 +32,19 @@ class Intro extends Component {
     </div>);
   }
 
+  qAndAContent() {
+    return (<div className="daihan-caption">
+      <h1>You have questions, I (may) have answers</h1>
+      {/* TODO: Question/Answers - probably put in a separate component tbh */}
+    </div>);
+  }
+
+  buildDaihanImg(src, altText) {
+    return (<img
+        src={src} alt={altText} className='daihan-img'>
+      </img>);
+  }
+
   render() {
     const allowedViews = [Views.Tiles, Views.About, Views.QAndA]
     if (!allowedViews.includes(this.props.view)) {
@@ -33,16 +52,19 @@ class Intro extends Component {
     }
 
     let bodyText = undefined;
+    let daihanImg = undefined;
     switch (this.props.view) {
       case Views.Tiles:
         bodyText = this.mainContent();
+        daihanImg = this.buildDaihanImg(require('./images/daihan.png'), 'Me in the Sahara');
         break;
       case Views.About:
         bodyText = this.aboutContent();
+        daihanImg = this.buildDaihanImg(require('./images/daihan-chair1.png'), 'Me on a chair');
         break;
-      // TODO: Implement Q+A page
       case Views.QAndA:
-        bodyText = <div>TODO</div>;
+        bodyText = this.qAndAContent();
+        daihanImg = this.buildDaihanImg(require('./images/daihan-sittin.png'), 'Me sittin\' around');
         break;
       default:
         bodyText = "INVALID STATE";
@@ -51,8 +73,7 @@ class Intro extends Component {
     return (
       <div className="intro">
         <div className="daihan-image-wrapper">
-          <img src={require('./images/daihan.png')} alt="Me in the Sahara" className='daihan-img'>
-          </img>
+          {daihanImg}
         </div>
         {bodyText}
       </div>
