@@ -75,9 +75,55 @@ class QAndA extends Component {
     </div>);
   }
 
+  sectionCContent() {
+    return (<div className="daihan-caption">
+      <h1>Favorite place you’ve traveled</h1>
+      <p className="daihan-desc">
+        A tough choice between Cartagena, Colombia, and the Sahara Desert in Morocco. Colombia for the ceviche and vibrant colors. Morocco for that feeling of disbelief.
+        <br/><br/>
+        One thing is certain though, I go where the food is.
+      </p>
+      <h1>Where to next</h1>
+      <p className="daihan-desc">
+        New Zealand or Fiji. Then Antarctica to check off every continent.
+      </p>
+      <h1>Coffee or Tea</h1>
+      <p className="daihan-desc">
+        Boba.
+      </p>
+      <h1>If you weren’t a designer, what would you be</h1>
+      <p className="daihan-desc">
+        I’ve always thought I wanted to become a teacher, and I almost went down that route. They really shouldn’t allow 17-year-olds to make decisions like that.
+      </p>
+      <h1>Ok, honestly what do you want to do instead</h1>
+      <p className="daihan-desc">
+        A farmer.
+      </p>
+      <h1>Why aren’t you replying to my text</h1>
+      <p className="daihan-desc">
+        I don’t...um...own a cell phone.
+      </p>
+      <h1>Where do you live</h1>
+      <p className="daihan-desc">
+        I currently live in Calgary, Canada. Which is the traditional territories of the people of the Treaty 7 region in Southern Alberta. Calgary is also home to Métis Nation of Alberta, Region 3.
+        <br/><br/>
+        It is situated on land where the Bow River meets the Elbow River, and the traditional Blackfoot name of this place is “Mohkinstsis” which we now call Calgary.
+      </p>
+      <h1>Where are you from</h1>
+      <p className="daihan-desc">
+        I did most of my growing up in Edmonton, Alberta, so there.
+      </p>
+      <h1>Where are you really from</h1>
+      <p className="daihan-desc">
+        According to 23&Me, I’m 98.4% Chinese 0.9% Central Asian, and 0.7% Korean :p
+      </p>
+    </div>);
+  }
+
   render() {
     const sectionA = this.buildSection('On Design', this.sectionAContent())
     const sectionB = this.buildSection('On Work', this.sectionBContent())
+    const sectionC= this.buildSection('On Life', this.sectionCContent())
 
     return (<div className="q-and-a">
       <div className="intro">
@@ -94,11 +140,21 @@ class QAndA extends Component {
       <div className="intro">
         <div className="daihan-image-wrapper">
           <img
-            src={require('./images/daihan-sittin.png')} alt='Me sitting around'>
+            src={require('./images/daihan-on-steps.png')} alt='Me sitting on some steps'>
           </img>
         </div>
         <div className="daihan-caption">
           {sectionB}
+        </div>
+      </div>
+      <div className="intro">
+        <div className="daihan-image-wrapper">
+          <img
+            src={require('./images/daihan-falling-steps.png')} alt='Me almost falling off the steps'>
+          </img>
+        </div>
+        <div className="daihan-caption">
+          {sectionC}
         </div>
       </div>
     </div>);
