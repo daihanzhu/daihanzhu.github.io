@@ -18,7 +18,8 @@ class Grid extends Component {
 
   render() {
     let numTiles = 0;
-    let tiles = tileData.map((item) =>
+    const filteredTileData = tileData.filter(t => t.visible === 1)
+    let tiles = filteredTileData.map((item) =>
         <Tile
           key={numTiles++}
           header={item.header}
@@ -32,17 +33,9 @@ class Grid extends Component {
         />
     );
 
-    /* Hard-coded sh*t to hide some tiles for now */
-    tiles = tiles.slice(0,3);
-    numTiles = tiles.length;
-
     const numColumns = Math.min(this.props.tileFit, numTiles);
     /* Extra check to ensure only 3 columns are ever shown */
     const numColumns2 = Math.min(numColumns, 3);
-
-    if (numColumns < 2) {
-      tiles = tiles.reverse();
-    }
 
     const gridStyle = {
       gridTemplateColumns: "350px ".repeat(numColumns2)

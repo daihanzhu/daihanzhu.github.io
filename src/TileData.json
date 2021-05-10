@@ -1,24 +1,35 @@
 [
   {
-    "header": "BRAND EXPERIENCE",
+    "header": "Product Design",
+    "title": "Maching Learning Governance",
+    "description": "Demystify Machine Learning for everyone",
+    "image": "datatron.png",
+    "overlaytext": "🚧🏗️👷‍♀️ Well, this is awkward. This page is still under construction. Try another one.",
+    "visible": 1
+  },
+  {
+    "header": "Product Design",
+    "title": "Giving Recognition",
+    "description": "Increasing workplace happiness through the power of recognition",
+    "image": "kudos.png",
+    "view": "Kudos",
+    "visible": 1
+  },
+  {
+    "header": "Brand Design",
     "title": "RBCx",
     "description": "Designing the ultimate innovation experience",
     "image": "rbcx/rbcx-poster.png",
-    "view": "RbcX"
+    "view": "RbcX",
+    "visible": 1
   },
   {
-    "header": "VISUAL DESIGN",
+    "header": "Illustration",
     "title": "Empty states",
     "description": "Bringing software to life one illustration at a time",
     "image": "empty.png",
-    "view": "EmptyState"
-  },
-  {
-    "header": "UX/UI",
-    "title": "Giving thanks",
-    "description": "Increasing workplace happiness through the power of recognition",
-    "image": "kudos.png",
-    "view": "Kudos"
+    "view": "EmptyState",
+    "visible": 1
   },
   {
     "header": "VISUAL DESIGN",

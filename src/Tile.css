@@ -77,26 +77,27 @@
 }
 
 .tile-header-text {
-  font-family: 'Roboto', sans-serif;
-  color: #473DD6;
-  font-size: 14px;
-  font-weight: 700;
+  font-family: 'Futura', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #FFE6DC;
+  width: 114px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2px, 16px, 2px, 16px;
 }
 
 .tile-title {
-  color: #41434f;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Futura', sans-serif;
   padding-top: 12px;
-  font-size: 28px;
-  font-weight: 700;
+  margin: 0;
 }
 
 .tile-desc {
-  color: #606371;
-  font-family: 'Roboto', sans-serif;
+  color: #3A4468;
+  font-family: 'Futura', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 6px;
   line-height: 150%;
-
 }
