@@ -27,7 +27,7 @@ class Main extends Component {
 
   _scrollToGrid() {
     document.getElementById('tile-grid').scrollIntoView(
-      {behavior: "smooth", block: "end", inline: "nearest"});
+      {behavior: "smooth", block: "start", inline: "nearest"});
   }
 
   _switchToWork(options = {}) {
