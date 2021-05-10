@@ -16,6 +16,11 @@
 .daihan-image-wrapper {
 }
 
+.daihan-image-wrapper img {
+  width: 326px;
+  max-width: 100%;
+}
+
 .daihan-img {
   width: 326px;
   max-width: 100%;

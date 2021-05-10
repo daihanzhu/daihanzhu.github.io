@@ -20,9 +20,9 @@ h3 {
   color: #F9CBCE;
 }
 
-p {
-  font-weight: 400;
-  color: #606371;
+p, li {
+  font-weight: 500;
+  color: #3A4468;
 }
 
 a, button {

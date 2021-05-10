@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Intro.css';
 
-import QAndA from './QAndA.jsx';
-
 import Views from './Views.js';
 
 class Intro extends Component {
@@ -34,13 +32,6 @@ class Intro extends Component {
     </div>);
   }
 
-  qAndAContent() {
-    return (<div className="daihan-caption">
-      <h1>You have questions, I (may) have answers</h1>
-      <QAndA />
-    </div>);
-  }
-
   buildDaihanImg(src, altText) {
     return (<img
         src={src} alt={altText} className='daihan-img'>
@@ -48,7 +39,7 @@ class Intro extends Component {
   }
 
   render() {
-    const allowedViews = [Views.Tiles, Views.About, Views.QAndA]
+    const allowedViews = [Views.Tiles, Views.About]
     if (!allowedViews.includes(this.props.view)) {
       return null;
     }
@@ -63,10 +54,6 @@ class Intro extends Component {
       case Views.About:
         bodyText = this.aboutContent();
         daihanImg = this.buildDaihanImg(require('./images/daihan-chair1.png'), 'Me on a chair');
-        break;
-      case Views.QAndA:
-        bodyText = this.qAndAContent();
-        daihanImg = this.buildDaihanImg(require('./images/daihan-sittin.png'), 'Me sittin\' around');
         break;
       default:
         bodyText = "INVALID STATE";

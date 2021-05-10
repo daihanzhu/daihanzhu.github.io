@@ -4,6 +4,7 @@ import About from './About.jsx'
 import EmptyState from './TileViews/EmptyState.jsx'
 import RBCX from './TileViews/RBCX.jsx'
 import Kudos from './TileViews/Kudos.jsx'
+import QAndA from './QAndA.jsx'
 import './Content.css';
 
 import Views from './Views.js';
@@ -22,8 +23,7 @@ class Content extends Component {
         return <About/>;
 
       case Views.QAndA:
-        // The view for Q+A is in Intro.jsx
-        return null;
+        return <QAndA/>;
 
       case Views.EmptyState:
         return <EmptyState/>;
