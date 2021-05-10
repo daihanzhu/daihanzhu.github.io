@@ -1,5 +1,5 @@
 .header {
-  max-width: 830px;
+  max-width: 840px;
   margin: 50px auto;
   padding: 0 50px;
   display: flex;
@@ -12,4 +12,8 @@
 
 .left-nav a {
   margin: 0 20px;
+}
+
+.left-nav a:last-child {
+  margin-right: 0;
 }

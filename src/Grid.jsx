@@ -35,10 +35,10 @@ class Grid extends Component {
 
     const numColumns = Math.min(this.props.tileFit, numTiles);
     /* Extra check to ensure only 3 columns are ever shown */
-    const numColumns2 = Math.min(numColumns, 3);
+    const numColumns2 = Math.min(numColumns, 2);
 
     const gridStyle = {
-      gridTemplateColumns: "350px ".repeat(numColumns2)
+      gridTemplateColumns: "400px ".repeat(numColumns2)
     };
 
     return (
