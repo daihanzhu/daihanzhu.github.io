@@ -21,10 +21,13 @@
   max-width: 100%;
 }
 
+.daihan-into-img {
+  border-radius: 0px 186px 0px 0px;
+}
+
 .daihan-img {
   width: 326px;
   max-width: 100%;
-  border-radius: 0px 186px 0px 0px;
 }
 
 .daihan-caption {

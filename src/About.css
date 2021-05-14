@@ -1,5 +1,5 @@
 .about {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-weight: 500;
   line-height: 1.8em;
   color: #41434f;
@@ -17,6 +17,10 @@
 .list-column {
   padding: 10px;
   box-sizing: border-box;
+}
+
+.cat-title {
+  text-align: center;
 }
 
 .cat-pic {
@@ -37,6 +41,10 @@
   list-style-type: none;
   padding: 0;
   text-align: center;
+}
+
+.list-column p {
+  font-size: 0.875em;
 }
 
 .about-section-header {

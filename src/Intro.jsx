@@ -34,7 +34,7 @@ class Intro extends Component {
 
   buildDaihanImg(src, altText) {
     return (<img
-        src={src} alt={altText} className='daihan-img'>
+        src={src} alt={altText} className='daihan-into-img daihan-img'>
       </img>);
   }
 
@@ -49,11 +49,15 @@ class Intro extends Component {
     switch (this.props.view) {
       case Views.Tiles:
         bodyText = this.mainContent();
-        daihanImg = this.buildDaihanImg(require('./images/daihan-looks-left.png'), 'Me looking to the side, sitting on some steps.');
+        daihanImg = <img
+            src={require('./images/daihan-looks-left.png')} alt='Me looking to the side, sitting on some steps.' className='daihan-into-img daihan-img'>
+          </img>;
         break;
       case Views.About:
         bodyText = this.aboutContent();
-        daihanImg = this.buildDaihanImg(require('./images/daihan-chair1.png'), 'Me on a chair');
+        daihanImg = <img
+            src={require('./images/daihan-chair1.png')} alt='Me on a chair' className='daihan-img'>
+          </img>;
         break;
       default:
         bodyText = "INVALID STATE";
