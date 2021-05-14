@@ -11,10 +11,12 @@
 
 .left-nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .left-nav a {
-  margin: 0 20px;
+  margin-left: 40px;
 }
 
 .left-nav a:last-child {
