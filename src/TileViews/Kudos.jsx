@@ -11,13 +11,11 @@ class Kudos extends Component {
       <div className="kudos">
         <div className="kudos-inlay">
           <div className="kudos-inlay-img-wrapper">
-            <img src={this._fetchImage('phones.png')} alt='Kudos UI' className="kudos-inlay-img"></img>
+            <img src={require('../images/kudos.png')} alt='Kudos UI' className="kudos-inlay-img"></img>
           </div>
           <div className="kudos-title">
-            <h3>UI/UX</h3>
-            <h1>Giving Thanks</h1>
-            <p className="kudos-desc">Year: <b>2019-present</b> | Role: <b>Sole Product Designer</b> | Tools: <b>Figma</b><br/>
-              <br/>
+            <h1>Giving Recognition</h1>
+            <p className="kudos-desc">
               The Kudos platform empowers users to recognize the achievements of their coworkers and earn points that they can spend on gift cards.<br/><br/>
               I have the exciting opportunity to shape the design of Kudos from the ground up. Kudos is an Enterprise Recognition Platform serving clients in over 80 countries.
             </p>
