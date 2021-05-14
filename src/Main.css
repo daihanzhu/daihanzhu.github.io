@@ -30,13 +30,13 @@ a, button {
   background-color: transparent;
   font: inherit;
   text-decoration: none;
-  color: black;
+  color: #E68F6C;
   transition: color 0.3s ease-in-out;
 }
 
 a:hover, button:hover, a:focus, button:focus {
   cursor: pointer;
-  color: #EA1C44;
+  /*color: #EA1C44;*/ /* TODO: Determine hover color (if any) */
 }
 
 

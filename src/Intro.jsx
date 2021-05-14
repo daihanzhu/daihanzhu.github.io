@@ -49,7 +49,7 @@ class Intro extends Component {
     switch (this.props.view) {
       case Views.Tiles:
         bodyText = this.mainContent();
-        daihanImg = this.buildDaihanImg(require('./images/daihan.png'), 'Me in the Sahara');
+        daihanImg = this.buildDaihanImg(require('./images/daihan-looks-left.png'), 'Me looking to the side, sitting on some steps.');
         break;
       case Views.About:
         bodyText = this.aboutContent();

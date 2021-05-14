@@ -4,6 +4,9 @@
   padding: 0 50px;
   display: flex;
   justify-content: space-between;
+  font-family: 'Futura', sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 .left-nav {

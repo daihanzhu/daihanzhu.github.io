@@ -32,6 +32,11 @@
   max-width: 400px;
 }
 
+.daihan-desc {
+  font-size: 0.875em;
+  line-height: 1.5em;
+}
+
 .down-arrow {
   height: 44px;
 }
