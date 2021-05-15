@@ -38,7 +38,7 @@ class About extends Component {
             </ol>
           </div>
         </div>
-        <div className="clear-float"></div>
+        <div style={{clear: 'both'}}></div>
       </div>
 
     );
