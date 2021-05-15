@@ -2,18 +2,25 @@
 
 .content-wrapper {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
   max-width: 840px;
   margin: 50px auto;
 }
 
 .content-img-wrapper, .content-caption {
-  padding-left: 40px;
+  margin-left: 40px;
 }
 .content-img-wrapper:first-child, .content-caption:first-child {
-  padding: 0;
+  margin: 0;
+}
+
+@media all and (max-width: 500px) {
+    .content-wrapper {
+      flex-direction: column;
+    }
+    .content-wrapper .content-img-wrapper, .content-wrapper .content-caption {
+      margin: 0 40px;
+    }
 }
 
 /* IMAGES */
