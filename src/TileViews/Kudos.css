@@ -1,60 +1,41 @@
 /* ETC */
 
-.kudos-inlay {
+.kudos-wrapper {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 25px;
+  align-items: center;
+  max-width: 840px;
+  margin: 0 auto;
 }
 
-@media all and (min-width: 800px) {
-  .kudos-inlay {
-    margin: auto 15.5%;
-  }
-}
-
-.kudos-wrapper {
-}
-
-.kudos-inlay-img-wrapper {
+.kudos-img-wrapper {
   flex-basis: 50%;
-  padding: 0 40px;
-  min-width: 300px;
-  max-width: 480px;
+  padding-right: 40px;
+  min-width: 260px;
+  max-width: 440px;
   box-sizing: border-box;
 }
 
-.kudos-inlay-img {
+.kudos-img {
   width: 100%;
 }
 
-.kudos-big-img {
-  width: 100%;
-}
-
-.kudos-title {
+.kudos-caption {
   flex-basis: 50%;
   max-width: 400px;
 }
 
-.kudos-title h1 {
+.kudos-caption h1 {
   font-family: 'Futura', sans-serif;
   font-weight: 700;
 }
 
-.kudos-title h3 {
+.kudos-caption h3 {
 }
 
 .kudos-desc {
   font-family: 'Futura', sans-serif;
   font-size: 0.875em;
   line-height: 1.5em;
-}
-
-.kudos-caption {
-  text-align: center;
-}
-
-.kudos-contact {
-  font-weight: 400;
 }

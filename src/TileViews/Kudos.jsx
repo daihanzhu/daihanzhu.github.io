@@ -9,11 +9,11 @@ class Kudos extends Component {
   render() {
     return (
       <div className="kudos">
-        <div className="kudos-inlay">
-          <div className="kudos-inlay-img-wrapper">
-            <img src={require('../images/kudos.png')} alt='Kudos UI' className="kudos-inlay-img"></img>
+        <div className="kudos-wrapper">
+          <div className="kudos-img-wrapper">
+            <img src={require('../images/kudos.png')} alt='Kudos UI' className="kudos-img"></img>
           </div>
-          <div className="kudos-title">
+          <div className="kudos-caption">
             <h1>Giving Recognition</h1>
             <p className="kudos-desc">
               The Kudos platform empowers users to recognize the achievements of their coworkers and earn points that they can spend on gift cards.<br/><br/>
@@ -22,14 +22,6 @@ class Kudos extends Component {
           </div>
         </div>
         <div className="kudos-wrapper">
-          <img src={this._fetchImage('kudos-display 1.png')} alt='Kudos UI' className="kudos-big-img"></img>
-          <div className="kudos-caption">
-            <a href="mailto:daihanzhu@gmail.com" target="_blank"
-              rel="noopener noreferrer"
-              className="kudos-contact">
-              Get in touch
-            </a> if you’d like to learn more about the design process
-            </div>
         </div>
       </div>
 
