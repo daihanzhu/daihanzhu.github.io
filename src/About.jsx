@@ -38,7 +38,6 @@ class About extends Component {
             </ol>
           </div>
         </div>
-        <div style={{clear: 'both'}}></div>
       </div>
 
     );
