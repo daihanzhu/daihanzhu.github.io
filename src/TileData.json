@@ -4,7 +4,8 @@
     "title": "Maching Learning Governance",
     "description": "Demystify Machine Learning for everyone",
     "image": "datatron.png",
-    "overlaytext": "🚧🏗️👷‍♀️ Well, this is awkward. This page is still under construction. Try another one.",
+    "overlaytext": "🚧",
+    "overlaySubtext": "Work in Progress",
     "visible": 1
   },
   {

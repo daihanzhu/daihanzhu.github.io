@@ -11,7 +11,10 @@ class Tile extends Component {
 
   render() {
     const overlay = this.props.overlaytext ? ( <div className="overlay">
-        <div className="overlay-text">{this.props.overlaytext}</div>
+        <div className="overlay-text">
+          {this.props.overlaytext}
+          <div className="overlay-subtext">{this.props.overlaySubtext}</div>
+        </div>
     </div> ) : null;
 
     let headerBgColor = '#FFE6DC';
