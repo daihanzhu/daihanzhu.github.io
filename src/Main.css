@@ -83,17 +83,3 @@ a:hover, button:hover, a:focus, button:focus {
     left: 16vw
   }
 }
-
-.back-arrow {
-  width: 109px;
-  height: 109px;
-  cursor: pointer;
-  background-image: url('./images/back-arrow.png');
-  background-position: center;
-  background-size: 109px;
-  transition: 0.5s background-image;
-}
-
-.back-arrow:hover {
-  background-image: url('./images/back-arrow-hover.png');
-}
