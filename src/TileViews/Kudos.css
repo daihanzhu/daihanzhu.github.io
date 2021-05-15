@@ -2,53 +2,6 @@
   margin-bottom: 95px;
 }
 
-.kudos-wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  max-width: 840px;
-  margin: 0 auto;
-}
-
-.kudos-img-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-  padding-right: 40px;
-  min-width: 260px;
-  max-width: 440px;
-  box-sizing: border-box;
-}
-
-.kudos-img {
-  width: 100%;
-}
-
-.kudos-mini-caption {
-  margin: 0.5rem auto;
-  font-size: 0.75em;
-}
-
-.kudos-caption {
-  flex-basis: 50%;
-  max-width: 400px;
-}
-
-.kudos-caption h1 {
-  font-family: 'Futura', sans-serif;
-  font-weight: 700;
-}
-
-.kudos-caption h3 {
-}
-
-.kudos-desc {
-  font-family: 'Futura', sans-serif;
-  font-size: 0.875em;
-  line-height: 1.5em;
-}
-
 .app-link-img {
   width: 32px;
   height: 32px;

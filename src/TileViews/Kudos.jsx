@@ -39,51 +39,51 @@ class Kudos extends Component {
   render() {
     return (
       <div className="kudos">
-        <div className="kudos-wrapper">
-          <div className="kudos-img-wrapper">
-            <img src={require('../images/kudos.png')} alt='Kudos UI Home' className="kudos-img"></img>
-            <div className="kudos-mini-caption">Home</div>
+        <div className="content-wrapper">
+          <div className="content-img-wrapper">
+            <img src={require('../images/kudos.png')} alt='Kudos UI Home' className="content-img"></img>
+            <div className="content-mini-caption">Home</div>
           </div>
-          <div className="kudos-caption">
+          <div className="content-caption">
             <h1>Giving Recognition</h1>
-            <p className="kudos-desc">
+            <p className="content-desc">
               The Kudos platform empowers users to recognize the achievements of their coworkers and earn points that they can spend on gift cards.<br/><br/>
               I have the exciting opportunity to shape the design of Kudos from the ground up. Kudos is an Enterprise Recognition Platform serving clients in over 80 countries.
             </p>
           </div>
         </div>
-        <div className="kudos-wrapper">
-          <div className="kudos-img-wrapper">
+        <div className="content-wrapper">
+          <div className="content-img-wrapper">
             <h1>Old Experience</h1>
-            <img src={this._fetchImage('old-experience.png')} alt='Kudos UI User Profile (Old)' className="kudos-img"></img>
-            <div className="kudos-mini-caption">User Profile</div>
+            <img src={this._fetchImage('old-experience.png')} alt='Kudos UI User Profile (Old)' className="content-img"></img>
+            <div className="content-mini-caption">User Profile</div>
           </div>
-          <div className="kudos-img-wrapper">
+          <div className="content-img-wrapper">
             <h1>New Experience</h1>
-            <img src={this._fetchImage('new-experience.png')} alt='Kudos UI User Profile (New)' className="kudos-img"></img>
-            <div className="kudos-mini-caption">User Profile</div>
+            <img src={this._fetchImage('new-experience.png')} alt='Kudos UI User Profile (New)' className="content-img"></img>
+            <div className="content-mini-caption">User Profile</div>
           </div>
         </div>
-        <div className="kudos-wrapper">
-          <div className="kudos-caption">
+        <div className="content-wrapper">
+          <div className="content-caption">
             <h1>Mobile, Integrations and more</h1>
-            <p className="kudos-desc">In addition, I designed the experience of our mobile apps as well as multiple integrations to achieve a consistent experience across our product ecosystem.
+            <p className="content-desc">In addition, I designed the experience of our mobile apps as well as multiple integrations to achieve a consistent experience across our product ecosystem.
                 <br/><br/>
                 Check ‘em out!
             </p>
             {this.appLinks()}
           </div>
-          <div className="kudos-img-wrapper">
-            <img src={this._fetchImage('phones.png')} alt='Kudos Mobile App' className="kudos-img"></img>
+          <div className="content-img-wrapper">
+            <img src={this._fetchImage('phones.png')} alt='Kudos Mobile App' className="content-img"></img>
           </div>
         </div>
-        <div className="kudos-wrapper">
-          <div className="kudos-img-wrapper">
-            <img src={this._fetchImage('process.png')} alt='Get in touch' className="kudos-img"></img>
+        <div className="content-wrapper">
+          <div className="content-img-wrapper">
+            <img src={this._fetchImage('process.png')} alt='Get in touch' className="content-img"></img>
           </div>
-          <div className="kudos-caption">
+          <div className="content-caption">
             <h1>The Process</h1>
-            <p className="kudos-desc">To learn more about the design process, please get in touch. </p>
+            <p className="content-desc">To learn more about the design process, please get in touch. </p>
           </div>
         </div>
       </div>
