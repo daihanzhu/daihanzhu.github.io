@@ -6,7 +6,14 @@
   flex-wrap: wrap;
   align-items: center;
   max-width: 840px;
-  margin: 0 auto;
+  margin: 50px auto;
+}
+
+.content-img-wrapper, .content-caption {
+  padding-left: 40px;
+}
+.content-img-wrapper:first-child, .content-caption:first-child {
+  padding: 0;
 }
 
 /* IMAGES */
@@ -15,10 +22,8 @@
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
-  padding-right: 40px;
-  min-width: 260px;
-  max-width: 440px;
-  box-sizing: border-box;
+  min-width: 220px;
+  max-width: 400px;
 }
 
 .content-img {
@@ -49,11 +54,4 @@
   font-family: 'Futura', sans-serif;
   font-size: 0.875em;
   line-height: 1.5em;
-}
-
-/* MISC */
-
-.mid-header {
-  width: 100%;
-  background-color: white;
 }
