@@ -34,7 +34,7 @@ class Grid extends Component {
     );
 
     const numColumns = Math.min(this.props.tileFit, numTiles);
-    /* Extra check to ensure only 3 columns are ever shown */
+    /* Extra check to ensure only 2 columns are ever shown */
     const numColumns2 = Math.min(numColumns, 2);
 
     const gridStyle = {

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './QAndA.css';
+import './Intro.css';
 
 class QAndA extends Component {
   buildSection(title, content) {
-    return (<div className="qanda-dropdown">
+    return (<div className="qanda-section">
       <h2>{title} --------</h2>
       {content}
     </div>);
