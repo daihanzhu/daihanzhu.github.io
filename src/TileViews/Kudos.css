@@ -1,4 +1,6 @@
-/* ETC */
+.kudos {
+  margin-bottom: 95px;
+}
 
 .kudos-wrapper {
   display: flex;
@@ -10,6 +12,8 @@
 }
 
 .kudos-img-wrapper {
+  display: flex;
+  flex-direction: column;
   flex-basis: 50%;
   padding-right: 40px;
   min-width: 260px;
@@ -19,6 +23,11 @@
 
 .kudos-img {
   width: 100%;
+}
+
+.kudos-mini-caption {
+  margin: 0.5rem auto;
+  font-size: 0.75em;
 }
 
 .kudos-caption {
@@ -38,4 +47,10 @@
   font-family: 'Futura', sans-serif;
   font-size: 0.875em;
   line-height: 1.5em;
+}
+
+.app-link-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 24px;
 }
