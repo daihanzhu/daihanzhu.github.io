@@ -81,7 +81,7 @@
   font-size: 12px;
   font-weight: 500;
   background-color: #FFE6DC;
-  width: 114px;
+  display: inline;
   text-align: center;
   border-radius: 20px;
   padding: 2px 16px 2px 16px;

@@ -1,37 +1,19 @@
 .rbcx {
-  position: relative;
+  /* position: relative;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.8em;
-  color: #666666;
+  color: #666666; */
+  margin-bottom: 100px;
 }
 
 .rbcx a {
   color: #999999;
 }
 
-@media all and (min-width: 1200px) {
-  .rbcx p, .rbcx h2 {
-    padding: 0 50px;
-  }
-}
-
-/* CONTAINERS */
-
-/*TODO: Move other containers into this section */
-.blue-background {
-  margin-top: 200px;
-  position: relative;
-  background-color: #DFF0F0;
-  width: 100%;
-  padding-top: 80%;
-}
-
-@media all and (min-width: 712px) {
-  .blue-background {
-    padding-top: 0;
-    height: 412px;
-  }
+.design-thinking-wrapper {
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 /* TEXT */
@@ -255,10 +237,6 @@
 
 .our-brand {
   width: 62.3%;
-}
-
-.hand-cards {
-  width: 37.7%;
 }
 
 .bottom-x {
