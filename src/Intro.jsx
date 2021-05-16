@@ -32,12 +32,6 @@ class Intro extends Component {
     </div>);
   }
 
-  buildDaihanImg(src, altText) {
-    return (<img
-        src={src} alt={altText} className='daihan-into-img daihan-img'>
-      </img>);
-  }
-
   render() {
     const allowedViews = [Views.Tiles, Views.About]
     if (!allowedViews.includes(this.props.view)) {
@@ -54,13 +48,12 @@ class Intro extends Component {
           </img>;
         break;
       case Views.About:
+      default:
         bodyText = this.aboutContent();
         daihanImg = <img
             src={require('./images/daihan-chair1.png')} alt='Me on a chair' className='daihan-img'>
           </img>;
         break;
-      default:
-        bodyText = "INVALID STATE";
     }
 
     return (

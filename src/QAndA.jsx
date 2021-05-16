@@ -126,7 +126,7 @@ class QAndA extends Component {
     const sectionC= this.buildSection('On Life', this.sectionCContent())
 
     return (<div className="q-and-a">
-      <div className="intro">
+      <div className="intro QASection">
         <div className="daihan-image-wrapper">
           <img
             src={require('./images/daihan-sittin.png')} alt='Me sitting around'>
@@ -137,7 +137,7 @@ class QAndA extends Component {
           {sectionA}
         </div>
       </div>
-      <div className="intro">
+      <div className="intro QASection">
         <div className="daihan-image-wrapper">
           <img
             src={require('./images/daihan-on-steps.png')} alt='Me sitting on some steps'>
@@ -147,7 +147,7 @@ class QAndA extends Component {
           {sectionB}
         </div>
       </div>
-      <div className="intro">
+      <div className="intro QASection">
         <div className="daihan-image-wrapper">
           <img
             src={require('./images/daihan-falling-steps.png')} alt='Me almost falling off the steps'>

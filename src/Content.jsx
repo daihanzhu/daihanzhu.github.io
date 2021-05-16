@@ -5,7 +5,6 @@ import EmptyState from './TileViews/EmptyState.jsx'
 import RBCX from './TileViews/RBCX.jsx'
 import Kudos from './TileViews/Kudos.jsx'
 import QAndA from './QAndA.jsx'
-import './Content.css';
 
 import Views from './Views.js';
 
@@ -14,11 +13,6 @@ class Content extends Component {
     const { view, switchView } = this.props;
 
     switch (view) {
-      case Views.Tiles:
-        return (
-          <Grid switchView={switchView}/>
-        );
-
       case Views.About:
         return <About/>;
 
@@ -34,6 +28,7 @@ class Content extends Component {
       case Views.Kudos:
         return <Kudos/>;
 
+      case Views.Tiles:
       default:
         return <Grid switchView={switchView}/>
     }
