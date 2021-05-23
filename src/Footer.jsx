@@ -7,7 +7,7 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer-content">
           <div className="footer-text">
-            <h1 className="footer-header">More stuff.</h1>
+            <h1 className="footer-header">More Stuff.</h1>
             <p><a href="https://www.linkedin.com/in/daihan/"
                   rel="noopener noreferrer"
                   target="_blank">LinkedIn</a> |
@@ -25,9 +25,10 @@ class Footer extends Component {
                   target="_blank"> Medium</a> |
                 <a href="mailto:daihanzhu@gmail.com"
                   rel="noopener noreferrer"
-                  target="_blank"> daihanzhu@gmail.com </a></p>
-                {/*<hr className="line"></hr>*/}
-            <p className="goodbye-text">&lt;/&gt; by
+                  target="_blank"> daihanzhu@gmail.com </a>
+              {/*<hr className="line"></hr>*/}
+              <br/>
+              &lt;/&gt; by
               <a href="https://walinga.github.io" rel="noopener noreferrer" target="_blank"> Matthew. </a>
               {/*and Daihan with
               <span role="img" aria-label="face-mask emoji"> 😷 </span>*/}

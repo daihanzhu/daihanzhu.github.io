@@ -6,7 +6,7 @@ import Views from './Views.js';
 class Intro extends Component {
   mainContent() {
     return (<div className="daihan-caption">
-      <h1>Hi, my name is Daihan (she/her) and I’m a product designer</h1>
+      <h1 className="daihan-intro">Hi, my name is Daihan (she/her) and I’m a product designer</h1>
       <p className="daihan-desc">
         As a designer, I’m on a mission to make people’s digital experiences more delightful, inclusive, and valuable. I think holistically while placing every last pixel with purpose.
         <br/><br/>
@@ -20,7 +20,7 @@ class Intro extends Component {
 
   aboutContent() {
     return (<div className="daihan-caption">
-      <h1>Let’s be friends</h1>
+      <h1>Let’s be friends.</h1>
       <p className="daihan-desc">I’ll start. My name is Daihan, and I design software people like to use.
         <br/><br/>
         In the past, I’ve lived on 3 continents (North America, Europe, Asia), been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self.

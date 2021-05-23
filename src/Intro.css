@@ -40,6 +40,10 @@
   max-width: 400px;
 }
 
+.daihan-intro {
+  max-width: 350px;
+}
+
 .daihan-desc {
   font-size: 0.875em;
   line-height: 1.5em;

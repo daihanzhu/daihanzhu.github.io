@@ -23,7 +23,7 @@
 
 .footer-text p {
   font-size: 0.875em;
-  line-height: 150%;
+  line-height: 175%;
   color: white;
   text-align: center;
 }
@@ -37,7 +37,4 @@
   text-align: center;
   color: white;
   font-weight: bold;
-}
-
-.goodbye-text {
 }

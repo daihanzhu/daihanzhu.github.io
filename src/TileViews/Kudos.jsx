@@ -47,8 +47,9 @@ class Kudos extends Component {
           <div className="content-caption">
             <h1>Giving Recognition</h1>
             <p className="content-desc">
-              The Kudos platform empowers users to recognize the achievements of their coworkers and earn points that they can spend on gift cards.<br/><br/>
-              I have the exciting opportunity to shape the design of Kudos from the ground up. Kudos is an Enterprise Recognition Platform serving clients in over 80 countries.
+              Kudos is an Enterprise Employee Recognition Platform enabling teams in 80+ countries to build meaningful connections, increase performance, and strengthen values.
+              <br/><br/>
+              As the only designer, I worked closely with product and engineering to ship a better, more intuitive recognition-first experience
             </p>
           </div>
         </div>

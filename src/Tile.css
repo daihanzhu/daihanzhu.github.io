@@ -1,7 +1,6 @@
 .tile {
   position: relative;
 
-  height: 470px;
   width: 400px;
   background-color: #FFFFFF;
 
@@ -63,20 +62,12 @@
 }
 
 .tile-bottom {
-  position: absolute;
-  bottom: 0;
-
   background-color: white;
-
-  height:200px;
   width: 100%;
 }
 
 .tile-text-box {
-  position: absolute;
-  top: 46px;
-  left: 46px;
-  margin-right: 45px;
+  margin: 26px 40px;
   text-align: left;
 }
 
@@ -88,13 +79,12 @@
   display: inline;
   text-align: center;
   border-radius: 20px;
-  padding: 2px 16px 2px 16px;
+  padding: 5px 16px;
 }
 
 .tile-title {
   font-family: 'Futura', sans-serif;
-  padding-top: 12px;
-  margin: 0;
+  margin: 16px 0 8px;
 }
 
 .tile-desc {
