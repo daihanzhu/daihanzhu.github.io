@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: space-between;
   max-width: 840px;
-  margin: 50px auto;
+  /* NOTE: CSS will collapse the margins of adjacent divs - the space between will be 100 */
+  margin: 100px auto;
 }
 
 .content-img-wrapper, .content-caption {
@@ -21,6 +22,10 @@
     }
     .content-wrapper .content-img-wrapper, .content-wrapper .content-caption {
       margin: 0 40px;
+      margin-bottom: 100px; /* Vertical spacing between each image on mobile */
+    }
+    .content-img-wrapper:last-child, .content-caption:last-child {
+      margin-bottom: 0;
     }
 }
 
