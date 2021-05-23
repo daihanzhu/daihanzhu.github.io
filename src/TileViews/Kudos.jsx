@@ -55,12 +55,12 @@ class Kudos extends Component {
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <h1>Old Experience</h1>
-            <img src={this._fetchImage('old-experience.png')} alt='Kudos UI User Profile (Old)' className="content-img"></img>
+            <img src={this._fetchImage('old-experience.png')} alt='Kudos UI User Profile (Old)' className="shadowed-img content-img"></img>
             <div className="content-mini-caption">User Profile</div>
           </div>
           <div className="content-img-wrapper">
             <h1>New Experience</h1>
-            <img src={this._fetchImage('new-experience.png')} alt='Kudos UI User Profile (New)' className="content-img"></img>
+            <img src={this._fetchImage('new-experience.png')} alt='Kudos UI User Profile (New)' className="shadowed-img content-img"></img>
             <div className="content-mini-caption">User Profile</div>
           </div>
         </div>

@@ -27,3 +27,9 @@
     width: 36.623%;
   }
 }
+
+.rbcx-gif {
+  max-height: 258px;
+  border-radius: 10px;
+  object-fit: cover;
+}

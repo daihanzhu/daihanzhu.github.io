@@ -22,11 +22,11 @@ class EmptyState extends Component {
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <h1>Old Empty States</h1>
-            <img src={require('../images/emptyState/original.png')} alt='Original Empty States' className="content-img"></img>
+            <img src={require('../images/emptyState/original.png')} alt='Original Empty States' className="shadowed-img content-img"></img>
           </div>
           <div className="content-img-wrapper">
             <h1>New Empty States</h1>
-            <img src={require('../images/emptyState/new-empty-states.png')} alt='New Empty States' className="content-img"></img>
+            <img src={require('../images/emptyState/new-empty-states.png')} alt='New Empty States' className="shadowed-img content-img"></img>
           </div>
         </div>
         <div className="content-wrapper">
@@ -44,7 +44,7 @@ class EmptyState extends Component {
         </div>
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <img src={require('../images/emptyState/FullSizeRender.png')} alt='Full Size Render' className="content-img"></img>
+            <img src={require('../images/emptyState/FullSizeRender.png')} alt='Full Size Render' className="shadowed-img content-img"></img>
           </div>
           <div className="content-caption">
             <h1>Iterating on Feedback</h1>

@@ -84,7 +84,7 @@ class RBCX extends Component {
         </div>
 
         <div className="content-wrapper">
-          <img src={require('../images/rbcx/all-my-exes.png')} alt='Misc. Logos' className="content-img"></img>
+          <img src={require('../images/rbcx/all-my-exes.png')} alt='Misc. Logos' className="shadowed-img content-img"></img>
         </div>
 
         <div className="content-wrapper">
@@ -127,7 +127,7 @@ class RBCX extends Component {
             </p>
           </div>
           <div className="content-img-wrapper">
-            <img src={require('../images/rbcx/powered-by.png')} alt='Powered by Intrapreneurship' className="content-img"></img>
+            <img src={require('../images/rbcx/rbcx.gif')} alt='Powered by Intrapreneurship' className="rbcx-gif content-img"></img>
             <div className="content-mini-caption">Animated by Pigeon Row</div>
           </div>
         </div>
