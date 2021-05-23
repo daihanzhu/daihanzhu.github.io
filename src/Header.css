@@ -19,6 +19,11 @@
   margin-left: 40px;
 }
 
+.left-nav a, .home-button {
+  color: #E68F6C;
+  text-decoration: none;
+}
+
 .left-nav a:last-child {
   margin-right: 0;
 }

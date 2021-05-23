@@ -25,7 +25,7 @@ class QAndA extends Component {
         <br/><br/>
         For resources, here are a few I’ve found helpful:
       </p>
-      <ul>
+      <ul className="daihan-desc">
         <li>Design C</li>
         <li>Design X</li>
       </ul>
@@ -35,7 +35,7 @@ class QAndA extends Component {
       <p className="daihan-desc">
         Yes! You can <a href="mailto:daihanzhu@gmail.com"
           rel="noopener noreferrer"
-          target="_blank"> Email </a> me or message me on <a href="https://www.linkedin.com/in/daihan/"
+          target="_blank"> Email</a> me or message me on <a href="https://www.linkedin.com/in/daihan/"
                 rel="noopener noreferrer"
                 target="_blank">LinkedIn</a>.
       </p>
@@ -51,7 +51,7 @@ class QAndA extends Component {
         If I’m unavaliable, there is a good chance I know the prefect person who is!
       </p>
       <h3>What kind of work do you do</h3>
-      <ul>
+      <ul className="daihan-desc">
         <li>Website design + development</li>
         <li>Product + editorial illustrations</li>
         <li>Workshop Facilitation + Speaking</li>

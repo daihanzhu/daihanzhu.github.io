@@ -10,29 +10,24 @@ class Footer extends Component {
             <h1 className="footer-header">More Stuff.</h1>
             <p><a href="https://www.linkedin.com/in/daihan/"
                   rel="noopener noreferrer"
-                  target="_blank">LinkedIn</a> |
-                {/*<a href="https://github.com/daihanzhu"
-                  rel="noopener noreferrer"
-                  target="_blank"> Github</a> |*/}
+                  target="_blank">LinkedIn</a> |&nbsp;
                 <a href="https://dribbble.com/daihan"
                   rel="noopener noreferrer"
-                  target="_blank"> Dribbble</a> |
-                {/*<a href="https://www.instagram.com/dianezhu/"
-                  rel="noopener noreferrer"
-                  target="_blank"> Instagram</a> |*/}
+                  target="_blank">Dribbble</a> |&nbsp;
                 <a href="https://medium.com/@daihan"
                   rel="noopener noreferrer"
-                  target="_blank"> Medium</a> |
+                  target="_blank">Medium</a> |&nbsp;
                 <a href="mailto:daihanzhu@gmail.com"
                   rel="noopener noreferrer"
-                  target="_blank"> daihanzhu@gmail.com </a>
-              {/*<hr className="line"></hr>*/}
+                  target="_blank">daihanzhu@gmail.com</a>
               <br/>
-              &lt;/&gt; by
-              <a href="https://walinga.github.io" rel="noopener noreferrer" target="_blank"> Matthew. </a>
-              {/*and Daihan with
-              <span role="img" aria-label="face-mask emoji"> 😷 </span>*/}
-              Designed in 2021
+              &lt;/&gt; by&nbsp;
+              <a href="https://walinga.github.io" rel="noopener noreferrer" target="_blank">
+                Matthew
+              </a>, photographs by&nbsp;
+              <a href="https://www.sheenazilinski.com/" rel="noopener noreferrer" target="_blank">
+               Sheena Zilinski
+              </a>. Designed in 2021
             </p>
           </div>
         </div>
