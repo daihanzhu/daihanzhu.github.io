@@ -41,7 +41,7 @@ class Kudos extends Component {
       <div className="kudos">
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <img src={require('../images/kudos.png')} alt='Kudos UI Home' className="content-img"></img>
+            <img src={require('../images/kudos.png')} alt='Kudos UI Home' className="content-img" id="tileImg"></img>
             <div className="content-mini-caption">Home</div>
           </div>
           <div className="content-caption">

@@ -34,18 +34,30 @@ class Content extends Component {
   }
 
   getKeyframe(tileInfo) {
-    // TODO: Get the destination position from the actual image
+    // HACK to get the destination position, since the page hasn't laoded yet
+    // (based on the content-wrapper styling in ContentWrapper.css)
+    const pageWidth = document.body.offsetWidth;
+    var destLeft = 100;
+    var destTop = 195;
+
+    console.log(pageWidth);
+    if (pageWidth < 840) {
+      destLeft = 0;
+    } else {
+      destLeft = (pageWidth - 840) / 2;
+    }
+
     return (<style>{`
         @keyframes moveTile {
-            from {
-               left: ${tileInfo.left}
-               top: ${tileInfo.top}
-             }
-             to {
-               left: 100px;
-               top: 100px;
+            0%   {opacity: 1;}
+            25%  {opacity: 1;}
+            50%  {opacity: 1;}
+            75%  {opacity: 1;}
+            100% {
+               left: ${destLeft}px;
+               top: ${destTop}px;
                opacity: 0;
-             }
+            }
         }
     `}</style>);
   }
@@ -64,13 +76,9 @@ class Content extends Component {
 
   render() {
     const { view, switchView, tileInfo } = this.props;
-    // TODO: Remove debug
-    console.log('Content (!)')
-    console.log(tileInfo);
 
     const keyframe = this.getKeyframe(tileInfo);
     const tileImage = this.getTileImage(tileInfo);
-
     const content = this.getContent(view, switchView);
 
     return <div className="boop">

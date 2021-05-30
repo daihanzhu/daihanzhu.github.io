@@ -55,7 +55,7 @@ class RBCX extends Component {
       <div className="rbcx">
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <img src={require('../images/rbcx/rbcx-poster.png')} alt='RBCX Poster' className="content-img"></img>
+            <img src={require('../images/rbcx/rbcx-poster.png')} alt='RBCX Poster' className="content-img" id="tileImg"></img>
             <div className="content-mini-caption">Hype Poster for RBCx</div>
           </div>
           <div className="content-caption">
