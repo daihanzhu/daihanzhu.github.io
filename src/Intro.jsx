@@ -44,7 +44,7 @@ class Intro extends Component {
       case Views.Tiles:
         bodyText = this.mainContent();
         daihanImg = <img
-            src={require('./images/daihan-looks-left.png')} alt='Me looking to the side, sitting on some steps.' className='daihan-into-img daihan-img'>
+            src={require('./images/daihan-looks-left.png')} alt='Me looking to the side, sitting on some steps.' className='daihan-intro-img daihan-img'>
           </img>;
         break;
       case Views.About:

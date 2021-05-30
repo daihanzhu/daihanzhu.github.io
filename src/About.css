@@ -1,49 +1,44 @@
 .about {
+  /* Keep width/padding in sync with .intro in Intro.css */
+  max-width: 840px;
+  margin: 50px auto;
+  padding: 0 50px;
+
+  /* fonts */
   font-family: 'Futura', sans-serif;
   font-weight: 500;
   line-height: 1.8em;
   color: #41434f;
 }
 
-@media all and (min-width: 1073px) {
-  .about-text-block {
-    width: 693px;
-    margin: 0 auto;
-  }
+.about-block {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px auto;
 }
 
-/* LISTS */
-
-.list-column {
-  padding: 10px;
-  box-sizing: border-box;
+.about-caption {
+  word-wrap: break-word;
+  max-width: 400px;
 }
 
-.cat-title {
-  text-align: center;
-}
-
-.cat-pic {
-  width: 40%;
-}
-
-@media all and (min-width: 500px) {
-  .cat-pic {
-    width: 75%;
-  }
-  .list-column {
-    display: inline-block;
-    width: 33.333333%;
-  }
-}
-
-.list-column ol {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-}
-
-.list-column p {
+.about-desc {
   font-size: 0.875em;
   line-height: 1.5rem;
+  margin: 1.5rem auto;
+}
+
+
+/* IMAGES */
+
+.three-cats {
+  max-width: 100%;
+  width: 360px;
+}
+
+.westjet {
+  flex-basis: 50%;
+  max-width: 400px;
 }
