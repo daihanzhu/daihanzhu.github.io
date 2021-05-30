@@ -1,0 +1,7 @@
+.floatingTile {
+  position: fixed;
+  width: 400px;
+  animation-name: moveTile;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}

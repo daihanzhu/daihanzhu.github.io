@@ -17,7 +17,8 @@ class Main extends Component {
     this._scrollToGrid = this._scrollToGrid.bind(this);
 
     this.state = {
-      view: Views.Tiles
+      view: Views.Tiles,
+      tileInfo: {}
     }
   }
 
@@ -31,16 +32,17 @@ class Main extends Component {
   }
 
   _switchToWork(options = {}) {
-    this._scrollToTop();
-    this.setState({ view: Views.Tiles });
+    this.switchView(Views.Tiles)
     if (options.scrollDown) {
       setTimeout(this._scrollToGrid, 100);
     }
   }
 
-  switchView(newView) {
+  /* Switches to the provided newView. Passes the provided tileInfo to the new view */
+  switchView(newView, tileInfo={}) {
     this._scrollToTop();
     this.setState({ view: newView })
+    this.setState({ tileInfo: tileInfo })
   }
 
   render() {
@@ -55,6 +57,7 @@ class Main extends Component {
         />
         <Content
           view={this.state.view}
+          tileInfo={this.state.tileInfo}
           switchView={this.switchView}
         />
         <Footer />
