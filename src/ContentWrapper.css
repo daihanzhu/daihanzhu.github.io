@@ -71,3 +71,20 @@
   font-size: 0.875em;
   line-height: 1.5rem;
 }
+
+/* MAGIC */
+
+@keyframes hideImg {
+    0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 0;}
+    75%  {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+.tileImg {
+  /* Hide this img for 0.5s to allow the tile image animation to complete */
+  animation-name: hideImg;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}

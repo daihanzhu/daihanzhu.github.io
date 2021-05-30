@@ -8,7 +8,7 @@ class EmptyState extends Component {
       <div className="empty-state">
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <img src={require('../images/empty.png')} alt='OpenText' className="content-img"></img>
+            <img src={require('../images/empty.png')} alt='OpenText' className="content-img tileImg"></img>
           </div>
           <div className="content-caption">
             <h1>Empty State Illustrations</h1>
