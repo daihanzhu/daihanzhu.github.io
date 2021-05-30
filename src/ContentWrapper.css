@@ -78,13 +78,14 @@
     0%   {opacity: 0;}
     25%  {opacity: 0;}
     50%  {opacity: 0;}
-    75%  {opacity: 0.5;}
+    75%  {opacity: 0;}
+    99%  {opacity: 0;}
     100% {opacity: 1;}
 }
 
 .tileImg {
-  /* Hide this img for 0.5s to allow the tile image animation to complete */
+  /* Hide this img for 0.3s to allow the tile image animation to complete */
   animation-name: hideImg;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-fill-mode: both;
 }

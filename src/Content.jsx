@@ -36,11 +36,10 @@ class Content extends Component {
   getKeyframe(tileInfo) {
     // HACK to get the destination position, since the page hasn't laoded yet
     // (based on the content-wrapper styling in ContentWrapper.css)
-    const pageWidth = document.body.offsetWidth;
+    const pageWidth = document.body.clientWidth;
     var destLeft = 100;
     var destTop = 195;
 
-    console.log(pageWidth);
     if (pageWidth < 840) {
       destLeft = 0;
     } else {
@@ -52,7 +51,8 @@ class Content extends Component {
             0%   {opacity: 1;}
             25%  {opacity: 1;}
             50%  {opacity: 1;}
-            75%  {opacity: 0.5;}
+            75%  {opacity: 1;}
+            99%  {opacity: 1;}
             100% {
                left: ${destLeft}px;
                top: ${destTop}px;
@@ -81,7 +81,7 @@ class Content extends Component {
     const tileImage = this.getTileImage(tileInfo);
     const content = this.getContent(view, switchView);
 
-    return <div className="boop">
+    return <div className="content-container">
       {keyframe}
       {tileImage}
       {content}
