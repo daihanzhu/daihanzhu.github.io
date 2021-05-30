@@ -88,4 +88,5 @@
   animation-name: hideImg;
   animation-duration: 0.3s;
   animation-fill-mode: both;
+  border-radius: 5px;
 }
