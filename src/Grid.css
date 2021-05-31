@@ -1,14 +1,16 @@
 .grid-wrapper {
   position: relative;
-  border-radius: 18px;
-  padding-bottom: 30px;
+  padding: 50px;
+  padding-bottom: 130px;
   background-color: white;
+}
+
+.grid-heading {
+  margin-left: 40px;
 }
 
 .grid-container {
   display: grid;
-  padding: 50px;
-  padding-bottom: 100px;
   grid-gap: 40px;
   justify-content: center;
 }

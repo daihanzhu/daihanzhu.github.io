@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Grid from '../Grid.jsx';
+import tiles from '../TileData.json';
+
 import './EmptyState.css';
 import '../ContentWrapper.css'
 
@@ -71,6 +74,11 @@ class EmptyState extends Component {
             <img src={require('../images/emptyState/mock-up.png')} alt='Nodes List' className="es-img4"></img>
           </div>
         </div>
+        <Grid
+          tileData={[tiles[1], tiles[2]]}
+          switchView={this.props.switchView}
+          showHeading
+        />
       </div>);
   }
 }

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Grid from '../Grid.jsx';
+import tiles from '../TileData.json';
+
 import './Kudos.css';
 
 class Kudos extends Component {
@@ -87,9 +90,12 @@ class Kudos extends Component {
             <p className="content-desc">To learn more about the design process, please get in touch. </p>
           </div>
         </div>
-      </div>
-
-    );
+        <Grid
+          tileData={[tiles[2], tiles[3]]}
+          switchView={this.props.switchView}
+          showHeading
+        />
+      </div>);
   }
 }
 

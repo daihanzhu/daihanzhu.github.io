@@ -19,13 +19,13 @@ class Content extends Component {
         return <QAndA/>;
 
       case Views.EmptyState:
-        return <EmptyState/>;
+        return <EmptyState switchView={switchView}/>;
 
       case Views.RbcX:
-        return <RBCX/>;
+        return <RBCX switchView={switchView}/>;
 
       case Views.Kudos:
-        return <Kudos/>;
+        return <Kudos switchView={switchView}/>;
 
       case Views.Tiles:
       default:
@@ -81,7 +81,8 @@ class Content extends Component {
     const tileImage = this.getTileImage(tileInfo);
     const content = this.getContent(view, switchView);
 
-    return <div className="content-container">
+    // NOTE: Need to use a key to re-render when the component updates
+    return <div className="content-container" key={tileInfo.img}>
       {keyframe}
       {tileImage}
       {content}

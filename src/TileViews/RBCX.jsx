@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Grid from '../Grid.jsx';
+import tiles from '../TileData.json';
+
 import './RBCX.css';
 import '../ContentWrapper.css'
 
@@ -131,6 +134,11 @@ class RBCX extends Component {
             <div className="content-mini-caption">Animated by Pigeon Row</div>
           </div>
         </div>
+        <Grid
+          tileData={[tiles[1], tiles[3]]}
+          switchView={this.props.switchView}
+          showHeading
+        />
       </div>
     );
   }

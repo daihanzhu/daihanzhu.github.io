@@ -4,19 +4,16 @@ import withSizes from 'react-sizes'
 import Tile from './Tile.jsx'
 import './Grid.css';
 
-import tileData from './TileData.json';
+import importedTileData from './TileData.json';
 
 class Grid extends Component {
-  constructor(props) {
-    super(props)
-    this._fetchImage = this._fetchImage.bind(this);
-  }
-
-  _fetchImage( name ) {
+  _fetchImage = (name) => {
     return require( `./images/${name}` );
   }
 
   render() {
+    const tileData = this.props.tileData || importedTileData;
+
     let numTiles = 0;
     const filteredTileData = tileData.filter(t => t.visible === 1)
     let tiles = filteredTileData.map((item) =>
@@ -45,6 +42,8 @@ class Grid extends Component {
     return (
       <div className="grid-view" id="tile-grid">
         <div className='grid-wrapper'>
+          {this.props.showHeading
+            && <h2 className="grid-heading">Up Next ------</h2>}
           <div
             className="grid-container"
             style={gridStyle}
