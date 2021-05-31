@@ -31,12 +31,14 @@ class Grid extends Component {
         />
     );
 
-    const numColumns = Math.min(this.props.tileFit, numTiles);
+    const numColumns = Math.round(Math.min(this.props.tileFit, numTiles));
     /* Extra check to ensure only 2 columns are ever shown */
     const numColumns2 = Math.min(numColumns, 2);
 
+    const columnSize = Math.min(400, this.props.width - 100);
+
     const gridStyle = {
-      gridTemplateColumns: "400px ".repeat(numColumns2)
+      gridTemplateColumns: `${columnSize}px `.repeat(numColumns2)
     };
 
     return (
@@ -57,7 +59,8 @@ class Grid extends Component {
 }
 
 const mapSizesToProps = ({ width }) => ({
-  tileFit: (width - 50) / (350 + 50)
+  tileFit: (width - 50) / (350 + 50),
+  width: width
 })
 
 export default withSizes(mapSizesToProps)(Grid);

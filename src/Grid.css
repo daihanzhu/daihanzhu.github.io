@@ -16,9 +16,3 @@
   grid-gap: 40px;
   justify-content: center;
 }
-
-@media all and (max-width: 375px) {
-  .grid-container {
-    padding: 50px 25px;
-  }
-}

@@ -40,7 +40,9 @@ class Content extends Component {
     var destLeft = 100;
     var destTop = 195;
 
-    if (pageWidth < 840) {
+    if (pageWidth < 500) {
+      destLeft = 40;
+    } else if (pageWidth < 840) {
       destLeft = 0;
     } else {
       destLeft = (pageWidth - 840) / 2;
