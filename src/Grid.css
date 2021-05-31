@@ -1,12 +1,14 @@
 .grid-wrapper {
   position: relative;
-  padding: 50px;
-  padding-bottom: 130px;
+  padding: 0 50px 130px;
   background-color: white;
 }
 
 .grid-heading {
-  margin-left: 40px;
+  max-width: 840px;
+  margin: 0 auto;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
 }
 
 .grid-container {
