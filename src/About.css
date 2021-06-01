@@ -2,7 +2,7 @@
   /* Keep width/padding in sync with .intro in Intro.css */
   max-width: 840px;
   margin: 50px auto;
-  padding: 0 50px;
+  padding: 0 40px;
 
   /* fonts */
   font-family: 'Futura', sans-serif;
@@ -40,5 +40,6 @@
 
 .westjet {
   flex-basis: 50%;
+  width: 100%;
   max-width: 400px;
 }
