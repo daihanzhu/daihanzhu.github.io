@@ -7,7 +7,7 @@ import Kudos from './TileViews/Kudos.jsx'
 import QAndA from './QAndA.jsx'
 
 import Views from './Views.js';
-import './Content.css'
+import './Content.css';
 
 class Content extends Component {
   getContent(view, switchView) {
@@ -76,15 +76,25 @@ class Content extends Component {
       : undefined);
   }
 
+  getAdditionalClassNames(view) {
+    switch (view) {
+      case Views.About:
+        return 'about-wrapper';
+      default:
+        return '';
+    }
+  }
+
   render() {
     const { view, switchView, tileInfo } = this.props;
 
     const keyframe = this.getKeyframe(tileInfo);
     const tileImage = this.getTileImage(tileInfo);
     const content = this.getContent(view, switchView);
+    const classNames = this.getAdditionalClassNames(view);
 
     // NOTE: Need to use a key to re-render when the component updates
-    return <div className="content-container" key={tileInfo.img}>
+    return <div className={"content-container " + classNames} key={tileInfo.img}>
       {keyframe}
       {tileImage}
       {content}

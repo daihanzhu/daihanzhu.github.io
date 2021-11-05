@@ -12,3 +12,10 @@
     width: calc(100% - 80px);
   }
 }
+
+.about-wrapper {
+  /* TODO: Better background */
+  background-image: url('./images/Peach.png');
+  background-repeat: no-repeat;
+  background-size: auto 50vh;
+}

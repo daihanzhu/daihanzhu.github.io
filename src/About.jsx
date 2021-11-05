@@ -15,10 +15,7 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <div className="about-block">
-          <div className="background">
-            {/* TODO: Hacky background thing */}
-          </div>
+        <div className="about-block block-A">
           <div className="about-caption">
             <h1>Things I Love</h1>
             <p className="about-desc">
@@ -54,7 +51,6 @@ class About extends Component {
           </div>
         </div>
       </div>
-
     );
   }
 }
