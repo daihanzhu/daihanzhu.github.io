@@ -13,6 +13,25 @@ class About extends Component {
   }
 
   render() {
+    const imageData = [
+      {url: 'AboutMeImage38.png', grow: 1, alt: 'Breakfast in Colombia'},
+      {url: 'AboutMeImage30.png', grow: 2, alt: 'My engagement photo shoot in Banff'},
+      {url: 'AboutMeImage32.png', grow: 2, alt: 'Cat 1 and Cat 2'},
+      {url: 'AboutMeImage37.png', grow: 1, alt: 'Ice cream'},
+      {url: 'AboutMeImage40.png', grow: 1, alt: 'Arc de Triomphe'},
+      {url: 'AboutMeImage34.png', grow: 1, alt: 'Cat 3'},
+      {url: 'AboutMeImage39.png', grow: 1, alt: 'The Sahara desert'},
+    ];
+
+    const aboutMeImages = imageData.map(i =>
+      <img src={require(`./images/${i.url}`)}
+        key={i.url}
+        className='about-me-img'
+        alt={i.alt}
+        style={{flexGrow: i.grow, maxWidth: `${i.grow*33}%`}}>
+      </img>
+    )
+
     return (
       <div className="about">
         <div className="about-block block-A">
@@ -29,12 +48,13 @@ class About extends Component {
             </p>
           </div>
         </div>
+        <div className="about-block image-block">
+          {aboutMeImages}
+        </div>
         <div className="about-block">
-          <img src={require('./images/westjet.png')} alt='Westjet Connect app.' className='westjet'>
-          </img>
           <div className="about-caption">
             <h1>Writing</h1>
-            <p className="about-desc">Occationally, I write about UX and learnings along the way.
+            <p className="about-desc">Occasionally, I write about UX and learnings along the way.
               <br/><br/>
               <a href="https://uxdesign.cc/westjet-connect-a-ux-case-study-2c15b1888bf5" rel="noopener noreferrer" target="_blank">
                 Westjet Connect - A UX Case Study
@@ -49,6 +69,8 @@ class About extends Component {
               </a>
             </p>
           </div>
+          <img src={require('./images/westjet.png')} alt='Westjet Connect app.' className='westjet'>
+          </img>
         </div>
       </div>
     );

@@ -21,6 +21,14 @@
 
 .about-block.block-A {
   padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-block.image-block {
+  align-items: stretch;
+  justify-content: flex-start;
+  /* NOTE: Use negative margin of 10px since the images have 10px padding */
+  margin: 0 -10px 100px;
 }
 
 .about-caption {
@@ -37,9 +45,10 @@
 
 /* IMAGES */
 
-.three-cats {
-  max-width: 100%;
-  width: 360px;
+.about-me-img {
+  padding: 10px;
+  height: 350px;
+  box-sizing: border-box;
 }
 
 .westjet {
