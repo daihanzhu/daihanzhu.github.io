@@ -17,8 +17,9 @@
 }
 
 .footer-text p {
+  font-weight: inherit;
   font-size: 0.875em;
-  line-height: 175%;
+  line-height: 200%;
   color: white;
   text-align: center;
 }

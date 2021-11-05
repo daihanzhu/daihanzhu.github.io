@@ -21,9 +21,9 @@ class Intro extends Component {
   aboutContent() {
     return (<div className="daihan-caption">
       <h1>Let’s be friends.</h1>
-      <p className="daihan-desc">I’ll start. My name is Daihan, and I design software people like to use.
+      <p className="daihan-desc">I’ll start. I'm Daihan, and I design software people like to use. But enough about that.
         <br/><br/>
-        In the past, I’ve lived on 3 continents (North America, Europe, Asia), been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self.
+        In the past, I’ve lived on 3 continents (North America, Europe, Asia), been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self (jk. Still am).
         <br/><br/>
         In the future, I plan on illustrating a children’s book, grow an avocado tree, and ride horses into the sunset.
         <br/><br/>

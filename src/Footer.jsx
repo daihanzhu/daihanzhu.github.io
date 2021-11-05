@@ -21,13 +21,13 @@ class Footer extends Component {
                   rel="noopener noreferrer"
                   target="_blank">daihanzhu@gmail.com</a>
               <br/>
-              &lt;/&gt; by&nbsp;
+              Code by&nbsp;
               <a href="https://walinga.github.io" rel="noopener noreferrer" target="_blank">
                 Matthew
-              </a>, photographs by&nbsp;
+              </a>. Portraits by&nbsp;
               <a href="https://www.sheenazilinski.com/" rel="noopener noreferrer" target="_blank">
                Sheena Zilinski
-              </a>. Designed in 2021
+             </a>. Designed in 2021 in NYC
             </p>
           </div>
         </div>
