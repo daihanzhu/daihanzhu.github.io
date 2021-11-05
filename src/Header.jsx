@@ -17,9 +17,9 @@ class Header extends Component {
           <a onClick={() => this.props.switchView(Views.About)}>
             My Story
           </a>
-          <a onClick={() => this.props.switchView(Views.QAndA)}>
+          {/*<a onClick={() => this.props.switchView(Views.QAndA)}>
             Q + A
-          </a>
+          </a> */}
         </div>
       </div>
     );
