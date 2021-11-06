@@ -47,8 +47,8 @@
 
 .about-me-img {
   padding: 10px;
-  height: 350px;
   box-sizing: border-box;
+  min-width: 260px;
 }
 
 .westjet {

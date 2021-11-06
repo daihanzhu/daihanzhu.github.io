@@ -28,7 +28,7 @@ class About extends Component {
         key={i.url}
         className='about-me-img'
         alt={i.alt}
-        style={{flexGrow: i.grow, maxWidth: `${i.grow*33}%`}}>
+        style={{flexGrow: i.grow, width: `${i.grow*33}%`}}>
       </img>
     )
 
