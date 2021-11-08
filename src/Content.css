@@ -15,8 +15,7 @@
 }
 
 .about-wrapper {
-  /* TODO: Better background */
   background-image: url('./images/Peach.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: auto 50vh;
 }
