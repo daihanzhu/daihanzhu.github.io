@@ -1,7 +1,21 @@
-.about-text {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 80px;
-    height: 200px;
+.floatingTile {
+  position: fixed;
+  width: 400px;
+  animation-name: moveTile;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+@media all and (max-width: 500px) {
+  .floatingTile {
+    width: calc(100% - 80px);
+  }
+}
+
+.about-wrapper {
+  background-image: url('./images/Peach.png');
+  background-repeat: repeat-x;
+  background-size: auto 50vh;
 }

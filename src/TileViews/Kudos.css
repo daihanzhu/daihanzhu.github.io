@@ -1,66 +1,9 @@
-/* HEADERS */
-
-.kudos-header {
-  background-image: url('../images/kudos/back-blue.png');
-  position: relative;
-  background-size: 100% 100%;
-  height: 318px; /* Note: Keep this synced up with the content-header CSS */
+.kudos {
+  font-family: 'Futura', sans-serif;
 }
 
-/* ETC */
-
-.kudos-inlay {
-  position: absolute;
-  top: 50%;
-  margin-left: 25px;
-}
-
-@media all and (min-width: 800px) {
-  .kudos-inlay {
-    margin: auto 15.5%;
-  }
-}
-
-.kudos-wrapper {
-  padding-top: 230px;
-}
-
-.kudos-inlay-img {
-  float: right;
-  width: 50%;
-}
-
-.kudos-big-img {
-  width: 100%;
-}
-
-.kudos-title h1 {
-  color: white;
-  font-size: 40px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-
-.kudos-title h3 {
-  color: white;
-}
-
-@media all and (min-width: 100px) {
-  .kudos-title {
-    float: left;
-    width: 50%;
-  }
-}
-
-.kudos-desc {
-  margin-top: 100px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.kudos-caption {
-  text-align: center;
-}
-
-.kudos-contact {
-  font-weight: 400;
+.app-link-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 24px;
 }

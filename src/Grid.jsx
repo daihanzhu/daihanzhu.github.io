@@ -4,26 +4,19 @@ import withSizes from 'react-sizes'
 import Tile from './Tile.jsx'
 import './Grid.css';
 
-import tileData from './TileData.json';
+import importedTileData from './TileData.json';
 
 class Grid extends Component {
-  constructor(props) {
-    super(props)
-    this._fetchImage = this._fetchImage.bind(this);
-    this._switchToAbout = this._switchToAbout.bind(this);
-  }
-
-  _switchToAbout() {
-    this.props.switchToAbout();
-  }
-
-  _fetchImage( name ) {
+  _fetchImage = (name) => {
     return require( `./images/${name}` );
   }
 
   render() {
+    const tileData = this.props.tileData || importedTileData;
+
     let numTiles = 0;
-    let tiles = tileData.map((item) =>
+    const filteredTileData = tileData.filter(t => t.visible === 1)
+    let tiles = filteredTileData.map((item) =>
         <Tile
           key={numTiles++}
           header={item.header}
@@ -32,56 +25,31 @@ class Grid extends Component {
           image={item.image ? this._fetchImage(item.image) : null}
           altText={item.image}
           overlaytext={item.overlaytext}
+          overlaySubtext={item.overlaySubtext}
           page={item.view}
           switchView={this.props.switchView}
         />
     );
 
-    /* Hard-coded sh*t to hide some tiles for now */
-    tiles = tiles.slice(0,3);
-    numTiles = tiles.length;
-
-    const numColumns = Math.min(this.props.tileFit, numTiles);
-    /* Extra check to ensure only 3 columns are ever shown */
-    const numColumns2 = Math.min(numColumns, 3);
-
-    if (numColumns < 2) {
-      tiles = tiles.reverse();
-    }
+    /* Ensure only 2 columns are ever shown */
+    const numColumns = Math.max(1, Math.min(this.props.tileFit, 2));
+    const columnSize = Math.min(400, this.props.width - 100);
 
     const gridStyle = {
-      gridTemplateColumns: "350px ".repeat(numColumns2)
-    };
-
-    const backdropStyle = {
-      height: this.props.height
+      gridTemplateColumns: `${columnSize}px `.repeat(numColumns)
     };
 
     return (
-      <div className="grid-view">
-        <div
-          className='front-page-backdrop'
-          style ={backdropStyle}
-        >
-          <div className="content-wrapper">
-            <a className="email-link" href="mailto:daihanzhu@gmail.com?subject=Let's work together!">
-              daihanzhu@gmail.com
-            </a>
-            {/*<img src={require('./images/landing-foreground.png')} alt="Let's Work Together" className='intro-title'>
-            </img>*/}
-            <button onClick={this._switchToAbout} className="about-link">
-              About me
-            </button>
-          </div>
-        </div>
+      <div className="grid-view" id="tile-grid">
         <div className='grid-wrapper'>
+          {this.props.showHeading
+            && <h2 className="grid-heading">Up Next ------</h2>}
           <div
             className="grid-container"
             style={gridStyle}
           >
             {tiles}
           </div>
-          <div className="grid-wrapper-bottom"></div>
         </div>
       </div>
     );
@@ -89,7 +57,8 @@ class Grid extends Component {
 }
 
 const mapSizesToProps = ({ width }) => ({
-  tileFit: (width - 50) / (350 + 50)
+  tileFit: (width - 50) / (400 + 50),
+  width: width
 })
 
 export default withSizes(mapSizesToProps)(Grid);

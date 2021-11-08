@@ -1,117 +1,58 @@
 .about {
-  background-image: url('./images/about-bg.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: 'Roboto', sans-serif;
+  /* Keep width/padding in sync with .intro in Intro.css */
+  max-width: 840px;
+  margin: 50px auto;
+  padding: 0 40px;
+
+  /* fonts */
+  font-family: 'Futura', sans-serif;
   font-weight: 500;
   line-height: 1.8em;
   color: #41434f;
 }
 
-@media all and (min-width: 1073px) {
-  .about-text-block {
-    width: 693px;
-    margin: 0 auto;
-  }
+.about-block {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px auto;
 }
 
-.shape-container {
-  position: relative;
-  margin: 0 auto;
-  margin-bottom: 1.25em;
+.about-block.block-A {
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
-.daihan-caption {
+.about-block.image-block {
+  align-items: stretch;
+  justify-content: flex-start;
+  /* NOTE: Use negative margin of 10px since the images have 10px padding */
+  margin: 0 -10px 100px;
+}
+
+.about-caption {
   word-wrap: break-word;
+  max-width: 400px;
 }
 
-.daihan-who {
-  height: 400px;
-  max-width: 300px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  margin: 0 auto;
-  background-image: url('./images/daihan.png');
-  background-size: 300px;
-  background-repeat: no-repeat;
+.about-desc {
+  font-size: 0.875em;
+  line-height: 1.5rem;
+  margin: 1.5rem auto;
 }
 
-@media all and (min-width: 470px) {
-  .shape-container {
-    height: 475px;
-    width: 420px;
-  }
 
-  .sparkle {
-    position: absolute;
-    z-index: 1;
-    bottom: 35px;
-    height: 91px;
-    width: 84px;
-    background-size: 100%;
-    background-image: url('./images/sparkle.png');
-  }
+/* IMAGES */
 
-  .daihan-who {
-    position: absolute;
-    left: 50px;
-    height: 419px;
-    width: 315px;
-    transition: transform 0.3s ease-out;
-  }
-
-  .daihan-who:hover {
-    transform: translateY(-5px);
-  }
-}
-
-@media all and (min-width: 1050px) {
-  .shape-container {
-    top: 80px;
-    float: left;
-  }
-  .daihan-caption {
-    height: 475px;
-    overflow: auto;
-    padding-top: 80px;
-  }
-}
-
-@media all and (min-width: 1300px) {
-  .daihan-caption {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-}
-
-/* LISTS */
-
-.list-column {
+.about-me-img {
   padding: 10px;
   box-sizing: border-box;
+  min-width: 260px;
 }
 
-.cat-pic {
-  width: 40%;
-}
-
-@media all and (min-width: 500px) {
-  .cat-pic {
-    width: 75%;
-  }
-  .list-column {
-    float: left;
-    width: 33.333333%;
-  }
-}
-
-.list-column ol {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-}
-
-.about-section-header {
-  margin-top: 32px;
-  text-align: center;
+.westjet {
+  flex-basis: 50%;
+  width: 100%;
+  max-width: 400px;
 }

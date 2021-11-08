@@ -1,13 +1,9 @@
 .tile {
   position: relative;
-
-  height: 470px;
-  width: 350px;
+  max-width: 400px;
   background-color: #FFFFFF;
-
-  border-radius: 18px;
+  border-radius: 5px;
   box-shadow: 0 24px 50px 0 rgba(0,0,0,0.05),0 18px 30px 0 rgba(0,0,0,0.02);
-
   transition: transform 0.3s ease-out;
 }
 
@@ -33,7 +29,7 @@
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  border-radius: 18px;
+  border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.95);
 }
 
@@ -42,8 +38,8 @@
 }
 
 .overlay-text {
-  font-family: 'Open Sans', sans-serif;
-  color: #333333;
+  font-family: 'Futura', sans-serif;
+  color: #3A4468;
   font-size: 28px;
   line-height: 160%;
   position: absolute;
@@ -53,50 +49,46 @@
   text-align: center;
 }
 
+.overlay-subtext {
+  font-size: 14px;
+}
+
 .tile-bgd {
   width: 100%;
-  border-radius: 18px 18px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .tile-bottom {
-  position: absolute;
-  bottom: 0;
-
   background-color: white;
-
-  height:200px;
   width: 100%;
 }
 
 .tile-text-box {
-  position: absolute;
-  top: 46px;
-  left: 46px;
-  margin-right: 46px;
+  margin: 26px 40px;
   text-align: left;
 }
 
 .tile-header-text {
-  font-family: 'Roboto', sans-serif;
-  color: #473DD6;
-  font-size: 14px;
-  font-weight: 700;
+  font-family: 'Futura', sans-serif;
+  font-size: 0.75em;
+  font-weight: 500;
+  background-color: #FFE6DC;
+  display: inline;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 16px;
 }
 
 .tile-title {
-  color: #41434f;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 12px;
-  font-size: 28px;
-  font-weight: 700;
+  font-family: 'Futura', sans-serif;
+  margin: 16px 0 8px;
 }
 
 .tile-desc {
-  color: #606371;
-  font-family: 'Roboto', sans-serif;
+  color: #3A4468;
+  font-family: 'Futura', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 6px;
   line-height: 150%;
-
 }

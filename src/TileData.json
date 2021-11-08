@@ -1,24 +1,36 @@
 [
   {
-    "header": "BRAND EXPERIENCE",
-    "title": "RBCx",
-    "description": "Designing the ultimate innovation experience",
-    "image": "rbcx.gif",
-    "view": "RbcX"
+    "header": "Product Design",
+    "title": "Machine Learning Governance",
+    "description": "Enabling Data Scientists, Engineers, and Business Executives to do their best work ",
+    "image": "datatron.png",
+    "overlaytext": "🚧",
+    "overlaySubtext": "Work in Progress",
+    "visible": 1
   },
   {
-    "header": "VISUAL DESIGN",
-    "title": "Empty states",
-    "description": "Bringing software to life one illustration at a time",
-    "image": "empty.png",
-    "view": "EmptyState"
-  },
-  {
-    "header": "UX/UI",
-    "title": "Giving thanks",
+    "header": "Product Design",
+    "title": "Giving Recognition",
     "description": "Increasing workplace happiness through the power of recognition",
     "image": "kudos.png",
-    "overlaytext": "🔒"
+    "view": "Kudos",
+    "visible": 1
+  },
+  {
+    "header": "Brand Design",
+    "title": "RBCx",
+    "description": "Designing the ultimate innovation experience for doers and change-makers",
+    "image": "rbcx/rbcx-poster.png",
+    "view": "RbcX",
+    "visible": 1
+  },
+  {
+    "header": "Illustration",
+    "title": "Empty States",
+    "description": "Bringing software to life one illustration at a time",
+    "image": "empty.png",
+    "view": "EmptyState",
+    "visible": 1
   },
   {
     "header": "VISUAL DESIGN",

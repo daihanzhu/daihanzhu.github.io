@@ -4,39 +4,43 @@
 
 h1 {
   text-align: left;
-  font-family: 'Yeseva One', cursive;
-  font-weight: 100;
-  font-size: 2.0em;
-  color: #41434f;
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #E68F6C;
+  margin: 0.5em 0 1.5em;
 }
 
 h2 {
-  font-size: 1em;
-  color: #41434f;
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #100C3A;
 }
 
+/* NOTE: h3 has the same styling as h1, but is used for sub-sub-sections (eg. in Q-AND-A) */
 h3 {
-  font-size: 1em;
-  color: #F9CBCE;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #E68F6C;
 }
 
-p {
-  font-weight: 400;
-  color: #606371;
+p, li {
+  font-weight: 500;
+  color: #3A4468;
 }
 
 a, button {
   border: none;
   background-color: transparent;
   font: inherit;
-  text-decoration: none;
-  color: black;
+  color: inherit;
+  text-decoration: underline;
   transition: color 0.3s ease-in-out;
 }
 
 a:hover, button:hover, a:focus, button:focus {
   cursor: pointer;
-  color: #EA1C44;
+  /*color: #EA1C44;*/ /* TODO: Determine hover color (if any) */
 }
 
 
@@ -50,47 +54,12 @@ a:hover, button:hover, a:focus, button:focus {
   width: 100%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
+
+  /* Hide scrollbar (https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
-/* BACK BTN */
-
-.back-btn {
-  position: fixed;
-  z-index: 1000;
-  top: 10px;
-  left: 10px;
-}
-
-
-/*@media all and (min-width: 750px) and (min-height: 500px) {
-  .back-btn {
-    top: 423px;
-    left: 0;
-  }
-}*/
-
-@media all and (min-width: 950px) {
-  .back-btn {
-    left: 10vw
-  }
-}
-
-@media all and (min-width: 1250px) {
-  .back-btn {
-    left: 16vw
-  }
-}
-
-.back-arrow {
-  width: 109px;
-  height: 109px;
-  cursor: pointer;
-  background-image: url('./images/back-arrow.png');
-  background-position: center;
-  background-size: 109px;
-  transition: 0.5s background-image;
-}
-
-.back-arrow:hover {
-  background-image: url('./images/back-arrow-hover.png');
+.App::-webkit-scrollbar {
+  display: none;
 }

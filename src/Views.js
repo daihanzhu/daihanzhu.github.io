@@ -1,7 +1,7 @@
 const Views = {
   Tiles: 'tiles',
   About: 'about',
-  Stories: 'stories',
+  QAndA: 'qa',
   EmptyState: 'emptystate',
   RbcX: 'rbcx',
   Kudos: 'kudos'

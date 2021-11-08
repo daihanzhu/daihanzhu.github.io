@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Content from './Content.jsx';
+import Header from './Header.jsx';
+import Intro from './Intro.jsx';
 import Footer from './Footer.jsx'
 import './Main.css';
 
@@ -9,14 +11,14 @@ class Main extends Component {
   constructor(props) {
     super(props);
 
-    this.switchToAbout = this.switchToAbout.bind(this);
     this._switchToWork = this._switchToWork.bind(this);
-    this._switchToStories = this._switchToStories.bind(this);
-    this.switchToTileView = this.switchToTileView.bind(this);
+    this.switchView = this.switchView.bind(this);
     this._scrollToTop = this._scrollToTop.bind(this);
+    this._scrollToGrid = this._scrollToGrid.bind(this);
 
     this.state = {
-      view: Views.Tiles
+      view: Views.Tiles,
+      tileInfo: {}
     }
   }
 
@@ -24,42 +26,41 @@ class Main extends Component {
     this.app.scrollTo(0, 0);
   }
 
-  switchToAbout() {
-    this._scrollToTop();
-    this.setState({ view: Views.About });
+  _scrollToGrid() {
+    document.getElementById('tile-grid').scrollIntoView(
+      {behavior: "smooth", block: "start", inline: "nearest"});
   }
 
-  _switchToWork() {
-    this._scrollToTop();
-    this.setState({ view: Views.Tiles });
+  _switchToWork(options = {}) {
+    this.switchView(Views.Tiles)
+    if (options.scrollDown) {
+      setTimeout(this._scrollToGrid, 100);
+    }
   }
 
-  _switchToStories() {
+  /* Switches to the provided newView. Passes the provided tileInfo to the new view */
+  switchView(newView, tileInfo={}) {
     this._scrollToTop();
-    this.setState({ view: Views.Stories });
-  }
-
-  switchToTileView(tileView) {
-    this._scrollToTop();
-    this.setState({ view: tileView })
+    this.setState({ view: newView })
+    this.setState({ tileInfo: tileInfo })
   }
 
   render() {
-    const backBtn = this.state.view === Views.Tiles ?
-      null : (<button onClick={this._switchToWork} className='back-btn'>
-        <div className='back-arrow' label="BACK"></div>
-      </button>);
-
-      const preFooterViews = [Views.Tiles, Views.About];
-
     return (
       <div className="App" ref={(app) => this.app = app}>
-        { backBtn }
+        <Header
+          goHome={this._switchToWork}
+          switchView={this.switchView}
+        />
+        <Intro
+          view={this.state.view}
+        />
         <Content
           view={this.state.view}
-          switchView={this.switchToTileView}
-          switchToAbout={this.switchToAbout}/>
-        <Footer preFooter={preFooterViews.includes(this.state.view)}/>
+          tileInfo={this.state.tileInfo}
+          switchView={this.switchView}
+        />
+        <Footer />
       </div>
     );
   }

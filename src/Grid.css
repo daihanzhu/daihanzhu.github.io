@@ -1,121 +1,18 @@
 .grid-wrapper {
   position: relative;
-  border-radius: 18px;
-  padding-bottom: 30px;
-  box-shadow: 0 -5px 50px 0 rgba(0,0,0,0.05),0 -2px 15px 0 rgba(0,0,0,0.05);
+  padding: 0 40px 130px;
   background-color: white;
 }
 
-.grid-wrapper-bottom {
-  position: absolute;
-  bottom: -25px;
-  background-color: white;
-  height: 40px;
-  width: 100%;
+.grid-heading {
+  max-width: 840px;
+  margin: 0 auto;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
 }
 
 .grid-container {
   display: grid;
-  padding: 50px;
-  padding-bottom: 100px;
-  grid-gap: 50px;
+  grid-gap: 40px;
   justify-content: center;
-}
-
-@media all and (max-width: 375px) {
-  .grid-container {
-    padding: 50px 25px;
-  }
-}
-
-/* INTRO */
-
-.email-link {
-  font-family: 'Roboto', sans-serif;
-  color: #EA1C44;
-  font-size: 16px;
-  font-weight: 700;
-  display: none;
-}
-
-.about-link {
-  padding: 0; /* Fixes an issue on Chrome where the focus border is shaped weirdly */
-  position: absolute;
-  top: 80%;
-  right: 20%;
-  font-size: 1em;
-  color: #094064;
-  font-weight: 700;
-}
-
-.about-link:after {
-  margin-top: 3px;
-  content: ' →';
-}
-
-@media all and (min-width: 768px) {
-  .about-link {
-    top: 67%;
-    right: 25%;
-    font-size: 1.3em;
-    line-height: 24px;
-  }
-  .about-link:after {
-    content: url('./images/about-arrow.svg');
-    width: 2.2em;
-    display: inline-block;
-    box-sizing: border-box;
-    text-align: right;
-    vertical-align: middle;
-    padding-right: 1em;
-    transition: padding-right 0.2s ease-in-out;
-  }
-  .about-link:hover:after {
-    content: url('./images/about-arrow2.svg');
-    padding-right: 0.7em;
-  }
-}
-
-.intro-title {
-  /* Mobile view goes here */
-}
-
-@media all and (min-width: 350px) {
-  .intro-title {
-    /* Medium size view / brown dog */
-  }
-}
-
-@media all and (min-width: 0) {
-  .intro-title {
-    width: 56.5%;
-  }
-}
-
-@media all and (min-width: 1180px) {
-  .intro-title {
-    width: 452px;
-  }
-}
-
-.front-page-backdrop {
-  position: relative;
-  background-image: url('./images/landing-background-mobile.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top right;
-
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  line-height: 1.8em;
-  width: 100%;
-  height: 36vh;
-  box-sizing: border-box;
-}
-
-@media all and (min-width: 550px) {
-  .front-page-backdrop {
-    background-image: url('./images/landing-background.png');
-    height: 40vw;
-  }
 }
