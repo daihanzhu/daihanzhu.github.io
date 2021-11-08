@@ -96,7 +96,7 @@ class RBCX extends Component {
             <p className="content-desc">
               Alongside Alysse Glick, project lead, we created custom playbooks to walk founders, consultants, and advisors through the journey from the very first day to the final pitch.
               <br/><br/>
-              As part of the first touchpoint, people receive at the start of the program, a good impression is key. We wanted them to pick it up and say “wow, this is the coolest shit I’m about to do”.
+              As part of the first touchpoint that people receive at the start of the program, a good impression is key. We wanted them to pick it up and say, “wow, this is the coolest shit I’m about to do”.
             </p>
           </div>
           <div className="content-img-wrapper">
@@ -117,7 +117,7 @@ class RBCX extends Component {
           <div className="content-caption">
             <h1>Doing Things I’ve Never Done Before</h1>
             <p className="content-desc">
-              Aside from the usual suspect of stickers and prints, I also got to design trading cards, comic strips, and even a life-sized graphic for an interactive game. It was SO much fun.
+              Aside from the usual suspects of stickers and prints, I also got to design trading cards, comic strips, and even a life-sized graphic for an interactive game. It was SO much fun.
             </p>
           </div>
         </div>

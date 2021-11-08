@@ -36,9 +36,9 @@ class EmptyState extends Component {
           <div className="content-caption">
             <h1>Building Foundations</h1>
             <p className="content-desc">
-              A scalable Design System always starts with a strong foundation. I started by going through the existing color pallet and playing with different shapes, gradients, and lines.
+              A scalable Design System always starts with a strong foundation. I started by going through the existing color palette and playing with different shapes, gradients, and lines.
               <br/><br/>
-              Next, I start to generate ideas from sketches.
+              Next, I started to generate ideas from sketches.
             </p>
           </div>
           <div className="content-img-wrapper">
@@ -52,7 +52,7 @@ class EmptyState extends Component {
           <div className="content-caption">
             <h1>Iterating on Feedback</h1>
             <p className="content-desc">
-              For each empty state, I came up with a few sketches that reflect the story of the scenario. Some are celebratory for completing all tasks and some are sympathetic for moments of frustration, all while trying to sneak at least one cat in there.
+              For each empty state, I came up with a few sketches that reflect the story of the scenario. Some are celebratory for completing all tasks, and some are sympathetic for moments of frustration, all while trying to sneak at least one cat in there.
               <br/><br/>
               After a few rounds of iteration and feedback, I came up with 2 versions for each empty state for feedback with the wider team.
             </p>
@@ -65,7 +65,7 @@ class EmptyState extends Component {
           <div className="content-caption">
             <h1>Expanding Across Platforms</h1>
             <p className="content-desc">
-              The team loved the illustrations so much and requested them to be adapted for desktop use. I had this in mind from the start so it was very easy to flip the switch for a larger screen and different background
+              The team loved the illustrations so much and requested them to be adopted for desktop use. I had this in mind from the start so it was very easy to flip the switch for a larger screen and different background.
               <br/><br/>
               Thanks for looking!
             </p>

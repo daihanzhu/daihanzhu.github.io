@@ -52,7 +52,7 @@ class Kudos extends Component {
             <p className="content-desc">
               Kudos is an Enterprise Employee Recognition Platform enabling teams in 80+ countries to build meaningful connections, increase performance, and strengthen values.
               <br/><br/>
-              As the only designer, I worked closely with product and engineering to ship a better, more intuitive recognition-first experience
+              As the only designer, I worked closely with product and engineering to ship a better, more intuitive recognition-first experience.
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@ class Kudos extends Component {
             <h1>Mobile, Integrations and more</h1>
             <p className="content-desc">In addition, I designed the experience of our mobile apps as well as multiple integrations to achieve a consistent experience across our product ecosystem.
                 <br/><br/>
-                Check ‘em out!
+                Check 'em out!
             </p>
             {this.appLinks()}
           </div>

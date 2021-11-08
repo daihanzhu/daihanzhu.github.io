@@ -44,7 +44,7 @@ class About extends Component {
           <div className="about-caption">
             <h1>Things I Care About</h1>
             <p className="about-desc">
-              Kindness. Being kind to our planet and each other. Subtitle that match. Voting. Wellness. Inclusive Design. Doing my best and none of the little things.
+              Kindness. Being kind to our planet and each other. Subtitles that match. Voting. Wellness. Inclusive Design. Doing my best and none of the little things.
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
   border-radius: 5px;
+  pointer-events: none;
 }
 
 @media all and (max-width: 500px) {
