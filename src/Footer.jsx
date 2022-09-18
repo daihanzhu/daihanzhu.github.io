@@ -22,7 +22,7 @@ class Footer extends Component {
                   target="_blank">daihanzhu@gmail.com</a>
               <br/>
               Code by&nbsp;
-              <a href="https://walinga.github.io" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/walinga" rel="noopener noreferrer" target="_blank">
                 Matthew
               </a>. Portraits by&nbsp;
               <a href="https://www.sheenazilinski.com/" rel="noopener noreferrer" target="_blank">
