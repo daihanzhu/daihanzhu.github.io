@@ -48,7 +48,7 @@ class Kudos extends Component {
             <div className="content-mini-caption">Home</div>
           </div>
           <div className="content-caption">
-            <h1>Giving Recognition</h1>
+            <h2>Kudos Employee Recognition Platform</h2>
             <p className="content-desc">
               Kudos is an Enterprise Employee Recognition Platform enabling teams in 80+ countries to build meaningful connections, increase performance, and strengthen values.
               <br/><br/>
@@ -58,19 +58,19 @@ class Kudos extends Component {
         </div>
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <h1>Old Experience</h1>
+            <h2>Old Experience</h2>
             <img src={this._fetchImage('old-experience.png')} alt='Kudos UI User Profile (Old)' className="shadowed-img content-img"></img>
             <div className="content-mini-caption">User Profile</div>
           </div>
           <div className="content-img-wrapper">
-            <h1>New Experience</h1>
+            <h2>New Experience</h2>
             <img src={this._fetchImage('new-experience.png')} alt='Kudos UI User Profile (New)' className="shadowed-img content-img"></img>
             <div className="content-mini-caption">User Profile</div>
           </div>
         </div>
         <div className="content-wrapper">
           <div className="content-caption">
-            <h1>Mobile, Integrations and more</h1>
+            <h2>Mobile, Integrations and more</h2>
             <p className="content-desc">In addition, I designed the experience of our mobile apps as well as multiple integrations to achieve a consistent experience across our product ecosystem.
                 <br/><br/>
                 Check 'em out!
@@ -86,7 +86,7 @@ class Kudos extends Component {
             <img src={this._fetchImage('process.png')} alt='Get in touch' className="content-img"></img>
           </div>
           <div className="content-caption">
-            <h1>The Process</h1>
+            <h2>The Design Process</h2>
             <p className="content-desc">To learn more about the design process, please get in touch. </p>
           </div>
         </div>

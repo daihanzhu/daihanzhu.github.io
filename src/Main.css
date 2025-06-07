@@ -4,14 +4,14 @@
 
 h1 {
   text-align: left;
-  font-weight: 700;
-  font-size: 1.125em;
-  color: #E68F6C;
+  font-weight: 400;
+  font-size: 1.5em;
   margin: 0.5em 0 1.5em;
+  font-family: 'Glida Display';
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.125em;
   color: #100C3A;
 }
@@ -27,6 +27,7 @@ h3 {
 p, li {
   font-weight: 500;
   color: #3A4468;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a, button {

@@ -62,7 +62,7 @@ class RBCX extends Component {
             <div className="content-mini-caption">Hype Poster for RBCx</div>
           </div>
           <div className="content-caption">
-            <h1>RBCx</h1>
+            <h2>RBCx Intrapreneurship Experience</h2>
             <p className="content-desc">
               In 2017, I joined the Intrapreneurship Team (Venture Inside) at RBC Royal Bank as the first designer. Our mission was to enable RBC employees around the world to build and innovate as entrepreneurs through programs like RBCx.
               <br/><br/>
@@ -73,7 +73,7 @@ class RBCX extends Component {
 
         <div className="content-wrapper">
           <div className="content-caption">
-            <h1>Unifying the Brand Experience</h1>
+            <h2>Connecting the Brand</h2>
             <p className="content-desc">
               We wanted a logo that compliments each other. Through various exploration, we came up with two logos that are flexible, recognizable, and representative of our slick yet candid personality.
             </p>
@@ -91,17 +91,17 @@ class RBCX extends Component {
         </div>
 
         <div className="content-wrapper">
+          <div className="content-img-wrapper">
+            <img src={require('../images/rbcx/founder.png')} alt='Founder book' className="content-img"></img>
+            <div className="content-mini-caption">The Founder Experience Playbook</div>
+          </div>
           <div className="content-caption">
-            <h1>Cementing the Brand</h1>
+            <h2>Unifying the Experience</h2>
             <p className="content-desc">
               Alongside Alysse Glick, project lead, we created custom playbooks to walk founders, consultants, and advisors through the journey from the very first day to the final pitch.
               <br/><br/>
               As part of the first touchpoint that people receive at the start of the program, a good impression is key. We wanted them to pick it up and say, “wow, this is the coolest shit I’m about to do”.
             </p>
-          </div>
-          <div className="content-img-wrapper">
-            <img src={require('../images/rbcx/founder.png')} alt='Founder book' className="content-img"></img>
-            <div className="content-mini-caption">The Founder Experience Playbook</div>
           </div>
         </div>
 
@@ -110,21 +110,21 @@ class RBCX extends Component {
           <div className="content-mini-caption">Design Thinking Workbook</div>
         </div>
 
-        <div className="content-wrapper">
+        {/* <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={require('../images/rbcx/hand-with-cards.png')} alt='Hand with cards' className="content-img"></img>
           </div>
           <div className="content-caption">
-            <h1>Doing Things I’ve Never Done Before</h1>
+            <h2>Doing Things I’ve Never Done Before</h2>
             <p className="content-desc">
               Aside from the usual suspects of stickers and prints, I also got to design trading cards, comic strips, and even a life-sized graphic for an interactive game. It was SO much fun.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="content-wrapper">
           <div className="content-caption">
-            <h1>It’s Only the Beginning</h1>
+            <h2>It’s Only the Beginning</h2>
             <p className="content-desc">
               I’m proud of the work I’ve started at RBC. The last time I checked, the RBCx Program is going stronger than ever. They’ve even made the logo into a cookie, I want a cookie!
             </p>

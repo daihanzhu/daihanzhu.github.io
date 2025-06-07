@@ -14,7 +14,7 @@ class EmptyState extends Component {
             <img src={require('../images/empty.png')} alt='OpenText' className="content-img tileImg"></img>
           </div>
           <div className="content-caption">
-            <h1>Empty State Illustrations</h1>
+            <h2>Empty State Illustrations</h2>
             <p className="content-desc">
               OpenText is the leader in Enterprise Content Management software trusted by millions of users around the world.
               <br/><br/>
@@ -24,17 +24,17 @@ class EmptyState extends Component {
         </div>
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <h1>Old Empty States</h1>
+            <h2>Old Experience</h2>
             <img src={require('../images/emptyState/original.png')} alt='Original Empty States' className="shadowed-img content-img"></img>
           </div>
           <div className="content-img-wrapper">
-            <h1>New Empty States</h1>
+            <h2>New Experience</h2>
             <img src={require('../images/emptyState/new-empty-states.png')} alt='New Empty States' className="shadowed-img content-img"></img>
           </div>
         </div>
         <div className="content-wrapper">
           <div className="content-caption">
-            <h1>Building Foundations</h1>
+            <h2>Building Foundations</h2>
             <p className="content-desc">
               A scalable Design System always starts with a strong foundation. I started by going through the existing color palette and playing with different shapes, gradients, and lines.
               <br/><br/>
@@ -50,7 +50,7 @@ class EmptyState extends Component {
             <img src={require('../images/emptyState/FullSizeRender.png')} alt='Full Size Render' className="shadowed-img content-img"></img>
           </div>
           <div className="content-caption">
-            <h1>Iterating on Feedback</h1>
+            <h2>Iterating on Feedback</h2>
             <p className="content-desc">
               For each empty state, I came up with a few sketches that reflect the story of the scenario. Some are celebratory for completing all tasks, and some are sympathetic for moments of frustration, all while trying to sneak at least one cat in there.
               <br/><br/>
@@ -63,7 +63,7 @@ class EmptyState extends Component {
         </div>
         <div className="content-wrapper">
           <div className="content-caption">
-            <h1>Expanding Across Platforms</h1>
+            <h2>Expanding Across Platforms</h2>
             <p className="content-desc">
               The team loved the illustrations so much and requested them to be adopted for desktop use. I had this in mind from the start so it was very easy to flip the switch for a larger screen and different background.
               <br/><br/>
