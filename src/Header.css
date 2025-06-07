@@ -4,26 +4,12 @@
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Futura', sans-serif;
   font-size: 1.125em;
-  font-weight: 700;
 }
 
-.left-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.left-nav a {
-  margin-left: 40px;
-}
-
-.left-nav a, .home-button {
-  color: #E68F6C;
+.header a, .home-button {
   text-decoration: none;
 }
 
-.left-nav a:last-child {
-  margin-right: 0;
+.header-logo {
 }

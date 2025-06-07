@@ -16,7 +16,6 @@ h2 {
   color: #100C3A;
 }
 
-/* NOTE: h3 has the same styling as h1, but is used for sub-sub-sections (eg. in Q-AND-A) */
 h3 {
   text-align: left;
   font-weight: 700;

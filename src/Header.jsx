@@ -10,17 +10,16 @@ class Header extends Component {
         <a className="home-button" onClick={() => this.props.goHome()}>
           daihan.ca
         </a>
-        <div className="left-nav">
-          {/* <a onClick={() => this.props.goHome({scrollDown: true})}>
-            Work
-          </a> */}
-          <a onClick={() => this.props.switchView(Views.About)}>
-            about
-          </a>
-          {/*<a onClick={() => this.props.switchView(Views.QAndA)}>
-            Q + A
-          </a> */}
-        </div>
+        {/* <a onClick={() => this.props.goHome({scrollDown: true})}>
+          Work
+        </a> */}
+        <img src={require('./images/header-logo.png')} alt='Open door' className="header-logo"></img>
+        <a onClick={() => this.props.switchView(Views.About)}>
+          about
+        </a>
+        {/*<a onClick={() => this.props.switchView(Views.QAndA)}>
+          Q + A
+        </a> */}
       </div>
     );
   }

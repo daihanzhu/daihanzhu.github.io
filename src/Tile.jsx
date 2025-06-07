@@ -40,8 +40,8 @@ class Tile extends Component {
         <div className="tile-bottom">
           <div className="tile-text-box">
             {this.props.header && <div style={headerStyle} className="tile-header-text">{this.props.header}</div>}
-            <h2 className="tile-title">{this.props.title}</h2>
-            <div className="tile-desc">{this.props.desc}</div>
+            <h1 className="tile-title">{this.props.title}</h1>
+            <h1 className="tile-desc">{this.props.desc}</h1>
           </div>
         </div>
         { overlay }
