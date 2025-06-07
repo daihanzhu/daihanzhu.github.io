@@ -49,6 +49,8 @@ class Main extends Component {
       <div className="App" ref={(app) => this.app = app}>
         <Intro
           view={this.state.view}
+          goHome={this._switchToWork}
+          switchView={this.switchView}
         />
         <Content
           view={this.state.view}

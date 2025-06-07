@@ -19,13 +19,11 @@ class Intro extends Component {
   aboutContent() {
     return (<div className="daihan-caption">
       <h1>Let’s be friends.</h1>
-      <p className="daihan-desc">I'll start. I'm Daihan, and I design software people like to use. But enough about that.
+      <p className="daihan-desc">I’ll start. I’m Daihan and I design software people like to use. But enough about that. 
         <br/><br/>
-        In the past, I've lived on 3 continents (North America, Europe, Asia), been an alphabetizer of books, 4th place winning curler, and have been guilty of over-filtering my online self (jk. Still am).
+        In the past, I’ve lived in 3 continents, been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self. 
         <br/><br/>
-        In the future, I plan to illustrate a children's book, grow an avocado tree, and ride horses into the sunset.
-        <br/><br/>
-        For the time being, I make a lot of mistakes, and I’m overly curious about everything around me.
+        For the time being, I make a lot of mistakes and I’m overly curious about the world.
       </p>
     </div>);
   }
@@ -54,8 +52,8 @@ class Intro extends Component {
     return (
       <div className="intro-wrapper">
         <Header
-          goHome={this._switchToWork}
-          switchView={this.switchView}
+          goHome={this.props.goHome}
+          switchView={this.props.switchView}
         />
         <div className="intro">
           {daihanImg && <div className="daihan-image-wrapper">
