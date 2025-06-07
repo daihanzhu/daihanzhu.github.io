@@ -9,7 +9,7 @@
   position: relative;
   max-width: 840px;
   margin: 50px auto 100px;
-  padding: 0 40px;
+  padding: 0 40px 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -17,6 +17,10 @@
   /* fonts */
   font-weight: 300;
   line-height: 1.8em;
+}
+
+.pronouns {
+  color: #627A90;
 }
 
 .QASection {
