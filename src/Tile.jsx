@@ -36,11 +36,10 @@ class Tile extends Component {
 
     return (
       <div className="tile" onClick={this.handleClick}>
-        <img id={this.getImgId()} src={this.props.image} alt={this.props.altText} className="tile-bgd">
-        </img>
+        <img id={this.getImgId()} src={this.props.image} alt={this.props.altText} className="tile-bgd" />
         <div className="tile-bottom">
           <div className="tile-text-box">
-            <div style={headerStyle} className="tile-header-text">{this.props.header}</div>
+            {this.props.header && <div style={headerStyle} className="tile-header-text">{this.props.header}</div>}
             <h2 className="tile-title">{this.props.title}</h2>
             <div className="tile-desc">{this.props.desc}</div>
           </div>

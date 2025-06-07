@@ -1,33 +1,25 @@
 [
   {
-    "header": "Product Design",
-    "title": "Machine Learning Governance",
-    "description": "Enabling Data Scientists, Engineers, and Business Executives to do their best work ",
+    "description": "Demystifying machine learning through MLOps and governance",
     "image": "datatron.png",
-    "overlaytext": "🚧",
-    "overlaySubtext": "Work in Progress",
+    "overlaytext": "👀",
+    "overlaySubtext": "To learn more, please get in touch",
     "visible": 1
   },
   {
-    "header": "Product Design",
-    "title": "Giving Recognition",
     "description": "Increasing workplace happiness through the power of recognition",
     "image": "kudos.png",
     "view": "Kudos",
     "visible": 1
   },
   {
-    "header": "Brand Design",
-    "title": "RBCx",
-    "description": "Designing the ultimate innovation experience for doers and change-makers",
+    "description": "Cultivating the ultimate innovation experience for change-makers",
     "image": "rbcx/rbcx-poster.png",
     "view": "RbcX",
     "visible": 1
   },
   {
-    "header": "Illustration",
-    "title": "Empty States",
-    "description": "Bringing software to life one illustration at a time",
+    "description": "Bringing software to life one product illustration at a time ",
     "image": "empty.png",
     "view": "EmptyState",
     "visible": 1
