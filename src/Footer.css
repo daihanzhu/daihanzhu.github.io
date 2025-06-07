@@ -1,18 +1,20 @@
 .footer {
   box-sizing: border-box;
   background-color: #100C3A;
+  margin: 16px;
+  border-radius: 10px;
 }
 
 .footer-content {
   padding: 70px 0;
-  margin: auto;
+  margin: auto 120px;
   max-width: 600px;
 }
 
 .footer-text {
   font-family: 'Futura', sans-serif;
   font-weight: 300;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   color: white;
 }
 
@@ -30,5 +32,4 @@
 .footer-header {
   margin-top: 0;
   color: white;
-  font-weight: bold;
 }

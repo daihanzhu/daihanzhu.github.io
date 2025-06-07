@@ -1,7 +1,7 @@
 .header {
   max-width: 840px;
-  margin: 70px auto 100px;
-  padding: 0 40px;
+  margin: 0 auto 100px;
+  padding: 70px 40px 0;
   display: flex;
   justify-content: space-between;
   font-size: 1.125em;
@@ -9,6 +9,7 @@
 
 .header a, .home-button {
   text-decoration: none;
+  color: #627A90;
 }
 
 .header-logo {

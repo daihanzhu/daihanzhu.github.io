@@ -49,6 +49,7 @@ a:hover, button:hover, a:focus, button:focus {
 .App {
   text-align: left;
   color: black;
+  background-color: #F2F3F5;
   position: fixed;
   height: 100vh;
   width: 100%;

@@ -85,10 +85,9 @@
 }
 
 .tile-desc {
-  color: #3A4468;
-  font-family: 'Futura', sans-serif;
+  color: #142130;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
   padding-top: 6px;
   line-height: 150%;
 }

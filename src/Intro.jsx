@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './Header.jsx';
 import './Intro.css';
 
 import Views from './Views.js';
@@ -51,11 +52,17 @@ class Intro extends Component {
     }
 
     return (
-      <div className="intro">
-        {daihanImg && <div className="daihan-image-wrapper">
-          {daihanImg}
-        </div>}
-        {bodyText}
+      <div className="intro-wrapper">
+        <Header
+          goHome={this._switchToWork}
+          switchView={this.switchView}
+        />
+        <div className="intro">
+          {daihanImg && <div className="daihan-image-wrapper">
+            {daihanImg}
+          </div>}
+          {bodyText}
+        </div>
       </div>
     );
   }
