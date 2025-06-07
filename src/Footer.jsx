@@ -7,7 +7,7 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer-content">
           <div className="footer-text">
-            <h1 className="footer-header">More Stuff.</h1>
+            <h1 className="footer-header">Find me elsewhere</h1>
             <p><a href="https://www.linkedin.com/in/daihan/"
                   rel="noopener noreferrer"
                   target="_blank">LinkedIn</a> |&nbsp;
@@ -27,7 +27,7 @@ class Footer extends Component {
               </a>. Portraits by&nbsp;
               <a href="https://www.sheenazilinski.com/" rel="noopener noreferrer" target="_blank">
                Sheena Zilinski
-             </a>. Designed in 2021 in NYC
+             </a>. Designed in 2025
             </p>
           </div>
         </div>

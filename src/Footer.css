@@ -21,7 +21,6 @@
   font-size: 0.875em;
   line-height: 200%;
   color: white;
-  text-align: center;
 }
 
 .footer-text a {
@@ -30,7 +29,6 @@
 
 .footer-header {
   margin-top: 0;
-  text-align: center;
   color: white;
   font-weight: bold;
 }
