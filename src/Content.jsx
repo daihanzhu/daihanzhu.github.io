@@ -81,6 +81,8 @@ class Content extends Component {
     switch (view) {
       case Views.About:
         return 'about-wrapper';
+      case Views.Tiles:
+        return 'grid-content-container'
       default:
         return '';
     }
