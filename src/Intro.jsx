@@ -44,7 +44,7 @@ class Intro extends Component {
       default:
         bodyText = this.aboutContent();
         daihanImg = <img
-            src={require('./images/daihan-looks-left.png')} alt='Me looking to the side, sitting on some steps.' className='daihan-img'>
+            src={require('./images/daihan-looks-left.png')} alt='Me in a checkered dress, leaning on an end table, and looking to the left.' className='daihan-img'>
           </img>;
         break;
     }
