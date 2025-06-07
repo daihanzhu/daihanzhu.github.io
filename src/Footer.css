@@ -7,8 +7,9 @@
 
 .footer-content {
   padding: 70px 0;
-  margin: auto 120px;
-  max-width: 600px;
+  margin: auto;
+  /* 400 (tile width) * 2 + 40 (column gap) */
+  max-width: 840px;
 }
 
 .footer-text {
