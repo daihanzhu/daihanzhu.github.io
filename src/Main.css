@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
 /* BASELINE */
 
@@ -8,6 +8,7 @@ h1 {
   font-size: 1.5em;
   margin: 0.5em 0 1.5em;
   font-family: 'Glida Display';
+  color: #142130;
 }
 
 h2 {
@@ -24,8 +25,8 @@ h3 {
 }
 
 p, li {
-  font-weight: 500;
-  color: #3A4468;
+  font-weight: 100;
+  color: #627A90;
   font-family: 'Open Sans', sans-serif;
 }
 
