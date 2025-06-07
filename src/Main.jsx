@@ -55,6 +55,7 @@ class Main extends Component {
         <Content
           view={this.state.view}
           tileInfo={this.state.tileInfo}
+          goHome={this._switchToWork}
           switchView={this.switchView}
         />
         <Footer />

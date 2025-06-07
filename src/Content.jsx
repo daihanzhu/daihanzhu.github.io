@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './Header.jsx';
 import Grid from './Grid.jsx';
 import About from './About.jsx'
 import EmptyState from './TileViews/EmptyState.jsx'
@@ -93,8 +94,14 @@ class Content extends Component {
     const content = this.getContent(view, switchView);
     const classNames = this.getAdditionalClassNames(view);
 
+    const shouldShowHeader = view !== Views.Tiles && view !== Views.About;
+
     // NOTE: Need to use a key to re-render when the component updates
     return <div className={"content-container " + classNames} key={tileInfo.img}>
+      {shouldShowHeader ?  <Header
+        goHome={this.props.goHome}
+        switchView={this.props.switchView}
+      /> : null}
       {keyframe}
       {tileImage}
       {content}
