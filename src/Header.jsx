@@ -11,11 +11,11 @@ class Header extends Component {
           daihan.ca
         </a>
         <div className="left-nav">
-          <a onClick={() => this.props.goHome({scrollDown: true})}>
+          {/* <a onClick={() => this.props.goHome({scrollDown: true})}>
             Work
-          </a>
+          </a> */}
           <a onClick={() => this.props.switchView(Views.About)}>
-            My Story
+            about
           </a>
           {/*<a onClick={() => this.props.switchView(Views.QAndA)}>
             Q + A

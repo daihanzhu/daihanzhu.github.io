@@ -18,9 +18,6 @@
   align-items: flex-start;
 }
 
-.daihan-image-wrapper {
-}
-
 .daihan-image-wrapper img {
   width: 326px;
   max-width: 100%;
@@ -41,7 +38,7 @@
 }
 
 .daihan-intro {
-  max-width: 350px;
+  max-width: 500px;
 }
 
 .daihan-desc {
