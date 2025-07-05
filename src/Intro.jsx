@@ -9,9 +9,9 @@ class Intro extends Component {
     return (<div>
       <h1>Hello, I’m Daihan <span className="pronouns">(she/her)</span><br/>I’m a product designer and illustrator</h1>
       <p className="daihan-intro">        
-        As a designer, I’m on a mission to make people’s digital experiences more delightful, inclusive, and valuable. I think holistically while placing every pixel with purpose. 
+        As a designer, I’m on a mission to make people’s digital experiences more useful, inclusive, and delightful. I think holistically while placing every pixel with purpose.
         <br/><br/>
-        As a human, I’m trying my best to take care of our Earth. 
+        As a human, I recycle, overplan, and wonder how many tote bags is too many.
       </p>
     </div>);
   }
@@ -19,11 +19,13 @@ class Intro extends Component {
   aboutContent() {
     return (<div className="daihan-caption">
       <h1>Let’s be friends.</h1>
-      <p className="daihan-desc">I’ll start. I’m Daihan and I design software people like to use. But enough about that. 
+      <p className="daihan-desc">I’ll go first. I’m Daihan, and I design software people like to use. 
         <br/><br/>
-        In the past, I’ve lived in 3 continents, been an alphabetizer of books, 4th place winning curler, and guilty of over-filtering my online self. 
+        After graduating from design school in Stratford, Ontario (yes, where Justin Bieber is from), I’ve been lucky enough to call New York City home. When I’m not glued to a screen, you’ll probably find me hanging with my pup, planning a trip, at the pottery studio, or all of the above. 
         <br/><br/>
-        For the time being, I make a lot of mistakes and I’m overly curious about the world.
+        I’m fascinated by the quiet, mundane rhythms of everyday life and how it shifts from place to place. If perusing grocery stores and navigating public transit is how you like to discover a new city, we are already friends.
+        <br/><br/>
+        P.S. 53 tote bags is a totally normal, practical, and reasonable amount to have. Maybe.
       </p>
     </div>);
   }

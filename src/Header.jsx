@@ -13,7 +13,7 @@ class Header extends Component {
         {/* <a onClick={() => this.props.goHome({scrollDown: true})}>
           Work
         </a> */}
-        <img src={require('./images/header-logo.png')} alt='Open door' className="header-logo"></img>
+        {/* <img src={require('./images/header-logo.png')} alt='Open door' className="header-logo"></img> */}
         <a onClick={() => this.props.switchView(Views.About)}>
           about
         </a>

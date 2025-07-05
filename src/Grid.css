@@ -1,10 +1,12 @@
 .grid-view {
-  margin-top: 100px
+  /* margin-top: 100px */
 }
 
 .grid-wrapper {
   position: relative;
-  padding: 0 40px 100px;
+  padding: 100px 40px 100px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .grid-heading {
