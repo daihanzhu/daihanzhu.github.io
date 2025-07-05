@@ -9,8 +9,9 @@
 
 .header a, .home-button {
   text-decoration: none;
-  color: #627A90;
+  color: #142130;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .header-logo {
