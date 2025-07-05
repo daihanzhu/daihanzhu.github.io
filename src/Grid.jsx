@@ -43,7 +43,7 @@ class Grid extends Component {
       <div className="grid-view" id="tile-grid">
         <div className='grid-wrapper'>
           {this.props.showHeading
-            && <h2 className="grid-heading">Up Next ------</h2>}
+            && <div className="grid-heading"><p className="grid-heading-content">Recent work</p></div>}
           <div
             className="grid-container"
             style={gridStyle}

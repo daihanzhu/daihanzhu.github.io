@@ -30,7 +30,7 @@ class Content extends Component {
 
       case Views.Tiles:
       default:
-        return <Grid switchView={switchView}/>
+        return <Grid switchView={switchView} showHeading={true} />
     }
   }
 
