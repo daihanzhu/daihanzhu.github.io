@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  background-color: #100C3A;
+  background-image: url('./images/Footer.png');
   margin: 16px;
   border-radius: 10px;
 }
