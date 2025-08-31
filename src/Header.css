@@ -9,11 +9,15 @@
 
 .header a, .home-button {
   text-decoration: none;
-  color: #142130;
+  color: #717994;
   font-size: 16px;
   font-weight: 400;
 }
 
 .header-logo {
   height: 32px
+}
+
+.header .header-link-active {
+  color: #142130;
 }

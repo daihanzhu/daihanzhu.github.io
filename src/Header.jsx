@@ -7,14 +7,14 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <a className="home-button" onClick={() => this.props.goHome()}>
+        <a className={"home-button" + (this.props.view === Views.Tiles ? ' header-link-active' : '')} onClick={() => this.props.goHome()}>
           daihan.ca
         </a>
         {/* <a onClick={() => this.props.goHome({scrollDown: true})}>
           Work
         </a> */}
         {/* <img src={require('./images/header-logo.png')} alt='Open door' className="header-logo"></img> */}
-        <a onClick={() => this.props.switchView(Views.About)}>
+        <a className={this.props.view === Views.About ? ' header-link-active' : ''} onClick={() => this.props.switchView(Views.About)}>
           about
         </a>
         {/*<a onClick={() => this.props.switchView(Views.QAndA)}>

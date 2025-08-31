@@ -23,7 +23,7 @@ class Intro extends Component {
         <br/><br/>
         After graduating from design school in Stratford, Ontario (yes, where Justin Bieber is from), I’ve been lucky enough to call New York City home. When I’m not glued to a screen, you’ll probably find me hanging with my pup, planning a trip, at the pottery studio, or all of the above. 
         <br/><br/>
-        I’m fascinated by the quiet, mundane rhythms of everyday life and how it shifts from place to place. If perusing grocery stores and navigating public transit is how you like to discover a new city, we are already friends.
+        I’m fascinated by the quiet, mundane rhythms of everyday life and how it shifts from place to place. If perusing grocery store shelves and navigating public transit is how you like to discover a new city, we are already friends.
         <br/><br/>
         P.S. 53 tote bags is a totally normal, practical, and reasonable amount to have. Maybe.
       </p>
@@ -55,6 +55,7 @@ class Intro extends Component {
       <div className="intro-wrapper">
         <Header
           goHome={this.props.goHome}
+          view={this.props.view}
           switchView={this.props.switchView}
         />
         <div className="intro">
