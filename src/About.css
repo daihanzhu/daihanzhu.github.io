@@ -1,14 +1,17 @@
 .about {
   /* Keep width/padding in sync with .intro in Intro.css */
+  align-items: center;
+  position: relative;
   max-width: 840px;
   margin: 50px auto;
-  padding: 0 40px;
+  padding: 0 40px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   /* fonts */
-  font-family: 'Futura', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.8em;
-  color: #41434f;
 }
 
 .about-block {

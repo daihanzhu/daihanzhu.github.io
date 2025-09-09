@@ -96,7 +96,7 @@ class Content extends Component {
     const content = this.getContent(view, switchView);
     const classNames = this.getAdditionalClassNames(view);
 
-    const shouldShowHeader = view !== Views.Tiles && view !== Views.About;
+    const shouldShowHeader = view !== Views.Tiles;
 
     // NOTE: Need to use a key to re-render when the component updates
     return <div className={"content-container " + classNames} key={tileInfo.img}>
