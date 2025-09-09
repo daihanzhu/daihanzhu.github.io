@@ -3,7 +3,7 @@
   align-items: center;
   position: relative;
   max-width: 840px;
-  margin: 50px auto;
+  margin: 50px auto 0;
   padding: 0 40px 100px;
   display: flex;
   flex-wrap: wrap;
