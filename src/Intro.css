@@ -1,5 +1,6 @@
 .intro-wrapper {
   background-image:  url('./images/1.png');
+  background-size: 100%;
   border-radius: 10px;
   margin: 16px;
 }
