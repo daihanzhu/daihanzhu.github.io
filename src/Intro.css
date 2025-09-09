@@ -28,11 +28,6 @@
   align-items: flex-start;
 }
 
-.daihan-image-wrapper img {
-  width: 326px;
-  max-width: 100%;
-}
-
 .daihan-intro-img {
   border-radius: 0px 186px 0px 0px;
 }
@@ -44,16 +39,11 @@
 
 .daihan-caption {
   word-wrap: break-word;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .daihan-intro {
   max-width: 500px;
-}
-
-.daihan-desc {
-  font-size: 0.875em;
-  line-height: 1.5rem;
 }
 
 .down-arrow {

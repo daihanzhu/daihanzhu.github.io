@@ -13,7 +13,7 @@ class About extends Component {
   }
 
   render() {
-    let caption = (<div className="daihan-caption">
+    let caption = (<div className="about-caption">
       <h1>Let’s be friends.</h1>
       <p className="daihan-desc">I’ll go first. I’m Daihan, and I design software people like to use. 
         <br/><br/>
@@ -27,7 +27,7 @@ class About extends Component {
 
     return (
       <div className="about">
-          <div className="daihan-image-wrapper">
+          <div className="about-image-wrapper">
             <img
               src={require('./images/daihan-looks-left.png')} alt='Me in a checkered dress, leaning on an end table, and looking to the left.' className='daihan-img'>
             </img>

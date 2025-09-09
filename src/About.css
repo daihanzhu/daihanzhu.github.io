@@ -36,20 +36,15 @@
 
 .about-caption {
   word-wrap: break-word;
-  max-width: 400px;
+  max-width: 500px;
 }
 
+.about-caption p {
+  font-size: 15px;
+}
 
 /* IMAGES */
 
-.about-me-img {
-  padding: 10px;
-  box-sizing: border-box;
-  min-width: 260px;
-}
-
-.westjet {
-  flex-basis: 50%;
-  width: 100%;
-  max-width: 400px;
+.about-image-wrapper {
+  max-width: 300px;
 }
