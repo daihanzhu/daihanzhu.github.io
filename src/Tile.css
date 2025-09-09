@@ -38,7 +38,6 @@
 }
 
 .overlay-text {
-  font-family: 'Futura', sans-serif;
   color: #3A4468;
   font-size: 28px;
   position: absolute;
@@ -68,7 +67,7 @@
 }
 
 .tile-header-text {
-  font-family: 'Futura', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.75em;
   font-weight: 500;
   background-color: #FFE6DC;
@@ -79,7 +78,7 @@
 }
 
 .tile-title {
-  font-family: 'Futura', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 16px 0 8px;
 }
 
