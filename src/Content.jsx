@@ -98,6 +98,7 @@ class Content extends Component {
     return <div className={"content-container " + classNames} key={tileInfo.img}>
       {shouldShowHeader ?  <Header
         goHome={this.props.goHome}
+        view={this.props.view}
         switchView={this.props.switchView}
       /> : null}
       {keyframe}
