@@ -6,7 +6,7 @@
 }
 
 .footer-content {
-  padding: 70px 0;
+  padding: 70px 40px;
   margin: auto;
   /* 400 (tile width) * 2 + 40 (column gap) */
   max-width: 840px;
