@@ -5,7 +5,6 @@ import About from './About.jsx'
 import EmptyState from './TileViews/EmptyState.jsx'
 import RBCX from './TileViews/RBCX.jsx'
 import Kudos from './TileViews/Kudos.jsx'
-import QAndA from './QAndA.jsx'
 
 import Views from './Views.js';
 import './Content.css';
@@ -15,9 +14,6 @@ class Content extends Component {
     switch (view) {
       case Views.About:
         return <About/>;
-
-      case Views.QAndA:
-        return <QAndA/>;
 
       case Views.EmptyState:
         return <EmptyState switchView={switchView}/>;

@@ -17,9 +17,6 @@ class Header extends Component {
         <a className={this.props.view === Views.About ? ' header-link-active' : ''} onClick={() => this.props.switchView(Views.About)}>
           about
         </a>
-        {/*<a onClick={() => this.props.switchView(Views.QAndA)}>
-          Q + A
-        </a> */}
       </div>
     );
   }
