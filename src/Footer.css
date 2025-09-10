@@ -6,6 +6,12 @@
   border-radius: 10px;
 }
 
+@media all and (max-width: 500px) {
+  .footer {
+    background-image:  url('./images/Footer-mobile.png');
+  }
+}
+
 .footer-content {
   padding: 70px 40px;
   margin: auto;
