@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Grid from '../Grid.jsx';
 import tiles from '../TileData.json';
 
-import './EmptyState.css';
+import './OpenText.css';
 import '../ContentWrapper.css'
 
-class EmptyState extends Component {
+class OpenText extends Component {
   render() {
     return (
       <div className="empty-state">
@@ -83,4 +83,4 @@ class EmptyState extends Component {
   }
 }
 
-export default EmptyState;
+export default OpenText;

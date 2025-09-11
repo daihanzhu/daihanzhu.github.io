@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header.jsx';
 import Grid from './Grid.jsx';
 import About from './About.jsx'
-import EmptyState from './TileViews/EmptyState.jsx'
+import OpenText from './TileViews/OpenText.jsx'
 import RBCX from './TileViews/RBCX.jsx'
 import Kudos from './TileViews/Kudos.jsx'
 
@@ -15,8 +15,8 @@ class Content extends Component {
       case Views.About:
         return <About/>;
 
-      case Views.EmptyState:
-        return <EmptyState switchView={switchView}/>;
+      case Views.OpenText:
+        return <OpenText switchView={switchView}/>;
 
       case Views.RbcX:
         return <RBCX switchView={switchView}/>;
