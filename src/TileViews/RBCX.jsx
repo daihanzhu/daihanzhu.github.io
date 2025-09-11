@@ -56,6 +56,11 @@ class RBCX extends Component {
 
     return (
       <div className="rbcx">
+        <div className="content-heading-wrapper">
+          <h1 className="content-heading">Reimagining the ultimate innovation experience for change-makers</h1>
+          <p>Graphic designer, illustrator | 2017 | Banking, employee experience </p>
+        </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={require('../images/rbcx/rbcx-poster.png')} alt='RBCX Poster' className="content-img tileImg"></img>

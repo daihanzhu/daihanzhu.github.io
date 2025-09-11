@@ -8,7 +8,12 @@ import '../ContentWrapper.css'
 class OpenText extends Component {
   render() {
     return (
-      <div className="empty-state">
+      <div className="open-text-wrapper">
+        <div className="content-heading-wrapper">
+          <h1 className="content-heading">Bringing software to life one product illustration at a time</h1>
+          <p>UX Visual designer, illustrator | 2018 | B2B Enterprise Software, Information Cloud Solutions</p>
+        </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={require('../images/empty.png')} alt='OpenText' className="content-img tileImg"></img>
@@ -22,6 +27,7 @@ class OpenText extends Component {
             </p>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <h2>Old Experience</h2>
@@ -32,6 +38,7 @@ class OpenText extends Component {
             <img src={require('../images/emptyState/new-empty-states.png')} alt='New Empty States' className="shadowed-img content-img"></img>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div className="content-caption">
             <h2>Building Foundations</h2>
@@ -45,6 +52,7 @@ class OpenText extends Component {
             <img src={require('../images/emptyState/shapes.png')} alt='Shapes and Colours' className="content-img"></img>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={require('../images/emptyState/FullSizeRender.png')} alt='Full Size Render' className="shadowed-img content-img"></img>
@@ -58,9 +66,11 @@ class OpenText extends Component {
             </p>
           </div>
         </div>
+
         <div className="content-wrapper">
           <img src={require('../images/emptyState/12-phones.png')} alt='Empty States' className="content-img"></img>
         </div>
+
         <div className="content-wrapper">
           <div className="content-caption">
             <h2>Expanding Across Platforms</h2>
@@ -74,6 +84,7 @@ class OpenText extends Component {
             <img src={require('../images/emptyState/mock-up.png')} alt='Nodes List' className="es-img4"></img>
           </div>
         </div>
+
         <Grid
           tileData={[tiles[1], tiles[2]]}
           switchView={this.props.switchView}

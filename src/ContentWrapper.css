@@ -1,12 +1,19 @@
 /* LAYOUT */
 
+.content-wrapper, .content-heading-wrapper {
+  max-width: 840px;
+  /* NOTE: CSS will collapse the margins of adjacent divs - the space between will be 100 */
+  margin: 100px auto;
+}
+
 .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 840px;
-  /* NOTE: CSS will collapse the margins of adjacent divs - the space between will be 100 */
-  margin: 100px auto;
+}
+
+.content-heading {
+  margin-bottom: 1.5rem;
 }
 
 .content-img-wrapper, .content-caption {
@@ -51,7 +58,6 @@
 
 .content-mini-caption {
   margin: 0.5rem auto;
-  font-family: 'Open Sans', sans-serif;
   font-size: 0.75em;
   color: #717994;
 }
@@ -62,12 +68,10 @@
 }
 
 .content-caption h1 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
 .content-desc {
-  font-size: 0.875em;
   line-height: 1.5rem;
 }
 

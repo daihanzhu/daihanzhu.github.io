@@ -42,6 +42,11 @@ class Kudos extends Component {
   render() {
     return (
       <div className="kudos">
+        <div className="content-heading-wrapper">
+          <h1 className="content-heading">Increasing workplace happiness through the power of recognition</h1>
+          <p>Product Designer | 2019 - 2021 | B2B SaaS, HR tech </p>
+        </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={require('../images/kudos.png')} alt='Kudos UI Home' className="content-img tileImg"></img>
@@ -56,6 +61,7 @@ class Kudos extends Component {
             </p>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <h2>Old Experience</h2>
@@ -68,6 +74,7 @@ class Kudos extends Component {
             <div className="content-mini-caption">User Profile</div>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div className="content-caption">
             <h2>Mobile, Integrations and more</h2>
@@ -81,6 +88,7 @@ class Kudos extends Component {
             <img src={this._fetchImage('phones.png')} alt='Kudos Mobile App' className="content-img"></img>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={this._fetchImage('process.png')} alt='Get in touch' className="content-img"></img>
@@ -90,6 +98,7 @@ class Kudos extends Component {
             <p className="content-desc">To learn more about the design process, please get in touch. </p>
           </div>
         </div>
+
         <Grid
           tileData={[tiles[2], tiles[3]]}
           switchView={this.props.switchView}
