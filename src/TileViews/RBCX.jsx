@@ -137,7 +137,7 @@ class RBCX extends Component {
         <Grid
           tileData={[tiles[1], tiles[3]]}
           switchView={this.props.switchView}
-          showHeading
+          heading={"Up next"}
         />
       </div>
     );

@@ -77,7 +77,7 @@ class OpenText extends Component {
         <Grid
           tileData={[tiles[1], tiles[2]]}
           switchView={this.props.switchView}
-          showHeading
+          heading={"Up next"}
         />
       </div>);
   }

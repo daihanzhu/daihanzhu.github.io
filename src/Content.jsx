@@ -26,7 +26,7 @@ class Content extends Component {
 
       case Views.Tiles:
       default:
-        return <Grid switchView={switchView} showHeading={true} />
+        return <Grid switchView={switchView} heading={"Recent work"} />
     }
   }
 

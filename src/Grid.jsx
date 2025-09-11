@@ -42,8 +42,8 @@ class Grid extends Component {
     return (
       <div className="grid-view" id="tile-grid">
         <div className='grid-wrapper'>
-          {this.props.showHeading
-            && <div className="grid-heading"><p className="grid-heading-content">Recent work</p></div>}
+          {this.props.heading
+            && <div className="grid-heading"><p className="grid-heading-content">{this.props.heading}</p></div>}
           <div
             className="grid-container"
             style={gridStyle}

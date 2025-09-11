@@ -93,7 +93,7 @@ class Kudos extends Component {
         <Grid
           tileData={[tiles[2], tiles[3]]}
           switchView={this.props.switchView}
-          showHeading
+          heading={"Up next"}
         />
       </div>);
   }
