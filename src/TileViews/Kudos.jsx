@@ -52,7 +52,7 @@ class Kudos extends Component {
             <img src={require('../images/kudos.png')} alt='Kudos UI Home' className="content-img tileImg"></img>
           </div>
           <div className="content-caption">
-            <h2>Kudos Employee Recognition Platform</h2>
+            <h2>Kudos employee recognition platform</h2>
             <p className="content-desc">
               Kudos is a legacy employee recognition platform enabling enterprise companies in 80+ countries to build meaningful connections, increase performance, and strengthen values. 
               <br/><br/>
@@ -81,11 +81,11 @@ class Kudos extends Component {
 
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <h2>Legacy Experience</h2>
+            <h2>Legacy experience</h2>
             <img src={this._fetchImage('old-experience.png')} alt='Kudos UI User Profile (Old)' className="shadowed-img content-img"></img>
           </div>
           <div className="content-img-wrapper">
-            <h2>New Experience</h2>
+            <h2>New experience</h2>
             <img src={this._fetchImage('new-experience.png')} alt='Kudos UI User Profile (New)' className="shadowed-img content-img"></img>
           </div>
         </div>

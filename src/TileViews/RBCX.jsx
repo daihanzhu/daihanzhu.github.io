@@ -66,7 +66,7 @@ class RBCX extends Component {
             <img src={require('../images/rbcx/rbcx-poster.png')} alt='RBCX Poster' className="content-img tileImg"></img>
           </div>
           <div className="content-caption">
-            <h2>RBCx Intrapreneurship Experience</h2>
+            <h2>RBCx intrapreneurship experience</h2>
             <p className="content-desc">RBC Royal Bank was on a mission to empower their 97,000+ employees around the world to innovate by establishing an intrapreneurship program called RBCx, a 12-week incubator program, ran by Venture Inside, designed to turn ideas into viable startups.
               <br/><br/>
               As the program’s first designer, I collaborated with the core team to shape the mission, establish the brand, and design a cohesive end-to-end experience.
@@ -76,7 +76,7 @@ class RBCX extends Component {
 
         <div className="content-wrapper">
           <div className="content-caption">
-            <h2>Connecting the Brand</h2>
+            <h2>Connecting the brand</h2>
             <p className="content-desc">We needed a brand that complement each other. Venture Inside powers the strategy and support behind the scenes, while RBCx is the public-facing innovation program.
               <br/><br/>
               Through various exploration, we landed on a visual identify that represented our slick yet candid personality.
@@ -94,7 +94,7 @@ class RBCX extends Component {
 
         <div className="content-wrapper">
           <div className="content-caption">
-            <h2>Unifying the Experience</h2>
+            <h2>Unifying the experience</h2>
             <p className="content-desc">Once we had established the brand, it was full steam ahead. We created custom play books to walk founders, consultants, and advisors through the journey from the first day to the final pitch. 
               <br/><br/>
               Aside from the usual suspect of stickers and T-Shirts, I designed trading cards, beer coasters, comic strips, and even a life-sized graphic for an interactive game.
