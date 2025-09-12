@@ -11,6 +11,11 @@
   justify-content: space-between;
 }
 
+.content-wrapper:nth-last-child(2) {
+  /* The grid-wrapper used for the bottom-of-page tiles provides its own padding */
+  margin-bottom: 0;
+}
+
 .content-heading-wrapper {
   padding: 0 40px;
 }
