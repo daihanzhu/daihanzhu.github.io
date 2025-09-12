@@ -29,7 +29,7 @@ class About extends Component {
       <div className="about">
           <div className="about-image-wrapper">
             <img
-              src={require('./images/daihan-looks-left.png')} alt='Me in a checkered dress, leaning on an end table, and looking to the left.' className='daihan-img'>
+              src={require('./images/daihan-nyc.png')} alt='Me walking across a Manhattan street, holding my white fluffy dog.' className='daihan-img'>
             </img>
           </div>
           {caption}

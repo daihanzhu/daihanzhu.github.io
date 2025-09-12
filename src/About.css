@@ -36,7 +36,7 @@
 
 .about-caption {
   word-wrap: break-word;
-  max-width: 500px;
+  max-width: 540px;
 }
 
 .about-caption p {
@@ -46,5 +46,5 @@
 /* IMAGES */
 
 .about-image-wrapper {
-  max-width: 300px;
+  max-width: 200px;
 }
