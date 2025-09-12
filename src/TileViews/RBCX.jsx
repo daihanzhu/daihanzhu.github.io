@@ -64,14 +64,12 @@ class RBCX extends Component {
         <div className="content-wrapper">
           <div className="content-img-wrapper">
             <img src={require('../images/rbcx/rbcx-poster.png')} alt='RBCX Poster' className="content-img tileImg"></img>
-            <div className="content-mini-caption">Hype Poster for RBCx</div>
           </div>
           <div className="content-caption">
             <h2>RBCx Intrapreneurship Experience</h2>
-            <p className="content-desc">
-              In 2017, I joined the Intrapreneurship Team (Venture Inside) at RBC Royal Bank as the first designer. Our mission was to enable RBC employees around the world to build and innovate as entrepreneurs through programs like RBCx.
+            <p className="content-desc">RBC Royal Bank was on a mission to empower their 97,000+ employees around the world to innovate by establishing an intrapreneurship program called RBCx, a 12-week incubator program, ran by Venture Inside, designed to turn ideas into viable startups.
               <br/><br/>
-              From my very first day, I was thrown right in and worked with the 1st cohort to turn their ideas into working prototypes. From there, I worked with the core team to further develop the program and establish our brand.
+              As the program’s first designer, I collaborated with the core team to shape the mission, establish the brand, and design a cohesive end-to-end experience.
             </p>
           </div>
         </div>
@@ -79,59 +77,44 @@ class RBCX extends Component {
         <div className="content-wrapper">
           <div className="content-caption">
             <h2>Connecting the Brand</h2>
-            <p className="content-desc">
-              We wanted a logo that compliments each other. Through various exploration, we came up with two logos that are flexible, recognizable, and representative of our slick yet candid personality.
+            <p className="content-desc">We needed a brand that complement each other. Venture Inside powers the strategy and support behind the scenes, while RBCx is the public-facing innovation program.
+              <br/><br/>
+              Through various exploration, we landed on a visual identify that represented our slick yet candid personality.
             </p>
           </div>
-          <div style={{maxWidth: '100px', minWidth: 'auto'}} className="content-img-wrapper">
-            <img src={require('../images/rbcx/venture-inside.png')} alt='Venture Logo' className="content-img"></img>
-          </div>
-          <div style={{maxWidth: '150px', minWidth: 'auto'}} className="content-img-wrapper">
-            <img src={require('../images/rbcx/rbcx.png')} alt='RBCX Logo' className="content-img"></img>
-          </div>
-        </div>
-
-        <div className="content-wrapper">
-          <img src={require('../images/rbcx/all-my-exes.png')} alt='Misc. Logos' className="shadowed-img content-img"></img>
-        </div>
-
-        <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <img src={require('../images/rbcx/founder.png')} alt='Founder book' className="content-img"></img>
-            <div className="content-mini-caption">The Founder Experience Playbook</div>
+            <img src={require('../images/rbcx/venture-inside-rbc.png')} alt='Venture and RBCX Logos' className="content-img"></img>
           </div>
+        </div>
+
+        <div className="content-heading-wrapper">
+          <img src={require('../images/rbcx/all-my-exes.png')} alt='Misc. Logos' className="content-img"></img>
+          <div className="content-mini-caption">Early explorations</div>
+        </div>
+
+        <div className="content-wrapper">
           <div className="content-caption">
             <h2>Unifying the Experience</h2>
-            <p className="content-desc">
-              Alongside Alysse Glick, project lead, we created custom playbooks to walk founders, consultants, and advisors through the journey from the very first day to the final pitch.
+            <p className="content-desc">Once we had established the brand, it was full steam ahead. We created custom play books to walk founders, consultants, and advisors through the journey from the first day to the final pitch. 
               <br/><br/>
-              As part of the first touchpoint that people receive at the start of the program, a good impression is key. We wanted them to pick it up and say, “wow, this is the coolest shit I’m about to do”.
+              Aside from the usual suspect of stickers and T-Shirts, I designed trading cards, beer coasters, comic strips, and even a life-sized graphic for an interactive game.
             </p>
+          </div>
+          <div className="content-img-wrapper">
+            <img src={require('../images/rbcx/founder.png')} alt='Founder book' className="content-img"></img>
           </div>
         </div>
 
         <div className="content-wrapper design-thinking-wrapper">
           {designThinkingImages}
-          <div className="content-mini-caption">Design Thinking Workbook</div>
         </div>
-
-        {/* <div className="content-wrapper">
-          <div className="content-img-wrapper">
-            <img src={require('../images/rbcx/hand-with-cards.png')} alt='Hand with cards' className="content-img"></img>
-          </div>
-          <div className="content-caption">
-            <h2>Doing Things I’ve Never Done Before</h2>
-            <p className="content-desc">
-              Aside from the usual suspects of stickers and prints, I also got to design trading cards, comic strips, and even a life-sized graphic for an interactive game. It was SO much fun.
-            </p>
-          </div>
-        </div> */}
 
         <div className="content-wrapper">
           <div className="content-caption">
-            <h2>It’s Only the Beginning</h2>
-            <p className="content-desc">
-              I’m proud of the work I’ve started at RBC. The last time I checked, the RBCx Program is going stronger than ever. They’ve even made the logo into a cookie, I want a cookie!
+            <h2>Laying the foundation</h2>
+            <p className="content-desc">I’m incredibly proud of the work we started at RBC. What began as a small, scrappy initiative has since grown into a full-fledged venture incubator with a portfolio of successful startups, and a reputation for innovation inside one of Canada’s largest banks.
+              <br/><br/>
+              I’m thrilled to have helped shape the foundation, and excited to see where it goes next.
             </p>
           </div>
           <div className="content-img-wrapper">
