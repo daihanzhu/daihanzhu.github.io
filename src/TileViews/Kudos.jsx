@@ -55,9 +55,9 @@ class Kudos extends Component {
           <div className="content-caption">
             <h2>Kudos Employee Recognition Platform</h2>
             <p className="content-desc">
-              Kudos is an Enterprise Employee Recognition Platform enabling teams in 80+ countries to build meaningful connections, increase performance, and strengthen values.
+              Kudos is a legacy employee recognition platform enabling enterprise companies in 80+ countries to build meaningful connections, increase performance, and strengthen values. 
               <br/><br/>
-              As the only designer, I worked closely with product and engineering to ship a better, more intuitive recognition-first experience.
+              As the founding designer, I collaborated with product and engineering to re-imagine the platform from the ground up into a more intuitive, scaleable, and recognition-first experience
             </p>
           </div>
         </div>
