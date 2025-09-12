@@ -24,10 +24,7 @@ class Footer extends Component {
               Code by&nbsp;
               <a href="https://github.com/walinga" rel="noopener noreferrer" target="_blank">
                 Matthew
-              </a>. Portraits by&nbsp;
-              <a href="https://www.instagram.com/sheenazilinski/" rel="noopener noreferrer" target="_blank">
-               Sheena Zilinski
-             </a>. Designed in 2025
+              </a>. Designed in 2025
             </p>
           </div>
         </div>
