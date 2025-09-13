@@ -31,14 +31,15 @@ class Content extends Component {
   }
 
   getKeyframe(tileInfo) {
-    // HACK to get the destination position, since the page hasn't laoded yet
+    // HACK to get the destination position, since the page hasn't loaded yet
     // (based on the content-wrapper styling in ContentWrapper.css)
     const pageWidth = document.body.clientWidth;
     var destLeft = 100;
-    var destTop = 195;
+    var destTop = 195 + 256;
 
     if (pageWidth < 500) {
       destLeft = 40;
+      destTop = 195 + 403;
     } else if (pageWidth < 840) {
       destLeft = 0;
     } else {
