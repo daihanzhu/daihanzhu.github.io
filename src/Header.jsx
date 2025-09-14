@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <div className="header">
         <a className={"home-button" + (this.props.view === Views.Tiles ? ' header-link-active' : '')} onClick={() => this.props.goHome()}>
-          daihan.ca
+          home
         </a>
         {/* <a onClick={() => this.props.goHome({scrollDown: true})}>
           Work
