@@ -3,7 +3,8 @@ const Views = {
   About: 'about',
   OpenText: 'opentext',
   RbcX: 'rbcx',
-  Kudos: 'kudos'
+  Kudos: 'kudos',
+  Fora: 'fore'
 };
 
 export default Views

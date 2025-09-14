@@ -2,8 +2,7 @@
   {
     "description": "Cultivating communities for people who really, really care about their hobbies",
     "image": "Fora.png",
-    "overlaytext": "👀",
-    "overlaySubtext": "To learn more, please get in touch",
+    "view": "Fora",
     "visible": 1
   },
   {

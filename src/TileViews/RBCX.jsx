@@ -123,7 +123,7 @@ class RBCX extends Component {
           </div>
         </div>
         <Grid
-          tileData={[tiles[1], tiles[3]]}
+          tileData={[tiles[3], tiles[0]]}
           switchView={this.props.switchView}
           heading={"Up next"}
         />

@@ -72,7 +72,7 @@ class OpenText extends Component {
         </div>
 
         <Grid
-          tileData={[tiles[1], tiles[2]]}
+          tileData={[tiles[0], tiles[1]]}
           switchView={this.props.switchView}
           heading={"Up next"}
         />

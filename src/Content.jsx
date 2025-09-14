@@ -5,6 +5,7 @@ import About from './About.jsx'
 import OpenText from './TileViews/OpenText.jsx'
 import RBCX from './TileViews/RBCX.jsx'
 import Kudos from './TileViews/Kudos.jsx'
+import Fora from './TileViews/Fora.jsx'
 
 import Views from './Views.js';
 import './Content.css';
@@ -23,6 +24,9 @@ class Content extends Component {
 
       case Views.Kudos:
         return <Kudos switchView={switchView}/>;
+
+      case Views.Fora:
+        return <Fora switchView={switchView}/>;
 
       case Views.Tiles:
       default:
