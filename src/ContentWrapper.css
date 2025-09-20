@@ -67,6 +67,10 @@
   border-color: #DDDDDD
 }
 
+.spot-img {
+  max-width: 80px;
+}
+
 /* TEXT */
 
 .content-mini-caption {

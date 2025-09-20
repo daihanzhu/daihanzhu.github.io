@@ -122,6 +122,7 @@ class RBCX extends Component {
             <div className="content-mini-caption">Animated by Pigeon Row</div>
           </div>
         </div>
+
         <Grid
           tileData={[tiles[3], tiles[0]]}
           switchView={this.props.switchView}
