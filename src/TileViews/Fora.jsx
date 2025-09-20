@@ -22,11 +22,11 @@ class Fora extends Component {
             <img src={this._fetchImage('fora.png')} alt='Fora Mobile App' className="content-img tileImg"></img>
           </div>
           <div className="content-caption">
-            <h2>Fora, 1 app for 1000+ online communities</h2>
+            <h2>Fora, one app for 1000+ online communities</h2>
             <p className="content-desc">
               Fora is the world’s largest web-based forum software platform powering over 1000 unique communities with more than 100 million monthly active users. 
               <br/><br/>
-              Each community operates independently under a shared web infrastructure, but for users, being part of multiple sites meant juggling separate logins and navigating a fragmented experience.
+              Each community operates independently under a shared web infrastructure, but for web users, being part of multiple sites means juggling separate logins and navigating a fragmented experience.
             </p>
           </div>
         </div>
@@ -62,13 +62,13 @@ class Fora extends Component {
           <div className="content-caption">
             <h2>1 to 1000+</h2>
             <p className="content-desc">
-                The next phase was about scaling thoughtfully. We launched to 10 additional communities, then 1000 soon after. Meanwhile, we identified key areas to invest in that attracts new members as well as familiarity to a power-user:
+                The next phase was about scaling thoughtfully. We launched to 10 additional communities, then 1000 soon after. Meanwhile, we identified key areas to invest in:
                 <ul>
-                    <li>Easier content creation</li>
                     <li>Multi-community experience</li>
+                    <li>Easier content creation</li>
                     <li>Seamless login experience</li>
                 </ul>
-                Over the next few quarters, we tackled these challenges through constant iteration, prioritization, and balancing user needs with platform constraints.
+                Over the next few quarters, we tackled these challenges through the lens of prioritizing retention, engagement, or traffic, while balancing user needs with platform constraints.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ class Fora extends Component {
           <div className="content-img-wrapper">
             <img src={this._fetchImage('spot1.png')} alt='Instant messaging spot icon' className="spot-img"></img>
             <h2>Retention</h2>
-            <p className="content-desc">Early retention was a challenge, but ongoing nativization efforts is moving the needle in stickiness, making the app feel faster, more intuitive, and better aligned with mobile user expectations.</p>
+            <p className="content-desc">Early retention was a challenge, but ongoing nativization efforts are moving the needle in stickiness, making the app feel faster, more intuitive, and better aligned with mobile user expectations.</p>
           </div>
           <div className="content-img-wrapper">
             <img src={this._fetchImage('spot2.png')} alt='Bell spot icon' className="spot-img"></img>
@@ -91,7 +91,7 @@ class Fora extends Component {
           <div className="content-img-wrapper">
             <img src={this._fetchImage('spot3.png')} alt='Rocket spot icon' className="spot-img"></img>
             <h2>Traffic</h2>
-            <p className="content-desc">A/B testing of value propositions helps us refine messaging towards different user segments drive new downloads. Not bad for a team of non-marketers learning on the fly.</p>
+            <p className="content-desc">Downloads tapered after launch. A/B testing value propositions helped us refine messaging for different segments and drive growth. Not bad for a team of non-marketers learning on the fly.</p>
           </div>
         </div>
 
