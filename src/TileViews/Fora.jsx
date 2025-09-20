@@ -79,17 +79,17 @@ class Fora extends Component {
 
         <div className="content-wrapper">
           <div className="content-img-wrapper">
-            <img src={this._fetchImage('spot1.png')} alt='Instant messaging spot image' className="spot-img"></img>
+            <img src={this._fetchImage('spot1.png')} alt='Instant messaging spot icon' className="spot-img"></img>
             <h2>Retention</h2>
             <p className="content-desc">Early retention was a challenge, but ongoing nativization efforts is moving the needle in stickiness, making the app feel faster, more intuitive, and better aligned with mobile user expectations.</p>
           </div>
           <div className="content-img-wrapper">
-            <img src={this._fetchImage('spot2.png')} alt='Instant messaging spot image' className="spot-img"></img>
+            <img src={this._fetchImage('spot2.png')} alt='Bell spot icon' className="spot-img"></img>
             <h2>Engagement</h2>
             <p className="content-desc">Many members turned off their notifications right away. By building them personalization tools and timely opt-in prompts we built trust and empowered them to stay engaged.</p>
           </div>
           <div className="content-img-wrapper">
-            <img src={this._fetchImage('spot3.png')} alt='Instant messaging spot image' className="spot-img"></img>
+            <img src={this._fetchImage('spot3.png')} alt='Rocket spot icon' className="spot-img"></img>
             <h2>Traffic</h2>
             <p className="content-desc">A/B testing of value propositions helps us refine messaging towards different user segments drive new downloads. Not bad for a team of non-marketers learning on the fly.</p>
           </div>
